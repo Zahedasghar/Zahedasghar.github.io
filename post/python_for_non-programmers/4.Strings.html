@@ -1,0 +1,296 @@
+
+
+
+<div id="strings" class="section level1">
+<h1>Strings</h1>
+<p>A string is a sequence of characters. Strings are amongst the most popular types in Python. We can create them simply by enclosing characters in quotes. Python treats single quotes the same as double quotes. Creating strings is as simple as assigning a value to a variable. For example −</p>
+<pre><code>var1 = &#39;Hello World!&#39;
+var2 = &quot;Python Programming&quot;
+var3 = &#39;&#39;&#39;Python Programming
+          for begginners&#39;&#39;&#39;</code></pre>
+<div id="string-indexing" class="section level2">
+<h2>String Indexing</h2>
+<p>Individual characters of a string can be accessed directly using a numeric index.</p>
+<ul>
+<li><p>String indexing in python is zero-based.</p>
+<ul>
+<li><p>The first character in the string has index 0.</p></li>
+<li><p>The next has index 1 . . . and so on.</p></li>
+<li><p>The index of the last character will be length of the string minus 1.</p></li>
+</ul></li>
+</ul>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<table>
+<thead>
+<tr class="header">
+<th>String</th>
+<th>a</th>
+<th>h</th>
+<th>m</th>
+<th>a</th>
+<th>d</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Index</strong></td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td><strong>Negative Index</strong></td>
+<td>-5</td>
+<td>-4</td>
+<td>-3</td>
+<td>-2</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="slicing-strings" class="section level2">
+<h2>Slicing Strings</h2>
+<p>You can return a range of characters by using the slice syntax. Specify the start index and the end index, separated by a colon in <span class="math display">\[ \]</span>, to return a part of the string. i.e. we can get a part of the string using slicing.</p>
+</div>
+<div id="syntax-start-stop-step" class="section level2">
+<h2>Syntax : <span class="math display">\[Start : Stop : Step\]</span></h2>
+<ul>
+<li><p><strong>Start</strong>: First Index of the sub-string you want to extract.</p></li>
+<li><p><strong>Stop</strong>: Last Index of the sub-string you want to extract.</p></li>
+<li><p><strong>Step</strong>: The size of the jump you want to take while extracting the subsection.</p></li>
+</ul>
+</div>
+<div id="scenarios" class="section level2">
+<h2>Scenarios</h2>
+<p><code>Scenario 1: No step size</code> <code>Scenario 2: No stop index</code> <code>Scenario 3: No start index</code></p>
+<p><code>Scenario 4: No start and stop index</code> <code>Scenario 5: No strat, step or stop index</code></p>
+<p><code>Scenario 6: Single charachter as a string</code></p>
+<div id="example-1" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code>A = &quot;Welcome to the World of Python&quot;
+print(A[3:7]) # by default step size is 1</code></pre>
+<pre><code>## come</code></pre>
+<pre class="python"><code>print(A[24:]) # python will assume last index of string as the stop index</code></pre>
+<pre><code>## Python</code></pre>
+<pre class="python"><code>print(A[:7])  #python assume the start index as 0</code></pre>
+<pre><code>## Welcome</code></pre>
+<pre class="python"><code>print(A[::2]) # python will give every second chanracter from complete string</code></pre>
+<pre><code>## Wloet h ol fPto</code></pre>
+<pre class="python"><code>print(A[::])  # start=0, stop=last index, step=1 by deafult</code></pre>
+<pre><code>## Welcome to the World of Python</code></pre>
+<pre class="python"><code>print(A[0:1]) # [start:start+1:1]</code></pre>
+<pre><code>## W</code></pre>
+<p>Omitting both indices returns the original string, in its entirety. Literally. It’s not a copy, it’s a reference to the original string:</p>
+<pre class="python"><code>s=&#39;NIBAF&#39;
+t = s[:]
+print(id(s))</code></pre>
+<pre><code>## 1431823920</code></pre>
+<pre class="python"><code>print(id(t))</code></pre>
+<pre><code>## 1431823920</code></pre>
+</div>
+</div>
+<div id="concatenating-the-strings" class="section level2">
+<h2>Concatenating the Strings</h2>
+<p>String concatenation means add strings together. Use the + character to add a variable to another variable:</p>
+<pre class="python"><code>x = &quot;Python Eats&quot;
+y= &quot;???&quot;
+z = x+y
+print(z)</code></pre>
+<pre><code>## Python Eats???</code></pre>
+</div>
+<div id="string-functions" class="section level2">
+<h2>String Functions</h2>
+<table>
+<colgroup>
+<col width="8%" />
+<col width="77%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Function</strong></th>
+<th align="left"><strong>Explanation</strong></th>
+<th align="left"><strong>Syntax</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">capitalize()</td>
+<td align="left">The capitalize() method converts first character of a string to uppercase letter and lowercases all other characters, if any</td>
+<td align="left"><pre><code>string.capitalize()</code></pre></td>
+</tr>
+<tr class="even">
+<td align="left">upper()</td>
+<td align="left">The <code>upper()</code> method converts all lowercase characters in a string into uppercase characters</td>
+<td align="left"><code>string.upper()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">lower()</td>
+<td align="left">The <code>lower()</code> method converts all uppercase characters in a string into lowercase characters</td>
+<td align="left"><code>string.lower()</code></td>
+</tr>
+<tr class="even">
+<td align="left">swapcase()</td>
+<td align="left">The <code>swapcase</code> method converts lower to uppar and upper to lower</td>
+<td align="left"><code>string.swapcase</code></td>
+</tr>
+<tr class="odd">
+<td align="left">count()</td>
+<td align="left">The <code>count()</code> method returns the number of occurrences of a <strong>substring</strong> in the given string</td>
+<td align="left"><code>string.count()</code></td>
+</tr>
+<tr class="even">
+<td align="left">endswith()</td>
+<td align="left"><strong>T</strong>he <code>endswith()</code> method returns <code>True</code> if a string ends with the specified suffix. If not, it returns <code>False</code></td>
+<td align="left"><code>string.endswith()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">find()</td>
+<td align="left">The <code>find()</code> method returns the index of <em>first occurrence</em> of the <strong>substring</strong> (if found). If not found, it returns -1</td>
+<td align="left"><code>string.find()</code></td>
+</tr>
+<tr class="even">
+<td align="left">len()</td>
+<td align="left">The <code>len()</code> method returns the length of a string</td>
+<td align="left"><code>string.len()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">index()</td>
+<td align="left">The <code>index()</code> method returns the index of <em>first occurrence</em> of the <strong>substring</strong> (if found). If not found, it returns substring not found</td>
+<td align="left"><code>string.index()</code></td>
+</tr>
+<tr class="even">
+<td align="left">replace()</td>
+<td align="left">The <code>replace()</code> method replaces each matching occurrence of the old character/text in the string with the new character/text</td>
+<td align="left"><code>string.replace()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">strip()</td>
+<td align="left">Removes <strong>leading and trailing characters</strong> from a string.</td>
+<td align="left"><code>string.strip()</code></td>
+</tr>
+<tr class="even">
+<td align="left">lstrip()</td>
+<td align="left">Removes <strong>leading characters</strong> from a string.</td>
+<td align="left"><code>string.lstrip()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">rstrip()</td>
+<td align="left">Removes <strong>trailing characters</strong> from a string.</td>
+<td align="left"><code>string.rstrip()</code></td>
+</tr>
+<tr class="even">
+<td align="left">join()</td>
+<td align="left">Joins elements of an <strong>iterable</strong> into a <strong>single string</strong>.</td>
+<td align="left"><code>string.join()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">split</td>
+<td align="left"><strong>Splits</strong> a string into a list of <strong>substrings</strong> based on separator</td>
+<td align="left"><code>string.split()</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="python"><code>a = &quot;    Python is Easy   &quot;
+b = &quot;:&quot;.join([&quot;Ahmad&quot;, &quot;Nadeem&quot;])
+c = &quot;Ahmad Nadeem&quot;.split()
+print(a.upper())</code></pre>
+<pre><code>##     PYTHON IS EASY</code></pre>
+<pre class="python"><code>print(a.endswith(&#39;y&#39;))</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>print(a.find(&#39;n&#39;))</code></pre>
+<pre><code>## 9</code></pre>
+<pre class="python"><code>print(a.replace(&quot;Python&quot; , &quot;Jython&quot;))</code></pre>
+<pre><code>##     Jython is Easy</code></pre>
+<pre class="python"><code>print(a.strip())</code></pre>
+<pre><code>## Python is Easy</code></pre>
+<pre class="python"><code>print(b)</code></pre>
+<pre><code>## Ahmad:Nadeem</code></pre>
+<pre class="python"><code>print(c)</code></pre>
+<pre><code>## [&#39;Ahmad&#39;, &#39;Nadeem&#39;]</code></pre>
+</div>
+<div id="escape-sequence-characters" class="section level2">
+<h2>Escape Sequence Characters</h2>
+<p>In Python, escape sequences are indicated by a backslash ( \ ).</p>
+<table>
+<colgroup>
+<col width="7%" />
+<col width="92%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Syntax</strong></th>
+<th align="left"><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">\n</td>
+<td align="left">The most important one may be <code>\n</code> which indicates a new line. Like so, multiple logical lines can be stacked into a single physical line.</td>
+</tr>
+<tr class="even">
+<td align="left">\’</td>
+<td align="left">Another escape sequence worth mentioning is <code>\'</code> for a single quote within a <a href="https://www.spss-tutorials.com/spss-string-variables-basics/">string</a>.</td>
+</tr>
+<tr class="odd">
+<td align="left">\\</td>
+<td align="left">A backslash also escapes itself so if it’s really a backslash you want, double it as in <code>\\</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">\t</td>
+<td align="left">insert a tab in a string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="formatted-string-literal-or-f-string" class="section level2">
+<h2>Formatted String Literal or f-string</h2>
+<pre class="python"><code>n = 5
+m = 10
+prod = n*m
+print(&#39;The product of&#39;, n, &#39;and&#39;, m, &#39;is&#39;, prod)
+
+# this can be reproduced by using f-string as:</code></pre>
+<pre><code>## The product of 5 and 10 is 50</code></pre>
+<pre class="python"><code>print(f&#39;The product of {n} and {m} is {prod}&#39;)</code></pre>
+<pre><code>## The product of 5 and 10 is 50</code></pre>
+</div>
+<div id="exercise" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Convert the String <code>"welcome to the beautiful world of python"</code> to <code>"Welcome To The Beautiful World Of Python"</code></p></li>
+<li><p>Find the output of the following:</p>
+<pre><code>str1 = &quot;PYnative&quot;
+print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])</code></pre></li>
+<li><p>Guess the output of the following:</p>
+<pre class="python"><code># print(&#39;python \n cpython&#39;)
+# print(&#39;python \t cpython&#39;)
+# print(&#39;python \\ cpython&#39;)</code></pre></li>
+<li><p>if a=‘1’ and b=‘2’ what will be the value of c=a+b?</p></li>
+<li><p>Consider the variable <strong>g</strong>, and find the first index of the sub-string <strong>snow</strong>:</p>
+<p>g = “Mary had a little lamb Little lamb, little lamb Mary had a little lamb \ Its fleece was white as snow And everywhere that Mary went Mary went, Mary went \ Everywhere that Mary went The lamb was sure to go”</p></li>
+<li><p>In the above variable <strong>g</strong>, replace the sub-string <strong>Mary</strong> with <strong>Bob</strong>:</p></li>
+<li><p>What is the result of following?<br />
+“hello Mike”.find(“Mike”)</p></li>
+<li><p>If string=‘Welcome’ then how to get output as WelcomeWelcomeWelcome?</p></li>
+<li><p>Ask the name and favorite fruit from two persons using input and return as a single string. like: Ahmad likes Mangoes and Muhammad likes Oranges.</p></li>
+<li><p>Write a program to detect double spaces in a string.</p></li>
+<li><p>Replace the double spaces in above question with a single space.</p></li>
+<li><p>Write a program to format the following letter using escape sequence characters.</p>
+<p>letter = ” Dear Participants, This Python course is nice. Thanks!”</p></li>
+<li><p>Find the length of the word NIBAF.</p></li>
+<li><p>Print the reversed str = ‘NIBAF’</p></li>
+<li><p>Attempt to index beyond the end of the string results and checkout the result. like ,‘Ahmad<span class="math display">\[6\]</span>’</p></li>
+<li><p>Select the every third letter from the str = ‘I am learning python’</p></li>
+<li><p>How to check the given word, sentence or a number is palindrome!</p>
+<p>A word, verse, or sentence (such as ‘Able was I ere I saw Elba’) or a number (such as 1881) that reads the same backward or forward is called palindrome.</p></li>
+<li><p>Write a program which accepts the user’s first and last name then print in reverse order.</p></li>
+<li><p>Write a program to accept a filename from user and print the name and extension of that file.</p></li>
+</ol>
+</div>
+</div>

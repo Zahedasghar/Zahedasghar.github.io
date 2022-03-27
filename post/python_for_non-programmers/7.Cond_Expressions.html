@@ -1,0 +1,143 @@
+
+
+
+<div id="conditional-expressions" class="section level1">
+<h1>Conditional Expressions</h1>
+<p>Decision making is required when we want to execute a code only if a certain condition is satisfied. The if…elif…else statement is used in Python for decision making. If-else conditional statement is used in when a situation leads to <strong>two conditions</strong> and <strong>one of them should hold true</strong>.</p>
+<div id="if-else-statement-syntax" class="section level2">
+<h2>If else Statement Syntax</h2>
+<pre class="python"><code>x=1
+if x==1:
+    print(&quot;x is 1&quot;) # this is body of if or statement
+#else:
+ #   print(&quot;x is not 1&quot;) # this is body of elif</code></pre>
+<pre><code>## x is 1</code></pre>
+<p>Here, the program evaluates the <code>test expression</code> and will execute statement(s) only if the test expression is <code>True</code>. If the test expression is <code>False</code>, the statement(s) is not executed.</p>
+<p>In Python, the body of the <code>if</code> statement is indicated by the <strong>indentation</strong>. The body starts with an indentation and the first unindented line marks the end.</p>
+<p>Remember: Python interprets non-zero values as <code>True</code>. <code>None</code> and <code>0</code> are interpreted as <code>False</code>.</p>
+<center>
+<p><img src="Python_if_else_statement.webp" /></p>
+</center>
+</div>
+<div id="indentation" class="section level2">
+<h2>Indentation</h2>
+<p>Python uses <strong>indentation</strong> for blocks, instead of curly braces. Both <strong>tabs and spaces</strong> are supported, but the standard indentation requires standard Python code to <strong>use four spaces</strong>. For example:</p>
+<pre class="python"><code>x=1
+if x==1:
+    #indented four spaces
+    print(&quot;x is 1&quot;)
+else:
+    print(&quot;x is not 1&quot;)</code></pre>
+<pre><code>## x is 1</code></pre>
+<p>If statement, without indentation (will raise an error).</p>
+</div>
+<div id="if-elif-and-else-statement" class="section level2">
+<h2>If elif and else Statement</h2>
+<pre class="python"><code>x=-1
+if x==1:
+    #indented four spaces
+    print(&quot;x is 1&quot;) # this is body of if or statement
+elif x&lt;0:
+  print(&quot;x is less than zero&quot;)
+else:
+    print(&quot;x is not 1&quot;) # this is body of elif</code></pre>
+<pre><code>## x is less than zero</code></pre>
+<center>
+<p><img src="if_elif_else_statement.jpg" /></p>
+</center>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>Write a program to print ‘Yes’ when the number entered by the user is greater than or equal to 25.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n=32
+if n&gt;=25:
+  print(&quot;Yes&quot;)
+else:
+  print(&quot;No&quot;)</code></pre>
+<pre><code>## Yes</code></pre>
+<p>Write a program to check if a number entered by the user is positive or negative or zero and display an appropriate message.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n = -4
+if n&gt;0:
+  print(&quot;Number is +ve&quot;)
+elif n==0:
+  print(&quot;Number is zero&quot;)
+else:
+  print(&quot;Number is -ve&quot;)</code></pre>
+<pre><code>## Number is -ve</code></pre>
+<p>we use if elif and else statement <strong><em>if one of the statement is true</em></strong>.</p>
+</div>
+</div>
+<div id="nested-if-statements" class="section level2">
+<h2>Nested if statements</h2>
+<p>We can have a <code>if...elif...else</code> statement inside another <code>if...elif...else</code> statement. This is called <strong>nesting</strong> in computer programming.</p>
+<p>Any number of these statements can be nested inside one another. Indentation is the only way to figure out the level of nesting. They can get confusing, so they must be avoided unless necessary.</p>
+<p>Example: Write a program to check if a number entered by the user is positive or negative or zero and display an appropriate message using nested if statement.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n = 3
+if n&gt;=0:
+  if n==0:
+    print(&quot;Number is zero&quot;)
+  else:
+    print(&quot;Number is +ve&quot;)
+else:
+  print(&quot;Number is -ve&quot;)</code></pre>
+<pre><code>## Number is +ve</code></pre>
+<div id="note" class="section level3">
+<h3>Note:</h3>
+<ul>
+<li><p>There can any number of elif statements.</p></li>
+<li><p>last else will be executed if all elif conditions/statements fails.</p></li>
+</ul>
+</div>
+</div>
+<div id="multiple-if-conditions" class="section level2">
+<h2>Multiple If Conditions</h2>
+<div id="example-1" class="section level3">
+<h3>Example</h3>
+<p>Write a program to print largest number among four numbers entered by the user.</p>
+<pre class="python"><code>n1 = 4 #n1 = int(input(&quot; Enter the First Number : &quot;))
+n2 = 3 #n2 = int(input(&quot; Enter the 2nd  Number : &quot;))
+n3 = 2 #n3 = int(input(&quot; Enter the 3rd Number : &quot;))
+n4 = 1 #n4 = int(input(&quot; Enter the 4th Number : &quot;))
+
+if n1&gt;n2:
+    f1 = n1
+else:
+   f1 = n2
+if n3&gt;n4:
+   f2 = n3
+else:
+    f2 = n4
+if f1&gt;f2:
+    print(f&quot; The Largest Number is : {f1} &quot;)
+else:
+    print(f&quot; The Largest Number is : {f2} &quot;)</code></pre>
+<pre><code>##  The Largest Number is : 4</code></pre>
+</div>
+</div>
+<div id="exercise" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Write a program to check whether a user entered number is odd or even?</p></li>
+<li><p>Take two numbers from user and print larger.</p></li>
+<li><p>Take three numbers from user, and print the largest.</p></li>
+<li><p>Write a program to check whether a user entered number is odd or even,valid only for first 10 natural numbers.</p></li>
+<li><p>write a program to get the difference b/w a given number and 17, if number is greater than 17, return double the absolute difference.</p></li>
+<li><p>Write a program to calculate the sum of three given numbers, if values are equal then return thrice of their sum.</p></li>
+<li><p>Write a prog. to get a new string from a given string where “Is” has been added to the front. if the given string already begins with “Is” then return the string.</p></li>
+<li><p>If Question mark ‘?’ is missing in above string, then also include the ‘?’ at the end.</p></li>
+<li><p>Write a program to find out whether a given post is talking about “SBP” or not.</p>
+<ol style="list-style-type: decimal">
+<li>Write a program to find out whether a student is fail or pass? if it require total 40% and at-least 33% in each subject to pass. Assume 3 subjects, input from the user and marks are out of 100.</li>
+</ol></li>
+<li><p>Write a program to detect a spam (OSICO Spam detector), a spam comment is defined as a text containing following keywords:</p>
+<p>“make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program to detect these spams.</p></li>
+<li><p>Write a program to calculate the grade of an officer from his numeric rating from the following scheme: greater than 4.5 implies A, greater than 3.5 implies B+, greater than 3 implies B and else C.</p></li>
+<li><p>Write a program to find out the type of the variable Var1 = ——-. suppose 1+2j check whether it is int, float, str, bool, complex, tuple, dict, list, or unknown.</p></li>
+<li><p>Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.</p></li>
+<li><p>Write a program to calculate the fare of a journey based on the following conditions, fare will be charged Rs. 15/km for first 100km, for next 200km it will be Rs.14/km, for next 200km it will be Rs.12/km and for distance above 500km, it will be charged Rs.11/km.</p></li>
+<li><p>Write a routine to convert weight from Kg to pounds or pounds to kg.</p></li>
+</ol>
+</div>
+</div>

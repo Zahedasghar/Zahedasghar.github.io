@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides | Muhammad Yaseen</title>
+    <title>Slides | Zahid Asghar</title>
     <link>https://myaseen.github.io/slides/</link>
       <atom:link href="https://myaseen.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Muhammad Yaseen (2022)</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Zahid Asghar (2022)</copyright><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Slides</title>
       <link>https://myaseen.github.io/slides/example/</link>

@@ -2,7 +2,7 @@
   // ns-params:@params
   var slides = { highlight_style: "dracula", theme: "black" };
 
-  // ns-hugo:D:\MYaseen208_B0-22-7A-E9-23-9B\Consultancy\Mr._M._Yaseen\2022-03-27_blogdown\website\themes\github.com\wowchemy\wowchemy-hugo-modules\wowchemy\v5\assets\js\wowchemy-utils.js
+  // ns-hugo:D:\MYaseen208_B0-22-7A-E9-23-9B\Consultancy\Dr._Zahid_Asghar_QAU\2022-03-27_blogdown\website\themes\github.com\wowchemy\wowchemy-hugo-modules\wowchemy\v5\assets\js\wowchemy-utils.js
   function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));

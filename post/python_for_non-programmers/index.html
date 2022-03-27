@@ -1,0 +1,3260 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Muhammad Yaseen" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Modules, PIP and CommentsModulesModules refers to a file containing Python statements and definitions. A file containing a python code is called a module. We use modules to break down large programs into small manageable and organized file." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://myaseen.github.io/post/python_for_non-programmers/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.512574799414e7d36471486881070b0f.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://myaseen.github.io/post/python_for_non-programmers/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Muhammad Yaseen" />
+  <meta property="og:url" content="https://myaseen.github.io/post/python_for_non-programmers/" />
+  <meta property="og:title" content="Python for Non-Programmers | Muhammad Yaseen" />
+  <meta property="og:description" content="Modules, PIP and CommentsModulesModules refers to a file containing Python statements and definitions. A file containing a python code is called a module. We use modules to break down large programs into small manageable and organized file." /><meta property="og:image" content="https://myaseen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://myaseen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-03-27T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-03-27T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://myaseen.github.io/post/python_for_non-programmers/"
+  },
+  "headline": "Python for Non-Programmers",
+  
+  "datePublished": "2022-03-27T00:00:00Z",
+  "dateModified": "2022-03-27T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Muhammad Yaseen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Muhammad Yaseen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://myaseen.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Modules, PIP and Comments\rModules\rModules refers to a file containing Python statements and definitions. A file containing a python code is called a module. We use modules to break down large programs into small manageable and organized file."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Python for Non-Programmers | Muhammad Yaseen</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="13e1a4333f6f6234e770a60f558b6ba3" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Muhammad Yaseen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Muhammad Yaseen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/myaseen208" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python for Non-Programmers</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 27, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    49 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<div id="modules-pip-and-comments" class="section level1">
+<h1>Modules, PIP and Comments</h1>
+<div id="modules" class="section level2">
+<h2>Modules</h2>
+<p>Modules refers to a file containing <em>Python statements and definitions</em>. A file containing a python code is called a module. We use modules to break down large programs into small manageable and organized file. In other words, a module is a file containing code written by someone else (usually) which can be imported and used in our program.</p>
+<ul>
+<li><p>Built in Modules –&gt; Pre installed in Python -&gt; import module_name</p>
+<ul>
+<li>Some examples of built in modules are random, bdb, calendar, os etc.</li>
+</ul></li>
+<li><p>External Modules –&gt; Needs to be installed using PIP -&gt; pip install package_name</p>
+<ul>
+<li>Some examples of external modules are Pandas, Matplotlib, NumPy etc.</li>
+</ul></li>
+</ul>
+</div>
+<div id="preferred-installer-program-pip" class="section level2">
+<h2>Preferred Installer Program (PIP)</h2>
+<p>PIP is package manager for python packages. If you have Python version 3.4 or later, PIP is included by default. Whenever we wants to install a package we may write like:</p>
+<p>PIP install package_name</p>
+</div>
+<div id="comments" class="section level2">
+<h2>Comments</h2>
+<p>A Python comment is line of text in a program that is not executed by the interpreter. Comments can be used during debugging to identify issues and to explain code.</p>
+<ul>
+<li><p>Single Line Comments –&gt; You can write using #</p></li>
+<li><p>Multiple lines Comments –&gt; you can write using ```<code>comment</code>```</p></li>
+</ul>
+<div id="print-function" class="section level3">
+<h3>Print Function</h3>
+<p>The <code>print()</code> function prints the specified message to the screen. The message can be a string, or any other object. The full syntax of <code>print()</code> is:</p>
+<pre><code>print(*objects, sep=&#39; &#39;, end=&#39;\n&#39;, file=sys.stdout, flush=False)</code></pre>
+</div>
+<div id="parameters-of-print-function" class="section level3">
+<h3>Parameters of Print Function</h3>
+<ul>
+<li><p><strong>objects</strong> - object to be printed. <strong>*</strong> indicates that there may be more than one object</p></li>
+<li><p><strong>sep</strong> - objects are separated by sep. <strong>Default value</strong>: <code>' '</code></p></li>
+<li><p><strong>end</strong> - end is printed at last. Default is ‘\n’ (line feed)</p></li>
+<li><p><strong>file</strong> - must be an object with write(string) method. If omitted, <code>sys.stdout</code> will be used which prints objects on the screen.</p></li>
+<li><p><strong>flush</strong> - If True, the stream is forcibly flushed. <strong>Default value</strong>: <code>False</code></p></li>
+</ul>
+</div>
+<div id="first-python-program" class="section level3">
+<h3>First Python Program</h3>
+<p>Let’s write our first python program . Create a file name <strong>name.py</strong> and write the following code. Execute this (.py file) and you will see the output of your program.</p>
+<pre class="python"><code>print(&quot;Hello World!&quot;) # Single Line Comment</code></pre>
+<pre><code>## Hello World!</code></pre>
+<pre class="python"><code>a=2
+print(&#39;a=&#39;, a)  # two objects passed</code></pre>
+<pre><code>## a= 2</code></pre>
+<pre class="python"><code>print(&#39;a&#39;,a, sep=&#39;=====&#39;, end=&#39;&#39;) #with seprator and end parameters</code></pre>
+<pre><code>## a=====2</code></pre>
+<pre class="python"><code>print(&#39;a=&#39;,a, sep=&#39;&#39;, end=&#39;\n\n&#39;) </code></pre>
+<pre><code>## a=2</code></pre>
+<pre class="python"><code>print(&#39;a&#39;,a, sep=&#39;=====&#39;, end=&#39;&#39;)</code></pre>
+<pre><code>## a=====2</code></pre>
+</div>
+</div>
+<div id="using-python-as-calculator" class="section level2">
+<h2>Using Python as Calculator</h2>
+<p>We can use Python as a calculator by typing <strong>python + enter</strong> on the terminal. This will open Read Evaluate Print Loop (REPL) i.e. &gt;&gt;&gt;.</p>
+</div>
+<div id="some-arithmetic-operators" class="section level2">
+<h2>Some Arithmetic Operators</h2>
+<table>
+<caption>Arithmetic Operators</caption>
+<thead>
+<tr class="header">
+<th>Symbol</th>
+<th>Functionality</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>+</td>
+<td>Addition</td>
+</tr>
+<tr class="even">
+<td>-</td>
+<td>Subtraction</td>
+</tr>
+<tr class="odd">
+<td>*</td>
+<td>Multiplication</td>
+</tr>
+<tr class="even">
+<td>/</td>
+<td>Division</td>
+</tr>
+<tr class="odd">
+<td>%</td>
+<td>Modulo (yields remainder after division)</td>
+</tr>
+<tr class="even">
+<td>//</td>
+<td>Integer Division (truncates towards zero)</td>
+</tr>
+<tr class="odd">
+<td>**</td>
+<td>Exponentiation</td>
+</tr>
+</tbody>
+</table>
+<div id="python-code-with-output" class="section level3">
+<h3>Python Code with Output</h3>
+<pre class="python"><code>5/4</code></pre>
+<pre><code>## 1.25</code></pre>
+<pre class="python"><code>5%4</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>5//4</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>5**4</code></pre>
+<pre><code>## 625</code></pre>
+</div>
+</div>
+<div id="assignment-operators" class="section level2">
+<h2>Assignment Operators</h2>
+<p>Assignment operators are used in Python to assign values to variables.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Example</th>
+<th>Equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>=</td>
+<td>x=2</td>
+<td>x=2</td>
+</tr>
+<tr class="even">
+<td>+=</td>
+<td>x+=2</td>
+<td>x=x+2</td>
+</tr>
+<tr class="odd">
+<td>-=</td>
+<td>x-=2</td>
+<td>x=x-2</td>
+</tr>
+<tr class="even">
+<td>*=</td>
+<td>x*=2</td>
+<td>x=x*2</td>
+</tr>
+<tr class="odd">
+<td>/=</td>
+<td>x/=2</td>
+<td>x=x/2</td>
+</tr>
+<tr class="even">
+<td>%=</td>
+<td>x%=2</td>
+<td>x=x%2</td>
+</tr>
+<tr class="odd">
+<td>//=</td>
+<td>x//=2</td>
+<td>x=x//2</td>
+</tr>
+<tr class="even">
+<td>**=</td>
+<td>x**=2</td>
+<td>x=x**2</td>
+</tr>
+</tbody>
+</table>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<p>Assignment can be done on more than one variable “simultaneously” on the same line like this:</p>
+<pre class="python"><code>x,y=1,2
+print(x,y)</code></pre>
+<pre><code>## 1 2</code></pre>
+<pre class="python"><code>x=8
+x+=2
+print(x)</code></pre>
+<pre><code>## 10</code></pre>
+<pre class="python"><code>x-=3
+print(x)</code></pre>
+<pre><code>## 7</code></pre>
+<pre class="python"><code>x%=3
+print(x)</code></pre>
+<pre><code>## 1</code></pre>
+<p>Mixing operators between numbers and strings is not supported.</p>
+<pre class="python"><code>#This will not work
+a,b=1,2
+c=&quot;String&quot;
+print(a+b)</code></pre>
+<pre><code>## 3</code></pre>
+<pre class="python"><code>print(a+b+c)</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+</div>
+</div>
+<div id="conditions-comparison-operator" class="section level2">
+<h2>Conditions / Comparison Operator</h2>
+<p>Python uses boolean logic to evaluate conditions. The boolean values True and False are returned when an expression is compared or evaluated.</p>
+<table>
+<colgroup>
+<col width="5%" />
+<col width="64%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>==</td>
+<td>If the values of two operands are equal, then the condition becomes true.</td>
+<td>(a == b) is not true.</td>
+</tr>
+<tr class="even">
+<td>!=</td>
+<td>If values of two operands are not equal, then condition becomes true.</td>
+<td>(a != b) is true.</td>
+</tr>
+<tr class="odd">
+<td>&lt;&gt;</td>
+<td>If values of two operands are not equal, then condition becomes true.</td>
+<td>(a &lt;&gt; b) is true. This is similar to != operator.</td>
+</tr>
+<tr class="even">
+<td>&gt;</td>
+<td>If the value of left operand is greater than the value of right operand, then condition becomes true.</td>
+<td>(a &gt; b) is not true.</td>
+</tr>
+<tr class="odd">
+<td>&lt;</td>
+<td>If the value of left operand is less than the value of right operand, then condition becomes true.</td>
+<td>(a &lt; b) is true.</td>
+</tr>
+<tr class="even">
+<td>&gt;=</td>
+<td>If the value of left operand is greater than or equal to the value of right operand, then condition becomes true.</td>
+<td>(a &gt;= b) is not true.</td>
+</tr>
+<tr class="odd">
+<td>&lt;=</td>
+<td>If the value of left operand is less than or equal to the value of right operand, then condition becomes true.</td>
+<td>(a &lt;= b) is true.</td>
+</tr>
+</tbody>
+</table>
+<div id="example-1" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code>b=(7&gt;4)
+c=(7&lt;4)
+print(b)</code></pre>
+<pre><code>## True</code></pre>
+<pre class="python"><code>print(c)</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>x=5
+print(x==5) # Prints out True</code></pre>
+<pre><code>## True</code></pre>
+<pre class="python"><code>print(x==2) # prints out False</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>print(x&gt;3)  # Prints out True</code></pre>
+<pre><code>## True</code></pre>
+<p>Notice that variable assignment is done using a single equals operator “=”, whereas comparison between two variables is done using the double equals operator “==”.</p>
+</div>
+</div>
+<div id="logical-operators" class="section level2">
+<h2>Logical Operators</h2>
+<table>
+<colgroup>
+<col width="12%" />
+<col width="66%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+<th>Example/Syntax</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>and</td>
+<td>Logical AND: True if both the operands are true</td>
+<td>x and y</td>
+</tr>
+<tr class="even">
+<td>or</td>
+<td>Logical OR: True if either of the operands is true</td>
+<td>x or y</td>
+</tr>
+<tr class="odd">
+<td>not</td>
+<td>Logical NOT: True if operand is false</td>
+<td>not x</td>
+</tr>
+</tbody>
+</table>
+<div id="example-2" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code>Bool1= True
+Bool2= False
+print(&quot;THe value if Bool1 and Bool2 is: &quot;, (Bool1 and Bool2))</code></pre>
+<pre><code>## THe value if Bool1 and Bool2 is:  False</code></pre>
+<pre class="python"><code>print(&quot;THe value if Bool1 or Bool2 is: &quot;, (Bool1 or Bool2))</code></pre>
+<pre><code>## THe value if Bool1 or Bool2 is:  True</code></pre>
+<pre class="python"><code>print(&quot;THe value if not Bool1 is: &quot;, (not Bool1))</code></pre>
+<pre><code>## THe value if not Bool1 is:  False</code></pre>
+<pre class="python"><code>print(&quot;THe value if not Bool2 is: &quot;, (not Bool2))</code></pre>
+<pre><code>## THe value if not Bool2 is:  True</code></pre>
+</div>
+</div>
+<div id="the-in-operator" class="section level2">
+<h2>The “in” Operator</h2>
+<p>The “in” operator could be used to check if a specific object exists within an iterable object container, such as list:</p>
+<pre class="python"><code>name= &quot;Ahmad&quot;
+List = [&quot;Ahmad&quot;, &quot;Nadeem&quot;]
+print(name in List) # this print True as Ahmad is in the list</code></pre>
+<pre><code>## True</code></pre>
+</div>
+<div id="input-function" class="section level2">
+<h2>Input Function</h2>
+<p>In Python, we use <strong>input()</strong> function to take input from the user. Whatever you enter as input, the input function <em>converts it into a string</em>. If you enter an integer value still input() function convert it into a string.</p>
+<p><code>a = input(" Please enter your name: ")</code></p>
+<p><code>print(a) # Try yourself</code></p>
+</div>
+<div id="glossary" class="section level2">
+<h2>Glossary</h2>
+<dl>
+<dt><strong>algorithm</strong></dt>
+<dd>
+<p>A set of specific steps for solving a category of problems.</p>
+</dd>
+<dt><strong>bug</strong></dt>
+<dd>
+<p>An error in a program.</p>
+</dd>
+<dt><strong>comment</strong></dt>
+<dd>
+<p>Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program.</p>
+</dd>
+<dt><strong>debugging</strong></dt>
+<dd>
+<p>The process of finding and removing any of the three kinds of programming errors.</p>
+</dd>
+<dt><strong>exception</strong></dt>
+<dd>
+<p>Another name for a runtime error.</p>
+</dd>
+<dt><strong>formal language</strong></dt>
+<dd>
+<p>Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are formal languages.</p>
+</dd>
+<dt><strong>high-level language</strong></dt>
+<dd>
+<p>A programming language like Python that is designed to be easy for humans to read and write.</p>
+</dd>
+<dt><strong>immediate mode</strong></dt>
+<dd>
+<p>A style of using Python where we type expressions at the command prompt, and the results are shown immediately. Contrast with <strong>script</strong>, and see the entry under <strong>Python shell</strong>.</p>
+</dd>
+<dt><strong>interpreter</strong></dt>
+<dd>
+<p>The engine that executes your Python scripts or expressions.</p>
+</dd>
+<dt><strong>low-level language</strong></dt>
+<dd>
+<p>A programming language that is designed to be easy for a computer to execute; also called machine language or assembly language.</p>
+</dd>
+<dt><strong>natural language</strong></dt>
+<dd>
+<p>Any one of the languages that people speak that evolved naturally.</p>
+</dd>
+<dt><strong>object code</strong></dt>
+<dd>
+<p>The output of the compiler after it translates the program.</p>
+</dd>
+<dt><strong>parse</strong></dt>
+<dd>
+<p>To examine a program and analyze the syntactic structure.</p>
+</dd>
+<dt><strong>portability</strong></dt>
+<dd>
+<p>A property of a program that can run on more than one kind of computer.</p>
+</dd>
+<dt><strong>print function</strong></dt>
+<dd>
+<p>A function used in a program or script that causes the Python interpreter to display a value on its output device.</p>
+</dd>
+<dt><strong>problem solving</strong></dt>
+<dd>
+<p>The process of formulating a problem, finding a solution, and expressing the solution.</p>
+</dd>
+<dt><strong>program</strong></dt>
+<dd>
+<p>a sequence of instructions that specifies to a computer actions and computations to be performed.</p>
+</dd>
+<dt><strong>Python shell</strong></dt>
+<dd>
+<p>An interactive user interface to the Python interpreter. The user of a Python shell types commands at the prompt (&gt;&gt;&gt;), and presses the return key to send these commands immediately to the interpreter for processing. The word <em>shell</em> comes from Unix. In the PyScripter used in this RLE version of the book, the Interpreter Window is where we’d do the immediate mode interaction.</p>
+</dd>
+<dt><strong>runtime error</strong></dt>
+<dd>
+<p>An error that does not occur until the program has started to execute but that prevents the program from continuing.</p>
+</dd>
+<dt><strong>script</strong></dt>
+<dd>
+<p>A program stored in a file (usually one that will be interpreted).</p>
+</dd>
+<dt><strong>semantic error</strong></dt>
+<dd>
+<p>An error in a program that makes it do something other than what the programmer intended.</p>
+</dd>
+<dt><strong>semantics</strong></dt>
+<dd>
+<p>The meaning of a program.</p>
+</dd>
+<dt><strong>source code</strong></dt>
+<dd>
+<p>A program in a high-level language before being compiled.</p>
+</dd>
+<dt><strong>syntax</strong></dt>
+<dd>
+<p>The structure of a program.</p>
+</dd>
+<dt><strong>syntax error</strong></dt>
+<dd>
+<p>An error in a program that makes it impossible to parse — and therefore impossible to interpret.</p>
+</dd>
+<dt><strong>token</strong></dt>
+<dd>
+<p>One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language.</p>
+</dd>
+</dl>
+</div>
+<div id="exercise" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Write a program to <em>print</em> a multiple lines string in Python.</p></li>
+<li><p>Using the Python interpreter, type 1 + 2 and then hit return. Python evaluates this expression, displays the result, and then shows another prompt. * is the multiplication operator, and ** is the exponentiation operator. Experiment by entering different expressions and recording what is displayed by the Python interpreter.</p></li>
+<li><p>Type 1 2 and then hit return. Python tries to evaluate the expression, but it can’t because the expression is not syntactically legal. Instead, it shows the error message:</p>
+<p><code>{python, error=TRUE, include=TRUE}    #print(1 2)</code></p>
+<p>In many cases, Python indicates where the syntax error occurred, but it is not always right, and it doesn’t give you much information about what is wrong. So, for the most part, the burden is on you to learn the syntax rules.</p>
+<p>In this case, Python is complaining because there is no operator between the numbers.</p></li>
+<li><p>Write a program to display a user entered word “Easy” followed by “Python is very” using input() function.</p></li>
+<li><p>Type cheese without the quotation marks. This is a run-time error; specifically, it is a NameError, and even more specifically, it is an error because the name cheese is not defined.</p></li>
+<li><p><em>Install</em> an External Module named <em>pandas.</em></p></li>
+<li><p>Write a program to <em>print</em> the <em>contents of a directory</em> using <em>os</em> module. Hint: Search online for the function which does so i.e how do i list all files of a directory.</p></li>
+<li><p>Perform some arithmetic using REPL.</p></li>
+<li><p>Use comparison operators to find out whether a given variable ‘a’ is greater than ‘b’ or not. consider a=45 and b=35.</p></li>
+<li><p>Write a program to find out average of two numbers entered by the user.</p></li>
+<li><p>Write a program which accepts the radius of a circle from the user and compute the area.</p></li>
+<li><p>How to find the reminder of a given number?</p></li>
+</ol>
+</div>
+</div>
+<div id="variables-and-data-types" class="section level1">
+<h1>Variables and Data Types</h1>
+<div id="variable" class="section level2">
+<h2>Variable</h2>
+<p>A Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing.</p>
+<table>
+<colgroup>
+<col width="58%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Words</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Variable</td>
+<td>Container to store a value</td>
+</tr>
+<tr class="even">
+<td>Keywords (can’t be used a variable name)</td>
+<td>Reserved Words in Python</td>
+</tr>
+<tr class="odd">
+<td>Identifiers</td>
+<td>Class/Function/Variable Name</td>
+</tr>
+</tbody>
+</table>
+<div id="keywords" class="section level3">
+<h3>Keywords</h3>
+<pre class="python"><code>help(&quot;keywords&quot;)</code></pre>
+<pre><code>## 
+## Here is a list of the Python keywords.  Enter any keyword to get more help.
+## 
+## False               class               from                or
+## None                continue            global              pass
+## True                def                 if                  raise
+## and                 del                 import              return
+## as                  elif                in                  try
+## assert              else                is                  while
+## async               except              lambda              with
+## await               finally             nonlocal            yield
+## break               for                 not</code></pre>
+</div>
+</div>
+<div id="variable-types-in-python" class="section level2">
+<h2>Variable Types in Python</h2>
+<p>Every value in Python has a datatype. Different data types in Python are Integers, Floating point numbers, Strings, Boolean, List, Tuple, Dictionary, etc. Variables in Python can be declared by any name or even alphabets like a, aa, abc, etc.</p>
+<ul>
+<li><p>A variable name can contain alphabets, digits and underscores</p></li>
+<li><p>A variable name can start with alphabets or an underscore</p></li>
+<li><p>Variable name is case sensitive</p></li>
+<li><p>A variable name can’t start with a number/digit</p></li>
+<li><p>Spaces are not allowed in variable name</p></li>
+</ul>
+<div id="how-to-declare-and-use-a-variable" class="section level3">
+<h3>How to Declare and Use a Variable</h3>
+<p>Let see an example. We will define variable in Python and declare it as “a” and print it.</p>
+<pre class="python"><code>a=10
+print(a)</code></pre>
+<pre><code>## 10</code></pre>
+<pre class="python"><code>x , y = 5 ,6
+print(x,y)</code></pre>
+<pre><code>## 5 6</code></pre>
+<pre class="python"><code>b=c=d=30
+print(b,c,d)</code></pre>
+<pre><code>## 30 30 30</code></pre>
+</div>
+<div id="how-to-know-the-type-of-a-variable" class="section level3">
+<h3>How to know the Type of a Variable</h3>
+<p>Python is completely object oriented, and not “statically typed”. You do not need to declare variables before using them, or declare their type, i.e. python automatically identify the type. Every variable in Python is an object.</p>
+<p>Here are few basic types of variables. type() function is used to find out the type of a variable.</p>
+<pre class="python"><code>a=10
+print(type(a))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>b=10.1
+print(type(b))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>c=&quot;State Bank of Pakistan&quot;
+print(type(c))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+<pre class="python"><code>d=True
+print(type(d))</code></pre>
+<pre><code>## &lt;class &#39;bool&#39;&gt;</code></pre>
+<pre class="python"><code>e=None
+print(type(e))</code></pre>
+<pre><code>## &lt;class &#39;NoneType&#39;&gt;</code></pre>
+</div>
+<div id="re-declare-a-variable" class="section level3">
+<h3>Re-declare a Variable</h3>
+<p>You can re-declare Python variables even after you have declared once.</p>
+<pre class="python"><code>#declare a variable and initialize it
+a=10
+# re-declaring the variable 
+a=&quot;State Bank of Pakistan&quot;
+print(a)</code></pre>
+<pre><code>## State Bank of Pakistan</code></pre>
+<pre class="python"><code>print(&quot;a&quot;+10) # we can&#39;t concatenate string with integer</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: can only concatenate str (not &quot;int&quot;) to str
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>print(&quot;a&quot; + &quot;10&quot;)</code></pre>
+<pre><code>## a10</code></pre>
+</div>
+<div id="type-casting" class="section level3">
+<h3>Type Casting</h3>
+<p>Type Casting is a process in which we convert a literal of one type to another. built-in functions int(), float() and str() shall be used for typecasting.</p>
+<ul>
+<li>int() can take a float or string literal as argument and returns a value of <code>class 'int'</code> type.</li>
+<li>float() can take an int or string literal as argument and returns a value of <code>class 'float'</code> type.</li>
+<li>str() can take a float or int literal as argument and returns a value of <code>class 'str'</code> type.</li>
+</ul>
+</div>
+<div id="type-casting-int-to-float-and-string" class="section level3">
+<h3>Type Casting int to float and string</h3>
+<pre class="python"><code>n=100 # an integer
+print(type(n))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>f=float(n)
+print(type(f))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>s=str(n)
+print(type(s))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+</div>
+<div id="type-casting-float-to-int-and-string" class="section level3">
+<h3>Type Casting float to int and string</h3>
+<pre class="python"><code>f=10.5 #a float
+print(type(f))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>n=int(f)
+print(type(n))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>s=str(f)
+print(type(s))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+</div>
+</div>
+<div id="exercise-1" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Guess the type of 6/2, 6//2 and check the results.</p></li>
+<li><p>What is the value of x after the following is run:<br />
+<br />
+x=4<br />
+<br />
+x=x/2</p></li>
+<li><p>Create a variable named <code>carname</code> and assign the value <code>toyota</code> to it.</p></li>
+<li><p>Assign: 3 to variable glass_of_water and printout the message “I drank 3 glasses of water today” by using variable name.</p></li>
+<li><p>Let’s try to see what happens after assigning a new value to our variable. Note that program gets executed line by line.</p>
+<p>glass_of_water=3</p>
+<p>glass_of_water=glass_of_water + 1</p>
+<p>print()</p></li>
+<li><p>Check the type of the variable define above.</p></li>
+<li><p>Type Cast the above variable first into float and then to string.</p></li>
+<li><p>Define a variable a =3 and A=‘NIBAF’. Will ‘A’ overwrite ‘a’?</p></li>
+<li><p>Check the type of a variable assigned using input() function.</p></li>
+<li><p>Calculate square of the number entered by the user.</p></li>
+<li><p>Write a program to accept two numbers from the user and calculate multiplication.</p></li>
+<li><p>Display string “My”, ‘Name’, “Is”, “Python” as “My**Name**Is**Python” Hint: Default separator in print function is space i.e. ” “.</p></li>
+<li><p>Write a program to take three names as input from a user in the single <code>input()</code> function call.</p></li>
+<li><p>Define a complex variable. 😎</p></li>
+</ol>
+</div>
+</div>
+<div id="strings" class="section level1">
+<h1>Strings</h1>
+<p>A string is a sequence of characters. Strings are amongst the most popular types in Python. We can create them simply by enclosing characters in quotes. Python treats single quotes the same as double quotes. Creating strings is as simple as assigning a value to a variable. For example −</p>
+<pre><code>var1 = &#39;Hello World!&#39;
+var2 = &quot;Python Programming&quot;
+var3 = &#39;&#39;&#39;Python Programming
+          for begginners&#39;&#39;&#39;</code></pre>
+<div id="string-indexing" class="section level2">
+<h2>String Indexing</h2>
+<p>Individual characters of a string can be accessed directly using a numeric index.</p>
+<ul>
+<li><p>String indexing in python is zero-based.</p>
+<ul>
+<li><p>The first character in the string has index 0.</p></li>
+<li><p>The next has index 1 . . . and so on.</p></li>
+<li><p>The index of the last character will be length of the string minus 1.</p></li>
+</ul></li>
+</ul>
+<div id="example-3" class="section level3">
+<h3>Example</h3>
+<table>
+<thead>
+<tr class="header">
+<th>String</th>
+<th>a</th>
+<th>h</th>
+<th>m</th>
+<th>a</th>
+<th>d</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Index</strong></td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td><strong>Negative Index</strong></td>
+<td>-5</td>
+<td>-4</td>
+<td>-3</td>
+<td>-2</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="slicing-strings" class="section level2">
+<h2>Slicing Strings</h2>
+<p>You can return a range of characters by using the slice syntax. Specify the start index and the end index, separated by a colon in <span class="math display">\[ \]</span>, to return a part of the string. i.e. we can get a part of the string using slicing.</p>
+</div>
+<div id="syntax-start-stop-step" class="section level2">
+<h2>Syntax : <span class="math display">\[Start : Stop : Step\]</span></h2>
+<ul>
+<li><p><strong>Start</strong>: First Index of the sub-string you want to extract.</p></li>
+<li><p><strong>Stop</strong>: Last Index of the sub-string you want to extract.</p></li>
+<li><p><strong>Step</strong>: The size of the jump you want to take while extracting the subsection.</p></li>
+</ul>
+</div>
+<div id="scenarios" class="section level2">
+<h2>Scenarios</h2>
+<p><code>Scenario 1: No step size</code> <code>Scenario 2: No stop index</code> <code>Scenario 3: No start index</code></p>
+<p><code>Scenario 4: No start and stop index</code> <code>Scenario 5: No strat, step or stop index</code></p>
+<p><code>Scenario 6: Single charachter as a string</code></p>
+<div id="example-4" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code>A = &quot;Welcome to the World of Python&quot;
+print(A[3:7]) # by default step size is 1</code></pre>
+<pre><code>## come</code></pre>
+<pre class="python"><code>print(A[24:]) # python will assume last index of string as the stop index</code></pre>
+<pre><code>## Python</code></pre>
+<pre class="python"><code>print(A[:7])  #python assume the start index as 0</code></pre>
+<pre><code>## Welcome</code></pre>
+<pre class="python"><code>print(A[::2]) # python will give every second chanracter from complete string</code></pre>
+<pre><code>## Wloet h ol fPto</code></pre>
+<pre class="python"><code>print(A[::])  # start=0, stop=last index, step=1 by deafult</code></pre>
+<pre><code>## Welcome to the World of Python</code></pre>
+<pre class="python"><code>print(A[0:1]) # [start:start+1:1]</code></pre>
+<pre><code>## W</code></pre>
+<p>Omitting both indices returns the original string, in its entirety. Literally. It’s not a copy, it’s a reference to the original string:</p>
+<pre class="python"><code>s=&#39;NIBAF&#39;
+t = s[:]
+print(id(s))</code></pre>
+<pre><code>## 1494262832</code></pre>
+<pre class="python"><code>print(id(t))</code></pre>
+<pre><code>## 1494262832</code></pre>
+</div>
+</div>
+<div id="concatenating-the-strings" class="section level2">
+<h2>Concatenating the Strings</h2>
+<p>String concatenation means add strings together. Use the + character to add a variable to another variable:</p>
+<pre class="python"><code>x = &quot;Python Eats&quot;
+y= &quot;???&quot;
+z = x+y
+print(z)</code></pre>
+<pre><code>## Python Eats???</code></pre>
+</div>
+<div id="string-functions" class="section level2">
+<h2>String Functions</h2>
+<table>
+<colgroup>
+<col width="8%" />
+<col width="77%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Function</strong></th>
+<th align="left"><strong>Explanation</strong></th>
+<th align="left"><strong>Syntax</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">capitalize()</td>
+<td align="left">The capitalize() method converts first character of a string to uppercase letter and lowercases all other characters, if any</td>
+<td align="left"><pre><code>string.capitalize()</code></pre></td>
+</tr>
+<tr class="even">
+<td align="left">upper()</td>
+<td align="left">The <code>upper()</code> method converts all lowercase characters in a string into uppercase characters</td>
+<td align="left"><code>string.upper()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">lower()</td>
+<td align="left">The <code>lower()</code> method converts all uppercase characters in a string into lowercase characters</td>
+<td align="left"><code>string.lower()</code></td>
+</tr>
+<tr class="even">
+<td align="left">swapcase()</td>
+<td align="left">The <code>swapcase</code> method converts lower to uppar and upper to lower</td>
+<td align="left"><code>string.swapcase</code></td>
+</tr>
+<tr class="odd">
+<td align="left">count()</td>
+<td align="left">The <code>count()</code> method returns the number of occurrences of a <strong>substring</strong> in the given string</td>
+<td align="left"><code>string.count()</code></td>
+</tr>
+<tr class="even">
+<td align="left">endswith()</td>
+<td align="left"><strong>T</strong>he <code>endswith()</code> method returns <code>True</code> if a string ends with the specified suffix. If not, it returns <code>False</code></td>
+<td align="left"><code>string.endswith()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">find()</td>
+<td align="left">The <code>find()</code> method returns the index of <em>first occurrence</em> of the <strong>substring</strong> (if found). If not found, it returns -1</td>
+<td align="left"><code>string.find()</code></td>
+</tr>
+<tr class="even">
+<td align="left">len()</td>
+<td align="left">The <code>len()</code> method returns the length of a string</td>
+<td align="left"><code>string.len()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">index()</td>
+<td align="left">The <code>index()</code> method returns the index of <em>first occurrence</em> of the <strong>substring</strong> (if found). If not found, it returns substring not found</td>
+<td align="left"><code>string.index()</code></td>
+</tr>
+<tr class="even">
+<td align="left">replace()</td>
+<td align="left">The <code>replace()</code> method replaces each matching occurrence of the old character/text in the string with the new character/text</td>
+<td align="left"><code>string.replace()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">strip()</td>
+<td align="left">Removes <strong>leading and trailing characters</strong> from a string.</td>
+<td align="left"><code>string.strip()</code></td>
+</tr>
+<tr class="even">
+<td align="left">lstrip()</td>
+<td align="left">Removes <strong>leading characters</strong> from a string.</td>
+<td align="left"><code>string.lstrip()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">rstrip()</td>
+<td align="left">Removes <strong>trailing characters</strong> from a string.</td>
+<td align="left"><code>string.rstrip()</code></td>
+</tr>
+<tr class="even">
+<td align="left">join()</td>
+<td align="left">Joins elements of an <strong>iterable</strong> into a <strong>single string</strong>.</td>
+<td align="left"><code>string.join()</code></td>
+</tr>
+<tr class="odd">
+<td align="left">split</td>
+<td align="left"><strong>Splits</strong> a string into a list of <strong>substrings</strong> based on separator</td>
+<td align="left"><code>string.split()</code></td>
+</tr>
+</tbody>
+</table>
+<pre class="python"><code>a = &quot;    Python is Easy   &quot;
+b = &quot;:&quot;.join([&quot;Ahmad&quot;, &quot;Nadeem&quot;])
+c = &quot;Ahmad Nadeem&quot;.split()
+print(a.upper())</code></pre>
+<pre><code>##     PYTHON IS EASY</code></pre>
+<pre class="python"><code>print(a.endswith(&#39;y&#39;))</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>print(a.find(&#39;n&#39;))</code></pre>
+<pre><code>## 9</code></pre>
+<pre class="python"><code>print(a.replace(&quot;Python&quot; , &quot;Jython&quot;))</code></pre>
+<pre><code>##     Jython is Easy</code></pre>
+<pre class="python"><code>print(a.strip())</code></pre>
+<pre><code>## Python is Easy</code></pre>
+<pre class="python"><code>print(b)</code></pre>
+<pre><code>## Ahmad:Nadeem</code></pre>
+<pre class="python"><code>print(c)</code></pre>
+<pre><code>## [&#39;Ahmad&#39;, &#39;Nadeem&#39;]</code></pre>
+</div>
+<div id="escape-sequence-characters" class="section level2">
+<h2>Escape Sequence Characters</h2>
+<p>In Python, escape sequences are indicated by a backslash ( \ ).</p>
+<table>
+<colgroup>
+<col width="7%" />
+<col width="92%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Syntax</strong></th>
+<th align="left"><strong>Explanation</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">\n</td>
+<td align="left">The most important one may be <code>\n</code> which indicates a new line. Like so, multiple logical lines can be stacked into a single physical line.</td>
+</tr>
+<tr class="even">
+<td align="left">\’</td>
+<td align="left">Another escape sequence worth mentioning is <code>\'</code> for a single quote within a <a href="https://www.spss-tutorials.com/spss-string-variables-basics/">string</a>.</td>
+</tr>
+<tr class="odd">
+<td align="left">\\</td>
+<td align="left">A backslash also escapes itself so if it’s really a backslash you want, double it as in <code>\\</code>.</td>
+</tr>
+<tr class="even">
+<td align="left">\t</td>
+<td align="left">insert a tab in a string</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="formatted-string-literal-or-f-string" class="section level2">
+<h2>Formatted String Literal or f-string</h2>
+<pre class="python"><code>n = 5
+m = 10
+prod = n*m
+print(&#39;The product of&#39;, n, &#39;and&#39;, m, &#39;is&#39;, prod)
+
+# this can be reproduced by using f-string as:</code></pre>
+<pre><code>## The product of 5 and 10 is 50</code></pre>
+<pre class="python"><code>print(f&#39;The product of {n} and {m} is {prod}&#39;)</code></pre>
+<pre><code>## The product of 5 and 10 is 50</code></pre>
+</div>
+<div id="exercise-2" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Convert the String <code>"welcome to the beautiful world of python"</code> to <code>"Welcome To The Beautiful World Of Python"</code></p></li>
+<li><p>Find the output of the following:</p>
+<pre><code>str1 = &quot;PYnative&quot;
+print(str1[1:4], str1[:5], str1[4:], str1[0:-1], str1[:-1])</code></pre></li>
+<li><p>Guess the output of the following:</p>
+<pre class="python"><code># print(&#39;python \n cpython&#39;)
+# print(&#39;python \t cpython&#39;)
+# print(&#39;python \\ cpython&#39;)</code></pre></li>
+<li><p>if a=‘1’ and b=‘2’ what will be the value of c=a+b?</p></li>
+<li><p>Consider the variable <strong>g</strong>, and find the first index of the sub-string <strong>snow</strong>:</p>
+<p>g = “Mary had a little lamb Little lamb, little lamb Mary had a little lamb \ Its fleece was white as snow And everywhere that Mary went Mary went, Mary went \ Everywhere that Mary went The lamb was sure to go”</p></li>
+<li><p>In the above variable <strong>g</strong>, replace the sub-string <strong>Mary</strong> with <strong>Bob</strong>:</p></li>
+<li><p>What is the result of following?<br />
+“hello Mike”.find(“Mike”)</p></li>
+<li><p>If string=‘Welcome’ then how to get output as WelcomeWelcomeWelcome?</p></li>
+<li><p>Ask the name and favorite fruit from two persons using input and return as a single string. like: Ahmad likes Mangoes and Muhammad likes Oranges.</p></li>
+<li><p>Write a program to detect double spaces in a string.</p></li>
+<li><p>Replace the double spaces in above question with a single space.</p></li>
+<li><p>Write a program to format the following letter using escape sequence characters.</p>
+<p>letter = ” Dear Participants, This Python course is nice. Thanks!”</p></li>
+<li><p>Find the length of the word NIBAF.</p></li>
+<li><p>Print the reversed str = ‘NIBAF’</p></li>
+<li><p>Attempt to index beyond the end of the string results and checkout the result. like ,‘Ahmad<span class="math display">\[6\]</span>’</p></li>
+<li><p>Select the every third letter from the str = ‘I am learning python’</p></li>
+<li><p>How to check the given word, sentence or a number is palindrome!</p>
+<p>A word, verse, or sentence (such as ‘Able was I ere I saw Elba’) or a number (such as 1881) that reads the same backward or forward is called palindrome.</p></li>
+<li><p>Write a program which accepts the user’s first and last name then print in reverse order.</p></li>
+<li><p>Write a program to accept a filename from user and print the name and extension of that file.</p></li>
+</ol>
+</div>
+</div>
+<div id="lists-and-tuples" class="section level1">
+<h1>Lists and Tuples</h1>
+<p>List is one of the most powerful data structures in Python. The List data type is made with so much of efforts and every programmer from beginner, intermediate to an expert should understand how it works.</p>
+<p>Lists are <strong>mutable</strong> collection of objects. i.e. they are container to store a set of values of any data type.</p>
+<p>for example:</p>
+<pre class="python"><code>myList = [ &#39;milk&#39;, &#39;cars&#39;, 14, False]</code></pre>
+<ul>
+<li><p>Lists are ordered. We can index them and access values.</p></li>
+<li><p>Lists are heterogeneous. A list can contain different types of elements.</p></li>
+<li><p>Lists are mutable. You can change values in them.</p></li>
+</ul>
+<div id="creating-a-lists" class="section level2">
+<h2>Creating a Lists</h2>
+<pre class="python"><code>items = [1,2,3]
+items1 = list(&#39;123&#39;)
+items2=[&#39;123&#39;]
+items3=[]
+items3.append(7)
+items2.append(8) # adds at the end of the list
+items4=[1, 2, False, [4,5]]
+print(items, items1, items2, items3, items4)</code></pre>
+<pre><code>## [1, 2, 3] [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;] [&#39;123&#39;, 8] [7] [1, 2, False, [4, 5]]</code></pre>
+<div id="indexing-and-slicing-lists" class="section level3">
+<h3>Indexing and Slicing Lists</h3>
+<pre class="python"><code>myList = [&#39;milk&#39;, &#39;cars&#39;, 14, False]
+myList[0]</code></pre>
+<pre><code>## &#39;milk&#39;</code></pre>
+<pre class="python"><code>myList[-1]</code></pre>
+<pre><code>## False</code></pre>
+<pre class="python"><code>myList[0::2]</code></pre>
+<pre><code>## [&#39;milk&#39;, 14]</code></pre>
+</div>
+<div id="modifying-lists" class="section level3">
+<h3>Modifying Lists</h3>
+<p>Unlike strings, lists are mutable. Its values can be changed.</p>
+<pre class="python"><code>myList = [&#39;milk&#39;, &#39;cars&#39;, 14, False]
+myList[1] = &#39;Trucks&#39;
+myList</code></pre>
+<pre><code>## [&#39;milk&#39;, &#39;Trucks&#39;, 14, False]</code></pre>
+<pre class="python"><code>myList.insert(2,9)
+myList</code></pre>
+<pre><code>## [&#39;milk&#39;, &#39;Trucks&#39;, 9, 14, False]</code></pre>
+</div>
+</div>
+<div id="sorting-list" class="section level2">
+<h2>Sorting List</h2>
+<p>The <code>list.sort()</code> method sorts the elements of a list in ascending or descending order:</p>
+<pre class="python"><code>a= [4,1,2,7,5,3]
+a.sort()
+print(a)</code></pre>
+<pre><code>## [1, 2, 3, 4, 5, 7]</code></pre>
+<pre class="python"><code>a.sort(reverse=True)
+print(a)</code></pre>
+<pre><code>## [7, 5, 4, 3, 2, 1]</code></pre>
+<div id="sorting-using-a-key-parameters" class="section level3">
+<h3>Sorting using a key parameters:</h3>
+<pre class="python"><code>cities = [&#39;Karachi&#39;, &#39;Lahore&#39;, &#39;Faisalabad&#39;, &#39;Hayderababd&#39;]
+cities.sort(key=len)
+print(cities)</code></pre>
+<pre><code>## [&#39;Lahore&#39;, &#39;Karachi&#39;, &#39;Faisalabad&#39;, &#39;Hayderababd&#39;]</code></pre>
+<pre class="python"><code>cities.sort(key=len, reverse=True)
+print(cities)</code></pre>
+<pre><code>## [&#39;Hayderababd&#39;, &#39;Faisalabad&#39;, &#39;Karachi&#39;, &#39;Lahore&#39;]</code></pre>
+</div>
+<div id="removing-elements-from-the-list" class="section level3">
+<h3>Removing Elements from the list</h3>
+<pre class="python"><code>cities = [&#39;Karachi&#39;, &#39;Lahore&#39;, &#39;Faisalabad&#39;, &#39;Hayderababd&#39;]
+cities.pop(0) # will delete the value at index 0 an return its value</code></pre>
+<pre><code>## &#39;Karachi&#39;</code></pre>
+<pre class="python"><code>cities</code></pre>
+<pre><code>## [&#39;Lahore&#39;, &#39;Faisalabad&#39;, &#39;Hayderababd&#39;]</code></pre>
+<pre class="python"><code>cities.remove(&#39;Lahore&#39;)
+cities</code></pre>
+<pre><code>## [&#39;Faisalabad&#39;, &#39;Hayderababd&#39;]</code></pre>
+<pre class="python"><code>cities2= cities.copy() #create a copy of list</code></pre>
+</div>
+</div>
+<div id="converting-a-string-to-a-list" class="section level2">
+<h2>Converting a String to a List</h2>
+<p>String can be convert to a list, as per spaces ” ” or any other special characters “_”, according to the users choice, are encountered. To do this we use the split() method.</p>
+<div id="syntax" class="section level3">
+<h3>Syntax</h3>
+<p><code>string.split('delimiter')</code></p>
+<pre class="python"><code>string = &quot;I like Python&quot;
+print(string.split(&quot; &quot;))</code></pre>
+<pre><code>## [&#39;I&#39;, &#39;like&#39;, &#39;Python&#39;]</code></pre>
+<pre class="python"><code>string1 = &quot;I_Like_Python&quot;
+print(string1.split(&quot;_&quot;))</code></pre>
+<pre><code>## [&#39;I&#39;, &#39;Like&#39;, &#39;Python&#39;]</code></pre>
+</div>
+</div>
+<div id="tuples" class="section level2">
+<h2>Tuples</h2>
+<p>Tuples are collections of Python objects. They are similar to lists but the difference between them is that <strong>tuples are immutable</strong> while <strong>lists are mutable</strong>. Tuples are created by typing a sequence of items, separated by <em>commas</em>. Optionally, you can put the comma-separated values in parenthesis.</p>
+<ol style="list-style-type: decimal">
+<li><p>Tuple1=(1,2,5,6)</p></li>
+<li><p>Tuple2=(‘a’, “b”, ‘c’, “d”)</p></li>
+<li><p>Tuple3 = () #empty tuple</p></li>
+<li><p>Tuple4 = 5,3,1</p></li>
+<li><p>Tuple5 = (“London”, “Tokyo”, “Korea”, 1986, 1640, 1948)</p>
+<p><strong>Note:</strong> To create a single item tuple, you have to use a comma after the value.</p></li>
+</ol>
+<pre class="python"><code>Tup1 = (5) # its not a tuple
+Tup2 = (5,)
+Tuple5 = (&quot;London&quot;, &quot;Tokyo&quot;, &quot;Korea&quot;, 1986, 1640, 1948)
+print(type(Tup1))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>print(type(Tup2))</code></pre>
+<pre><code>## &lt;class &#39;tuple&#39;&gt;</code></pre>
+<pre class="python"><code>print(Tuple5.index(&quot;Korea&quot;))</code></pre>
+<pre><code>## 2</code></pre>
+<p>The values of <strong>tuples</strong> are stored at different index positions starting from zero. We can access the values by using their index positions inside square brackets. We can index or slice tuples like lists.</p>
+<pre class="python"><code>a = (1, 2, 2, 1, 3, 1, 4,2)
+
+print(a[0]) , print(a[4])</code></pre>
+<pre><code>## 1
+## 3
+## (None, None)</code></pre>
+<pre class="python"><code>print(a.count(2)) # will return the number of times 2 occurs</code></pre>
+<pre><code>## 3</code></pre>
+<pre class="python"><code>print(a.index( 2)) # will return the index of first occurrence of 2</code></pre>
+<pre><code>## 1</code></pre>
+</div>
+<div id="tuple-unpacking" class="section level2">
+<h2>Tuple Unpacking</h2>
+<p>With a special syntax, Python can <strong>unpack</strong> the values of a tuple and extract them into <strong>single variables</strong>.</p>
+<pre class="python"><code>a,b,c = (1,2,3)
+print(a)</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>print(b)</code></pre>
+<pre><code>## 2</code></pre>
+<pre class="python"><code>print(c)
+ #or</code></pre>
+<pre><code>## 3</code></pre>
+<pre class="python"><code>coordinates = (4,5,6)
+x,y,z = coordinates # same can be used to unpack a list
+print(x)</code></pre>
+<pre><code>## 4</code></pre>
+<p>The number of variables to the left and right side should be the same and it assigns each variable respectively.</p>
+</div>
+<div id="lists-vs-tuples" class="section level2">
+<h2>Lists Vs Tuples</h2>
+<div id="methods-available-for-list" class="section level3">
+<h3>Methods Available for List:</h3>
+<pre class="python"><code>list = [2,3,5,7,11,13,17]
+print(dir(list))</code></pre>
+<pre><code>## [&#39;__add__&#39;, &#39;__class__&#39;, &#39;__class_getitem__&#39;, &#39;__contains__&#39;, &#39;__delattr__&#39;, &#39;__delitem__&#39;, &#39;__dir__&#39;, &#39;__doc__&#39;, &#39;__eq__&#39;, &#39;__format__&#39;, &#39;__ge__&#39;, &#39;__getattribute__&#39;, &#39;__getitem__&#39;, &#39;__gt__&#39;, &#39;__hash__&#39;, &#39;__iadd__&#39;, &#39;__imul__&#39;, &#39;__init__&#39;, &#39;__init_subclass__&#39;, &#39;__iter__&#39;, &#39;__le__&#39;, &#39;__len__&#39;, &#39;__lt__&#39;, &#39;__mul__&#39;, &#39;__ne__&#39;, &#39;__new__&#39;, &#39;__reduce__&#39;, &#39;__reduce_ex__&#39;, &#39;__repr__&#39;, &#39;__reversed__&#39;, &#39;__rmul__&#39;, &#39;__setattr__&#39;, &#39;__setitem__&#39;, &#39;__sizeof__&#39;, &#39;__str__&#39;, &#39;__subclasshook__&#39;, &#39;append&#39;, &#39;clear&#39;, &#39;copy&#39;, &#39;count&#39;, &#39;extend&#39;, &#39;index&#39;, &#39;insert&#39;, &#39;pop&#39;, &#39;remove&#39;, &#39;reverse&#39;, &#39;sort&#39;]</code></pre>
+</div>
+<div id="methods-available-for-tuple" class="section level3">
+<h3>Methods Available for Tuple:</h3>
+<pre class="python"><code>tuple = (1,4,9,16,25,36)
+print(dir(tuple))</code></pre>
+<pre><code>## [&#39;__add__&#39;, &#39;__class__&#39;, &#39;__class_getitem__&#39;, &#39;__contains__&#39;, &#39;__delattr__&#39;, &#39;__dir__&#39;, &#39;__doc__&#39;, &#39;__eq__&#39;, &#39;__format__&#39;, &#39;__ge__&#39;, &#39;__getattribute__&#39;, &#39;__getitem__&#39;, &#39;__getnewargs__&#39;, &#39;__gt__&#39;, &#39;__hash__&#39;, &#39;__init__&#39;, &#39;__init_subclass__&#39;, &#39;__iter__&#39;, &#39;__le__&#39;, &#39;__len__&#39;, &#39;__lt__&#39;, &#39;__mul__&#39;, &#39;__ne__&#39;, &#39;__new__&#39;, &#39;__reduce__&#39;, &#39;__reduce_ex__&#39;, &#39;__repr__&#39;, &#39;__rmul__&#39;, &#39;__setattr__&#39;, &#39;__sizeof__&#39;, &#39;__str__&#39;, &#39;__subclasshook__&#39;, &#39;count&#39;, &#39;index&#39;]</code></pre>
+<p>As we observe that list have more methods as compare with tuples, but this extra functionality comes at a price i.e. list occupy more memoray than tuple. let’s have a look:</p>
+<pre class="python"><code>import sys
+print(help(sys.getsizeof))</code></pre>
+<pre><code>## Help on built-in function getsizeof in module sys:
+## 
+## getsizeof(...)
+##     getsizeof(object [, default]) -&gt; int
+##     
+##     Return the size of object in bytes.
+## 
+## None</code></pre>
+<pre class="python"><code>list  = [1,2,3,4,5,6,7]
+tuple = (1,2,3,4,5,6,7)
+print(&quot;The Size of the List  is&quot;, sys.getsizeof(list ), &#39;bytes&#39;)</code></pre>
+<pre><code>## The Size of the List  is 120 bytes</code></pre>
+<pre class="python"><code>print(&quot;The Size of the Tuple is&quot;, sys.getsizeof(tuple), &#39;bytes&#39;)</code></pre>
+<pre><code>## The Size of the Tuple is 96 bytes</code></pre>
+<p>when working with big data, this can be significant.</p>
+<table style="width:57%;">
+<colgroup>
+<col width="25%" />
+<col width="31%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>List</th>
+<th>Tuples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ul>
+<li>Add Data</li>
+</ul></td>
+<td><ul>
+<li>Can’t be changed</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><ul>
+<li>Remove Data</li>
+</ul></td>
+<td><ul>
+<li>Immutable</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><ul>
+<li>Change Data</li>
+</ul></td>
+<td><ul>
+<li>Made Quickly</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<p>let’s have a look that how tuples are more efficient than lists:</p>
+<p>time required to create 1000,000 lists and tuples of same size.</p>
+<pre class="python"><code>import timeit
+list_test = timeit.timeit(stmt=&quot;[1,2,3,4,5,6]&quot;, number=1000_000)
+tuple_test = timeit.timeit(stmt=&quot;(1,2,3,4,5,6)&quot;, number=1000_000)
+print(&#39;Time needed to make 1000000 lists: &#39;, list_test)</code></pre>
+<pre><code>## Time needed to make 1000000 lists:  0.03869019995909184</code></pre>
+<pre class="python"><code>print(&#39;Time needed to make 1000000 tuples: &#39;, tuple_test)</code></pre>
+<pre><code>## Time needed to make 1000000 tuples:  0.006439999910071492</code></pre>
+</div>
+</div>
+<div id="exercise-3" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Create a list <code>a_list</code>, with the following elements <code>1</code>, <code>hello</code>, <code>[1,2,3]</code> and <code>True</code>.</p></li>
+<li><p>Find the first and last value of the list.</p></li>
+<li><p>Find the value stored at index 1 of <code>a_list</code>.</p></li>
+<li><p>Retrieve the elements stored at index 1, 2 and 3 of <code>a_list</code>.</p></li>
+<li><p>Concatenate the following lists <code>A = [1, 'a']</code> and <code>B = [2, 1, 'd']</code></p></li>
+<li><p>Make the list of the PIN of 5 officers and sort them in ascending and descending order.</p></li>
+<li><p>Consider the following tuple and Find the length of the tuple, <code>genres_tuple</code> genres_tuple = (“pop”, “rock”, “soul”, “hard rock”, “soft rock”, “R&amp;B”, “progressive rock”, “disco”)</p></li>
+<li><p>Access the element, with respect to index 3.</p></li>
+<li><p>Use slicing to obtain indexes 3, 4 and 5.</p></li>
+<li><p>Find the index of <code>"disco".</code></p></li>
+<li><p>Generate a sorted List from the Tuple <code>C_tuple=(-5, 1, -3).</code></p></li>
+<li><p>Check that a python tuple can’t be altered.</p></li>
+<li><p>Find the sum of <code>list2 = [1,2,3,4]</code>.</p></li>
+<li><p>Write a program to count the number of occurrences of 4 in <code>tuple1=(4,1,2,5,7,4,8,4,4)</code></p></li>
+<li><p>Reverse a list2 define above (Q.13) using index method.</p></li>
+<li><p>Make the list of the words of “I am doing well”</p></li>
+<li><p>sort the above created list as per length of the words in reverse order.</p></li>
+<li><p>list1 = <code>[100, 200, 300, 400, 500]</code>, output = <code>[500,400,300,200,100]</code></p></li>
+<li><p>list2 = <code>[10, 20, [300, 400, [5000, 6000], 500], 30, 40]</code>, Expected output :</p>
+<pre><code>[10, 20, [300, 400, [5000, 6000, 7000], 500], 30, 40]</code></pre></li>
+<li><p>list1 = <code>["a", "b", ["c", ["d", "e", ["f", "g"], "k"], "l"], "m", "n"]</code> # sub list to add <code>sub_list = ["h", "i", "j"]</code> Expected Output:</p>
+<p><code>["a", "b", ["c", ["d", "e", ["f", "g","h","i","j"], "k"], "l"], "m", "n"]</code></p></li>
+<li><p>list1 = <code>[5, 10, 15, 20, 25, 50, 20]</code> Expected Output: <code>[5, 10, 15, 200, 25, 50, 20]</code></p></li>
+<li><p>list1 = <code>[5, 20, 15, 200, 25, 50, 220]</code> remove 20 from the list.</p></li>
+</ol>
+</div>
+</div>
+<div id="python-dictionaries-and-sets" class="section level1">
+<h1>Python Dictionaries and Sets</h1>
+<div id="dictionaries" class="section level2">
+<h2>Dictionaries</h2>
+<p>Like a real-life dictionary has <strong>words</strong> and <strong>meanings</strong>, Python dictionaries have <strong>keys</strong> and <strong>values</strong>. Dictionaries in Python are collections that are <em>unordered</em>, i<em>ndexed and mutable</em>. They hold keys and values.</p>
+<p>They are in <em>curly brackets</em>. Key-value pairs are <strong>separated by commas</strong> and <em>keys and values</em> are <strong>separated by colons</strong>. Keys in dictionaries are <em>unique</em> and <em>immutable</em>. You can search for a value <em>if you know the key</em>. <strong>One key cannot have two values</strong>.</p>
+<pre class="python"><code>Financial_Dictionary = {&quot;Key&quot;: &quot;Value&quot;, &quot;Key&quot;: &quot;Value1&quot;, &quot;SBP&quot; : &quot;State Bank of Pakistab&quot;, &quot;BSC&quot; : &quot;Banking Services Corporation&quot;, &quot;PSPC&quot; : &quot;Pakistan Security Printing Corporation&quot;, &quot;NIBAF&quot; : &quot;National Institute of Banking and Finance&quot;, &#39;Marks&#39; : [71, 78, 84]}
+print(type(Financial_Dictionary))</code></pre>
+<pre><code>## &lt;class &#39;dict&#39;&gt;</code></pre>
+<pre class="python"><code>print(Financial_Dictionary)</code></pre>
+<pre><code>## {&#39;Key&#39;: &#39;Value1&#39;, &#39;SBP&#39;: &#39;State Bank of Pakistab&#39;, &#39;BSC&#39;: &#39;Banking Services Corporation&#39;, &#39;PSPC&#39;: &#39;Pakistan Security Printing Corporation&#39;, &#39;NIBAF&#39;: &#39;National Institute of Banking and Finance&#39;, &#39;Marks&#39;: [71, 78, 84]}</code></pre>
+<pre class="python"><code>print(Financial_Dictionary[&#39;Marks&#39;])</code></pre>
+<pre><code>## [71, 78, 84]</code></pre>
+<pre class="python"><code>del(Financial_Dictionary[&#39;BSC&#39;]) # will del key=BSC
+print(Financial_Dictionary)</code></pre>
+<pre><code>## {&#39;Key&#39;: &#39;Value1&#39;, &#39;SBP&#39;: &#39;State Bank of Pakistab&#39;, &#39;PSPC&#39;: &#39;Pakistan Security Printing Corporation&#39;, &#39;NIBAF&#39;: &#39;National Institute of Banking and Finance&#39;, &#39;Marks&#39;: [71, 78, 84]}</code></pre>
+<pre class="python"><code>print(&#39;BSC&#39; in Financial_Dictionary) # as it already deleted , Results in False</code></pre>
+<pre><code>## False</code></pre>
+</div>
+<div id="nested-dictionaries-and-dictionary-methods" class="section level2">
+<h2>Nested Dictionaries and Dictionary Methods</h2>
+<pre class="python"><code>Dict = {&#39;1&#39; : &#39;One&#39;, &#39;2&#39;:&#39;Two&#39;, &quot;Dict1&quot; : {&#39;3&#39;: &#39;Three&#39;, &#39;4&#39; : &#39;Four&#39;} }
+print(Dict[&#39;1&#39;])</code></pre>
+<pre><code>## One</code></pre>
+<pre class="python"><code>print(Dict[&#39;Dict1&#39;][&#39;4&#39;])</code></pre>
+<pre><code>## Four</code></pre>
+<pre class="python"><code>Dict[&#39;1&#39;] = &#39;i&#39; # Immutable i.e. we can change 
+print(Dict)</code></pre>
+<pre><code>## {&#39;1&#39;: &#39;i&#39;, &#39;2&#39;: &#39;Two&#39;, &#39;Dict1&#39;: {&#39;3&#39;: &#39;Three&#39;, &#39;4&#39;: &#39;Four&#39;}}</code></pre>
+<pre class="python"><code>print(Dict.keys()) # will show the keys of a dictionary</code></pre>
+<pre><code>## dict_keys([&#39;1&#39;, &#39;2&#39;, &#39;Dict1&#39;])</code></pre>
+<pre class="python"><code>print(Dict.values()) #will show the value of a dictionary</code></pre>
+<pre><code>## dict_values([&#39;i&#39;, &#39;Two&#39;, {&#39;3&#39;: &#39;Three&#39;, &#39;4&#39;: &#39;Four&#39;}])</code></pre>
+<pre class="python"><code>print(Dict.items()) # print the (key : value) for all contents of Dictionary</code></pre>
+<pre><code>## dict_items([(&#39;1&#39;, &#39;i&#39;), (&#39;2&#39;, &#39;Two&#39;), (&#39;Dict1&#39;, {&#39;3&#39;: &#39;Three&#39;, &#39;4&#39;: &#39;Four&#39;})])</code></pre>
+<pre class="python"><code>new_dict = {&#39;Hello&#39; : &#39;World&#39;}
+Dict.update(new_dict) # will append new_dict in Dict
+print(Dict)</code></pre>
+<pre><code>## {&#39;1&#39;: &#39;i&#39;, &#39;2&#39;: &#39;Two&#39;, &#39;Dict1&#39;: {&#39;3&#39;: &#39;Three&#39;, &#39;4&#39;: &#39;Four&#39;}, &#39;Hello&#39;: &#39;World&#39;}</code></pre>
+<pre class="python"><code>print(Dict[&#39;9&#39;]) # returns error if not in Dict</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): KeyError: &#39;9&#39;
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>print(Dict.get(&#39;9&#39;)) # return None</code></pre>
+<pre><code>## None</code></pre>
+<p>Quick Quiz: Write a program to ask a phone number in digits and translate them like: 123 One Two Three.</p>
+<details>
+<summary>
+<p>Solution! (Click for Solution)</p>
+</summary>
+<pre class="python"><code># Phone = input (&quot;Number Please: &quot;)
+phone = &quot;123&quot;
+Digit_Dict = {
+    &quot;1&quot; : &quot;One&quot;,
+    &quot;2&quot; : &quot;Two&quot;,
+    &quot;3&quot; : &quot;Three&quot;,
+    &quot;4&quot; : &quot;Four&quot;
+}
+output = &quot;&quot;
+for numbers in phone:
+    output += Digit_Dict.get(numbers, &quot;!&quot;) + &quot; &quot;
+print(output)</code></pre>
+<pre><code>## One Two Three</code></pre>
+</details>
+<p>Quick Quiz: Get a message from input method and resturn the same message with translated emoji like “:)” to 😊.</p>
+<pre class="python"><code>#message = input(&quot;&gt;&quot;)
+message = &quot;I am happy :)&quot;
+words = message.split()
+# print(words)
+emoji_dict = {
+     &quot;:)&quot; : &quot;😊&quot;,
+     &quot;:(&quot; : &quot;😒&quot;
+ }
+trans_message = &quot;&quot; 
+for word in words:
+    trans_message += emoji_dict.get(word, word)+ &quot; &quot;
+print(trans_message)</code></pre>
+<pre><code>## I am happy 😊</code></pre>
+</div>
+<div id="sets" class="section level2">
+<h2>Sets</h2>
+<p>Sets in Python are a collection of unordered and unindexed Python objects. Sets are mutable, iterable and they do not contain duplicate values. It is similar to the concept of the mathematical set. That is, set is a collection of non-repetitive elements. The elements in a set are declared inside curly braces separated by commas.</p>
+<pre class="python"><code>a = {2,1,3,4,2,5,6,3,8}
+type(a)</code></pre>
+<pre><code>## &lt;class &#39;set&#39;&gt;</code></pre>
+<pre class="python"><code>print(a)</code></pre>
+<pre><code>## {1, 2, 3, 4, 5, 6, 8}</code></pre>
+<pre class="python"><code>b = {}  # check the type of a
+c = set() # an empty set
+type(c)</code></pre>
+<pre><code>## &lt;class &#39;set&#39;&gt;</code></pre>
+<pre class="python"><code>c.add (2)
+c.add (5)
+print(c)</code></pre>
+<pre><code>## {2, 5}</code></pre>
+<p>Since the sets are <em>unindexed</em>, we <em>cannot use slicing or indexing</em> on sets, it will give us a TypeError error when using indexing.</p>
+<div id="properties-of-sets" class="section level3">
+<h3>Properties of Sets</h3>
+<ul>
+<li><p>Sets are Unordered</p></li>
+<li><p>Sets are Unindexed</p></li>
+<li><p>There is no way to change items in a set</p></li>
+<li><p>Sets can’t contain duplicate values</p></li>
+</ul>
+</div>
+</div>
+<div id="operations-on-sets" class="section level2">
+<h2>Operations on Sets</h2>
+<table>
+<colgroup>
+<col width="17%" />
+<col width="82%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Col1</th>
+<th>Col2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>set.add( n)</td>
+<td>The add() function in python sets takes the value as an argument which we want to add to our set and adds the element in our set. one element at a time</td>
+</tr>
+<tr class="even">
+<td>set. remove ( m )</td>
+<td>The function deletes the specified element from the set and if the element is not present in the set, it does not return any error.</td>
+</tr>
+<tr class="odd">
+<td>set. pop ( )</td>
+<td>pop() function doesn’t take any argument and it removes an arbitrary element from the set and also returns the deleted element.</td>
+</tr>
+<tr class="even">
+<td>set. clear( )</td>
+<td>The clear() function empties the set. It can also be used for dictionaries.</td>
+</tr>
+<tr class="odd">
+<td>set.update( )</td>
+<td>The update() function in python sets can be used to add multiple values to the set at once. It takes an iterable like lists, set or tuple as an argument.</td>
+</tr>
+<tr class="even">
+<td>set.union ({4,5})</td>
+<td>Return a new set with all item from both sets</td>
+</tr>
+<tr class="odd">
+<td>set.intersection({7,8})</td>
+<td>Return a set contains common item of both sets</td>
+</tr>
+<tr class="even">
+<td>set1.difference(set2)</td>
+<td>Return the Set1 - Set2</td>
+</tr>
+<tr class="odd">
+<td>set1.symmetric_difference(set2)</td>
+<td>return the elements those are not common in set1 and set2</td>
+</tr>
+<tr class="even">
+<td>set1.issubset(set2)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre class="python"><code>c = {1,2,3}
+c.add([1,2,3]) # we can&#39;t add list and dictionaries in a set</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: unhashable type: &#39;list&#39;
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>c.add((1,2,3))# we can add tuple 
+print(c)</code></pre>
+<pre><code>## {1, 2, 3, (1, 2, 3)}</code></pre>
+<pre class="python"><code>print(len(c)) # prints the length of set c</code></pre>
+<pre><code>## 4</code></pre>
+<pre class="python"><code>c.remove(2)  # removes 2 from  set c
+print(c) </code></pre>
+<pre><code>## {1, 3, (1, 2, 3)}</code></pre>
+<pre class="python"><code>print(c.pop()) # removes any arbitrary number from  set c and return the value</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>print(c)</code></pre>
+<pre><code>## {3, (1, 2, 3)}</code></pre>
+<pre class="python"><code>c.update({8,9})
+print(c)</code></pre>
+<pre><code>## {3, 8, 9, (1, 2, 3)}</code></pre>
+</div>
+<div id="exercise-4" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>The Swift, City and Civic have the following prices in thousands 2800, 3500, 6200 respectively. Create a dictionary <code>car_price_dict</code> where the keys are the car name and the price in thousands are the values.</p></li>
+<li><p>You will need this dictionary for the next two questions: Dict= {‘SBP_ACT’: ‘1956’, ‘BCO’:‘1962’}</p>
+<p>In the Dict, what are the keys?</p></li>
+<li><p>In the Dict, what are the values?</p></li>
+<li><p>Use the dictionary find the price of the City.</p></li>
+<li><p>Find the names of the cars from the dictionary using the method <code>keys()</code></p></li>
+<li><p>Find the prices of the cars from the dictionary using the method <code>values()</code></p></li>
+<li><p>Create a dictionary of Urdu words with values as their English translation. Provide user an option to look it up.</p></li>
+<li><p>Consider the list <code>A = [1, 2, 2, 1]</code> and set <code>B = set([1, 2, 2, 1])</code>, does <code>sum(A) == sum(B)</code>?</p></li>
+<li><p>Create a new set <code>C</code> that is the union of sets <code>A={1, 2, 3, 4}</code> and <code>B={3, 4, 5, 6}</code>.</p></li>
+<li><p>Find out if <code>A</code> is a subset of <code>C.</code></p></li>
+<li><p>Write a program to add an element in a set.</p></li>
+<li><p>Write a program to add <strong>more than one element</strong> in a set.</p></li>
+<li><p>Write a program to remove items from a given set.</p></li>
+<li><p>Write a program to create an intersection of set.</p></li>
+<li><p>Write a program to create a union of sets.</p></li>
+<li><p>Write a program to input 5 numbers from the user and display all the unique numbers</p></li>
+<li><p>Can we have a set with elements 3 and ‘3’ ?</p></li>
+<li><p>What is the type of s = { }?</p></li>
+<li><p>What will be the length of set s:</p>
+<p>s = set(), s.add(1), s.add(1.0), s.add(‘1’)</p></li>
+<li><p>Create a dictionary. Allow 4 users to enter their favorite Fruits as value , ans use their names as keys. Assume names are unique.</p></li>
+<li><p>If names of 2 users are same in above problem, what will happen?</p></li>
+<li><p>If fruit options of 2 users are same in above problem, what will happen?</p></li>
+<li><p>Check if a set is a subset of another set using comparison operator and isubset() operator.</p></li>
+<li><p>Write a Python program to print out a set containing all the colors from color1 which are not present in color2.</p>
+<p><code>color1 = set(["White","Black", "Red"])</code></p>
+<p><code>color2 = set(["Red", "Green"]), Expected Output:{'Black','White'}</code></p></li>
+<li><p>Provide a use case for each of the following Python data structures: tuple, list, and dictionary.  Explain why each use case is appropriate for each data structure as opposed to the others.</p>
+<p>List - A shopping list. The list type is appropriate, since it can be changed.</p>
+<p>Tuple - The first 7 prime numbers. A tuple is a suitable structure, because it is a immutable data type.</p>
+<p>Dictionary - A list of words and their meanings. Since a dictionary is made up by key-value pairs, the key would be the word and the value would assume it’s meaning.</p>
+<p>Set - A list of registered e-mails in a system. It’s a proper way to store them, for the e-mails must each be unique.</p></li>
+<li><p>Ask the phone number from a user, and convert integers into strings like: 1 to one.</p></li>
+<li><p>Creat a dictionary of animal names as keys and their pictures as values. Hint: to get picture/emoji’s press window+period(.)</p></li>
+<li><p>Take input from user to show the picture of the animal. Also provide to look at the names of the animals in the dictionary.</p></li>
+<li><p>If animal’s picture is not in the dictionary, provide the option to add the name and picture in the dictionary on run time.</p></li>
+</ol>
+</div>
+</div>
+<div id="conditional-expressions" class="section level1">
+<h1>Conditional Expressions</h1>
+<p>Decision making is required when we want to execute a code only if a certain condition is satisfied. The if…elif…else statement is used in Python for decision making. If-else conditional statement is used in when a situation leads to <strong>two conditions</strong> and <strong>one of them should hold true</strong>.</p>
+<div id="if-else-statement-syntax" class="section level2">
+<h2>If else Statement Syntax</h2>
+<pre class="python"><code>x=1
+if x==1:
+    print(&quot;x is 1&quot;) # this is body of if or statement
+#else:
+ #   print(&quot;x is not 1&quot;) # this is body of elif</code></pre>
+<pre><code>## x is 1</code></pre>
+<p>Here, the program evaluates the <code>test expression</code> and will execute statement(s) only if the test expression is <code>True</code>. If the test expression is <code>False</code>, the statement(s) is not executed.</p>
+<p>In Python, the body of the <code>if</code> statement is indicated by the <strong>indentation</strong>. The body starts with an indentation and the first unindented line marks the end.</p>
+<p>Remember: Python interprets non-zero values as <code>True</code>. <code>None</code> and <code>0</code> are interpreted as <code>False</code>.</p>
+<center>
+<p><img src="Python_if_else_statement.webp" /></p>
+</center>
+</div>
+<div id="indentation" class="section level2">
+<h2>Indentation</h2>
+<p>Python uses <strong>indentation</strong> for blocks, instead of curly braces. Both <strong>tabs and spaces</strong> are supported, but the standard indentation requires standard Python code to <strong>use four spaces</strong>. For example:</p>
+<pre class="python"><code>x=1
+if x==1:
+    #indented four spaces
+    print(&quot;x is 1&quot;)
+else:
+    print(&quot;x is not 1&quot;)</code></pre>
+<pre><code>## x is 1</code></pre>
+<p>If statement, without indentation (will raise an error).</p>
+</div>
+<div id="if-elif-and-else-statement" class="section level2">
+<h2>If elif and else Statement</h2>
+<pre class="python"><code>x=-1
+if x==1:
+    #indented four spaces
+    print(&quot;x is 1&quot;) # this is body of if or statement
+elif x&lt;0:
+  print(&quot;x is less than zero&quot;)
+else:
+    print(&quot;x is not 1&quot;) # this is body of elif</code></pre>
+<pre><code>## x is less than zero</code></pre>
+<center>
+<p><img src="if_elif_else_statement.jpg" /></p>
+</center>
+<div id="example-5" class="section level3">
+<h3>Example</h3>
+<p>Write a program to print ‘Yes’ when the number entered by the user is greater than or equal to 25.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n=32
+if n&gt;=25:
+  print(&quot;Yes&quot;)
+else:
+  print(&quot;No&quot;)</code></pre>
+<pre><code>## Yes</code></pre>
+<p>Write a program to check if a number entered by the user is positive or negative or zero and display an appropriate message.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n = -4
+if n&gt;0:
+  print(&quot;Number is +ve&quot;)
+elif n==0:
+  print(&quot;Number is zero&quot;)
+else:
+  print(&quot;Number is -ve&quot;)</code></pre>
+<pre><code>## Number is -ve</code></pre>
+<p>we use if elif and else statement <strong><em>if one of the statement is true</em></strong>.</p>
+</div>
+</div>
+<div id="nested-if-statements" class="section level2">
+<h2>Nested if statements</h2>
+<p>We can have a <code>if...elif...else</code> statement inside another <code>if...elif...else</code> statement. This is called <strong>nesting</strong> in computer programming.</p>
+<p>Any number of these statements can be nested inside one another. Indentation is the only way to figure out the level of nesting. They can get confusing, so they must be avoided unless necessary.</p>
+<p>Example: Write a program to check if a number entered by the user is positive or negative or zero and display an appropriate message using nested if statement.</p>
+<pre class="python"><code>#n = int(input(&quot; Please enter the number: &quot;))
+n = 3
+if n&gt;=0:
+  if n==0:
+    print(&quot;Number is zero&quot;)
+  else:
+    print(&quot;Number is +ve&quot;)
+else:
+  print(&quot;Number is -ve&quot;)</code></pre>
+<pre><code>## Number is +ve</code></pre>
+<div id="note" class="section level3">
+<h3>Note:</h3>
+<ul>
+<li><p>There can any number of elif statements.</p></li>
+<li><p>last else will be executed if all elif conditions/statements fails.</p></li>
+</ul>
+</div>
+</div>
+<div id="multiple-if-conditions" class="section level2">
+<h2>Multiple If Conditions</h2>
+<div id="example-6" class="section level3">
+<h3>Example</h3>
+<p>Write a program to print largest number among four numbers entered by the user.</p>
+<pre class="python"><code>n1 = 4 #n1 = int(input(&quot; Enter the First Number : &quot;))
+n2 = 3 #n2 = int(input(&quot; Enter the 2nd  Number : &quot;))
+n3 = 2 #n3 = int(input(&quot; Enter the 3rd Number : &quot;))
+n4 = 1 #n4 = int(input(&quot; Enter the 4th Number : &quot;))
+
+if n1&gt;n2:
+    f1 = n1
+else:
+   f1 = n2
+if n3&gt;n4:
+   f2 = n3
+else:
+    f2 = n4
+if f1&gt;f2:
+    print(f&quot; The Largest Number is : {f1} &quot;)
+else:
+    print(f&quot; The Largest Number is : {f2} &quot;)</code></pre>
+<pre><code>##  The Largest Number is : 4</code></pre>
+</div>
+</div>
+<div id="exercise-5" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Write a program to check whether a user entered number is odd or even?</p></li>
+<li><p>Take two numbers from user and print larger.</p></li>
+<li><p>Take three numbers from user, and print the largest.</p></li>
+<li><p>Write a program to check whether a user entered number is odd or even,valid only for first 10 natural numbers.</p></li>
+<li><p>write a program to get the difference b/w a given number and 17, if number is greater than 17, return double the absolute difference.</p></li>
+<li><p>Write a program to calculate the sum of three given numbers, if values are equal then return thrice of their sum.</p></li>
+<li><p>Write a prog. to get a new string from a given string where “Is” has been added to the front. if the given string already begins with “Is” then return the string.</p></li>
+<li><p>If Question mark ‘?’ is missing in above string, then also include the ‘?’ at the end.</p></li>
+<li><p>Write a program to find out whether a given post is talking about “SBP” or not.</p>
+<ol style="list-style-type: decimal">
+<li>Write a program to find out whether a student is fail or pass? if it require total 40% and at-least 33% in each subject to pass. Assume 3 subjects, input from the user and marks are out of 100.</li>
+</ol></li>
+<li><p>Write a program to detect a spam (OSICO Spam detector), a spam comment is defined as a text containing following keywords:</p>
+<p>“make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program to detect these spams.</p></li>
+<li><p>Write a program to calculate the grade of an officer from his numeric rating from the following scheme: greater than 4.5 implies A, greater than 3.5 implies B+, greater than 3 implies B and else C.</p></li>
+<li><p>Write a program to find out the type of the variable Var1 = ——-. suppose 1+2j check whether it is int, float, str, bool, complex, tuple, dict, list, or unknown.</p></li>
+<li><p>Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.</p></li>
+<li><p>Write a program to calculate the fare of a journey based on the following conditions, fare will be charged Rs. 15/km for first 100km, for next 200km it will be Rs.14/km, for next 200km it will be Rs.12/km and for distance above 500km, it will be charged Rs.11/km.</p></li>
+<li><p>Write a routine to convert weight from Kg to pounds or pounds to kg.</p></li>
+</ol>
+</div>
+</div>
+<div id="loops" class="section level1">
+<h1>Loops</h1>
+<p>Loops are one of the most <strong>powerful</strong> and basic concepts in programming. A loop can contain a set of statements that keeps on executing until a <strong>specific condition is reached</strong>.</p>
+<p>Programming languages provide us the <strong>concept of loops</strong> which helps us in executing some task <strong><em>n number of times</em></strong> where n can be any whole number. They are pretty <strong>useful</strong> and can be <strong>applied</strong> to various use cases.</p>
+<p>There are two types of loops in Python.</p>
+<div id="the-for-loop" class="section level2">
+<h2>The “for” loop</h2>
+<p>For loop iterate over a given sequence (range, list, tuple, string etc.) or other iterable objects. Iterating over a sequence is called traversal. Flow chart of for loop is:</p>
+<center>
+<p><img src="for-loop.jpg" /></p>
+</center>
+</div>
+<div id="looping-through-string" class="section level2">
+<h2>Looping through String</h2>
+<p>Even strings are iterable objects, they contain a sequence of characters:</p>
+<pre class="python"><code>for letter in &#39;string&#39;:
+  print(letter)</code></pre>
+<pre><code>## s
+## t
+## r
+## i
+## n
+## g</code></pre>
+</div>
+<div id="looping-through-a-list" class="section level2">
+<h2>Looping through a List</h2>
+<pre class="python"><code>Banks = [&#39;ABL&#39;, &#39;MCB&#39;, &#39;NBP&#39;]
+for bank in Banks:
+  print(bank)</code></pre>
+<pre><code>## ABL
+## MCB
+## NBP</code></pre>
+</div>
+<div id="how-to-use-index" class="section level2">
+<h2>How to Use Index</h2>
+<pre class="python"><code>Banks = [&#39;ABL&#39;, &#39;MCB&#39;, &#39;NBP&#39;]
+for i in range(3):
+  print(i, Banks[i])</code></pre>
+<pre><code>## 0 ABL
+## 1 MCB
+## 2 NBP</code></pre>
+</div>
+<div id="use-of-enumerate-for-indexing" class="section level2">
+<h2>Use of Enumerate for Indexing</h2>
+<pre class="python"><code># Loop through the list and iterate on both index and element value
+
+squares=[&#39;red&#39;, &#39;yellow&#39;, &#39;green&#39;, &#39;purple&#39;, &#39;blue&#39;]
+
+for i, square in enumerate(squares):
+    print(i, square)</code></pre>
+<pre><code>## 0 red
+## 1 yellow
+## 2 green
+## 3 purple
+## 4 blue</code></pre>
+<p>We can change the elements in a list:</p>
+<pre class="python"><code># Use for loop to change the elements in list
+
+squares = [&#39;red&#39;, &#39;yellow&#39;, &#39;green&#39;, &#39;purple&#39;, &#39;blue&#39;]
+
+for i in range(0, 5):
+    print(&quot;Before square &quot;, i, &#39;is&#39;,  squares[i])
+    squares[i] = &#39;white&#39;
+    print(&quot;After square &quot;, i, &#39;is&#39;,  squares[i])</code></pre>
+<pre><code>## Before square  0 is red
+## After square  0 is white
+## Before square  1 is yellow
+## After square  1 is white
+## Before square  2 is green
+## After square  2 is white
+## Before square  3 is purple
+## After square  3 is white
+## Before square  4 is blue
+## After square  4 is white</code></pre>
+<p>Quick Quiz: Print the following pattern using for loop.</p>
+<p>+++</p>
+<p>++</p>
+<p>+++++</p>
+<p>+++</p>
+<p>+++++++++</p>
+<pre class="python"><code>list = [3,2,5,3,9]
+for i in list:
+  print(&#39;+&#39;*i)</code></pre>
+<pre><code>## +++
+## ++
+## +++++
+## +++
+## +++++++++</code></pre>
+</div>
+<div id="iterating-over-tuples" class="section level2">
+<h2>Iterating over tuples</h2>
+<p>We can use for <strong>loops to iterate</strong> on a tuple. The for loop will keep on iterating until the elements in the tuples are exhausted.</p>
+<pre class="python"><code>Tuple = (&#39;SBP&#39;, &#39;NIBAF&#39;, &#39;BSC&#39;)
+for entities in Tuple:
+  print(entities)</code></pre>
+<pre><code>## SBP
+## NIBAF
+## BSC</code></pre>
+</div>
+<div id="the-range-function" class="section level2">
+<h2>The range ( ) function</h2>
+<p>When using for loops in Python, the range() function is pretty useful to specify the number of times the loop is executed. It yields a sequence of numbers within a specified range.</p>
+<p>syntax: range (start, stop, steps)</p>
+<ul>
+<li><p>The first argument is the starting value. It is zero by default.</p></li>
+<li><p>The second argument is the ending value of the range.</p></li>
+<li><p>The third argument is the number of steps to take after each yield.</p></li>
+</ul>
+<!-- -->
+<div id="iterating-over-range-object" class="section level3">
+<h3>Iterating over range object</h3>
+<pre class="python"><code># for loop
+for i in range(2,10,3):
+  print(i)</code></pre>
+<pre><code>## 2
+## 5
+## 8</code></pre>
+</div>
+<div id="an-other-for-loop-with-else" class="section level3">
+<h3>an other for loop with else</h3>
+<pre class="python"><code>for char in &#39;SBP&#39;:
+  print(char)
+else:
+  print(&#39;loop ended&#39;)</code></pre>
+<pre><code>## S
+## B
+## P
+## loop ended</code></pre>
+</div>
+</div>
+<div id="nested-loop" class="section level2">
+<h2>Nested Loop</h2>
+<p>A nested loop is a loop inside a loop. The “inner loop” will be executed once for each iteration of the “outer loop” i.e., in each iteration of the outer loop, inner loop execute all its iteration. <strong>For each iteration of an outer loop, the inner loop re-start and completes its execution</strong> before the outer loop can continue to its next iteration.</p>
+<pre class="python"><code>list1 = [&#39;Rizwan&#39;, &#39;Adil&#39;, &#39;Ahmad&#39;]
+list2 = [&#39;JD&#39;, &#39;OG-4&#39;, &#39;SBP&#39;]
+for officer in list1:
+    for x in list2:
+        print(f&#39;({officer}, {x})&#39;)</code></pre>
+<pre><code>## (Rizwan, JD)
+## (Rizwan, OG-4)
+## (Rizwan, SBP)
+## (Adil, JD)
+## (Adil, OG-4)
+## (Adil, SBP)
+## (Ahmad, JD)
+## (Ahmad, OG-4)
+## (Ahmad, SBP)</code></pre>
+<p>Quick Quiz: Create Co-ordinate (0,0) ,(0,1) ,(0,2) , (1,0) ,(1,1) ,(1,2) ,(2,0) ,(2,1) ,(2,2) ,(3,0) ,(3,1) ,(3,2)</p>
+<pre class="python"><code>for x in range(4):
+  for y in range(3):
+    print(f&quot;({x},{y})&quot;)</code></pre>
+<pre><code>## (0,0)
+## (0,1)
+## (0,2)
+## (1,0)
+## (1,1)
+## (1,2)
+## (2,0)
+## (2,1)
+## (2,2)
+## (3,0)
+## (3,1)
+## (3,2)</code></pre>
+</div>
+<div id="the-while-loop" class="section level2">
+<h2>The “while” loop</h2>
+<p>The <strong>while loop</strong> in Python executes a block of code <strong>until the specified condition becomes False</strong>.</p>
+<p>Flow chart of while loop is :</p>
+<center>
+<p><img src="whileLoopFlowchart.webp" /></p>
+</center>
+<pre class="python"><code>count = 0 # Initializing, To Give an initial value to a variable
+while count&lt;10: # Setting a condition
+  print(count)
+  count+=2 # Incrementing the initial value by 2</code></pre>
+<pre><code>## 0
+## 2
+## 4
+## 6
+## 8</code></pre>
+<p>In the example, the while statement checks if count is less than 10.</p>
+<p><strong>Initially</strong>, count is zero so the statement is true and it executes the body of while. Then the count gets incremented by 2. Again we check the condition and this goes on till the condition becomes false.</p>
+<p>Here, when our code checks 10&lt;10, the statement returns False and so the code in while block is not executed.</p>
+<div id="example-7" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code># While Loop Example
+
+dates = [1982, 1980, 1973, 2000]
+
+i = 0
+year = dates[0]
+
+while(year != 1973):    
+    print(year)
+    i = i + 1
+    year = dates[i]
+    </code></pre>
+<pre><code>## 1982
+## 1980</code></pre>
+<pre class="python"><code>print(&quot;It took &quot;, i ,&quot;repetitions to get out of loop.&quot;)</code></pre>
+<pre><code>## It took  2 repetitions to get out of loop.</code></pre>
+</div>
+</div>
+<div id="infinite-loop" class="section level2">
+<h2>Infinite loop</h2>
+<p>A loop is called an infinite loop when the loop will never reach its end.</p>
+<p>Usually, when a condition is always True in a while loop, the loop will become an infinite loop. So we should be careful when writing conditions and while updating variables used in the loop.</p>
+<p>In Python shell, we can <strong>stop/terminate</strong> the program on an <strong>infinite loop by using CTRL + C</strong>. In jupyter notebook press <code>i</code> twice.</p>
+<p><em>Quick Quiz</em>: <em>Write a program to print 1 to 50 using a while loop</em>.</p>
+<p><em>Quick Quiz</em>: <em>Write a program to print the contents of a <code>list=['C', 'C++', 'java', 'fortran','python']</code> using while loop</em>.</p>
+</div>
+<div id="loop-control-statements-in-python" class="section level2">
+<h2>Loop control statements in Python</h2>
+<center>
+<p><img src="loop-control-statement-in-python.png" /></p>
+</center>
+<pre class="python"><code>num = 0
+while num&lt;10:
+  num +=1
+  if num==5:
+    break
+  print(num)</code></pre>
+<pre><code>## 1
+## 2
+## 3
+## 4</code></pre>
+<p>In this loop, we are <strong>incrementing</strong> the value of <strong>num variable</strong> and then printing it. When the num value becomes <strong>5</strong> the <strong>break statement</strong> is <strong>executed</strong> which <strong>terminates</strong> the loop and therefore loop is not <strong>executed further</strong>.</p>
+<pre class="python"><code>num = 0
+while num&lt;10:
+  num +=1
+  if num==5:
+    continue
+  print(num)</code></pre>
+<pre><code>## 1
+## 2
+## 3
+## 4
+## 6
+## 7
+## 8
+## 9
+## 10</code></pre>
+<p>Here, we see that when the <strong>num</strong> variable is equal to <strong>5</strong>, the <strong>continue statement is executed</strong>. It then <strong>doesn’t execute the lines after the continue statement</strong> and the <strong>control</strong> is sent to the <strong>next iteration</strong>.</p>
+</div>
+<div id="common-mistakes" class="section level2">
+<h2>Common Mistakes</h2>
+<ol style="list-style-type: decimal">
+<li><p>Mostly people forgte to initialize the variable.</p></li>
+<li><p>There is second issue, we might face if we forget to initialize the variables with the right value. we might have already used the variable in our program. if we reuse a variable without setting the correct value from the start, it will still have the value from before.</p></li>
+</ol>
+<pre class="python"><code>x=1
+sum = 0
+while x&lt;10:
+  sum+=x
+  x+=1
+print(sum)</code></pre>
+<pre><code>## 45</code></pre>
+<p><em>Whenever you are writing a loop, check that you are initializing all the variables you want to use before you use them.</em></p>
+<pre class="python"><code>product = 1
+x=1
+while x&lt;10:
+  product=product*x
+  x+=1
+print(product) # what we call this outcome!</code></pre>
+<pre><code>## 362880</code></pre>
+</div>
+<div id="exercise-6" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>A list of groceries is given below, print all items with its index.</p>
+<pre><code>groceries = [&quot;bananas&quot;,&quot;butter&quot;,&quot;cheese&quot;,&quot;toothpaste&quot;]</code></pre></li>
+<li><p>Make a combination of all the letters of ‘SBP’ and ‘NIBAF’</p></li>
+<li><p>Write a program to say “hello” to all persons in a list which starts with M. <code>List = ['Ahmad', 'Muhammad', 'Essa', 'Mossa']</code></p></li>
+<li><p>Print odd numbers in first 10 numbers using while loop.</p></li>
+<li><p>Also find the sum of all numbers in above question.</p></li>
+<li><p>Write a program to print the multiplication table of a number entered by the user, using <strong>‘for’ loop.</strong></p></li>
+<li><p>Attempt above problem using while loop.</p></li>
+<li><p>Find the total of <code>[10,20,30]</code> using for loop.</p></li>
+<li><p>Write a program to guess a secrete number in 3 attempts using while loop.</p></li>
+<li><p>Solve above problem while generating secrete number randomly.</p></li>
+<li><p>Provide a hint to make problem easy, if guess is larger, then print ‘its larger’, otherwise ‘its smaller’</p></li>
+<li><p>Write a program whether a given number is prime or not.</p></li>
+<li><p>Find the prime numbers in a given range.</p></li>
+<li><p>store the numbers obtained in above question as a list.</p></li>
+<li><p>Find the sum of all the numbers in the list above in question 14.</p></li>
+<li><p>Challenge: calculate the time required to run the above code 500 times.</p></li>
+<li><p>Draw the following pattern using nested loop.</p>
+<pre class="python"><code>#    xxxxx
+#    xx
+#    xxxxx
+#    xx
+#    xx</code></pre></li>
+<li><p>Make the co-ordinates (0,0,0) …(2,2,2) using nested for loop.</p></li>
+<li><p>Write a <code>for</code> loop the prints out all the element between <strong>-5</strong> and <strong>5</strong> using the range function.</p></li>
+<li><p>Write a while loop to display the values of the Rating of an album playlist stored in the list <code>PlayListRatings</code>. If the score is less than 6, exit the loop. The list <code>PlayListRatings</code> is given by: <code>PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]</code></p></li>
+<li><p>Write a program to sum first n natural numbers, take input from user.</p></li>
+<li><p>Write program to find the factorial of a number n.</p></li>
+<li><p>Write a program to print the following pattern.<br />
+</p>
+<pre><code>*
+* *
+* * *
+* * * *
+* * * * *</code></pre></li>
+<li><p>Write a Python program to concatenate all elements in a list into a string and return it</p></li>
+<li><p>Write a nested <code>for</code> loop program to print multiplication table in Python from 2 to 10.</p></li>
+<li><p>Write a Python program to print all even numbers from a given numbers list in the same order and stop the printing if any numbers that come after 237 in the sequence.</p>
+<pre class="python"><code>numbers = [386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 958,743, 527]</code></pre></li>
+<li><p>Write a program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included) and print the result in the form of a list.</p></li>
+</ol>
+</div>
+</div>
+<div id="functions-and-recursion" class="section level1">
+<h1>Functions and Recursion</h1>
+<div id="function" class="section level2">
+<h2>Function</h2>
+<p>A function is a group of related statements that performs a specific task.</p>
+<p>Functions help break our program into smaller and modular chunks. As our program grows larger and larger, functions make it more organized and manageable. Furthermore, it avoids repetition and makes the code reusable any number of time.</p>
+<div id="syntax-1" class="section level3">
+<h3>Syntax</h3>
+<pre class="python"><code>def function_name(parameters):
+    &quot;&quot;&quot;docstring&quot;&quot;&quot;
+    statement(s)</code></pre>
+<p>Above shown is a function definition that consists of the following components.</p>
+<ul>
+<li><p>Keyword <strong><code>def</code></strong> that marks the start of the function header.</p></li>
+<li><p>A function name to uniquely identify the function. Function naming follows the same rules of writing identifiers in Python.</p></li>
+<li><p>Parameters (<code>arguments</code>) through which we pass values to a function. They are optional.</p></li>
+<li><p>A colon (:) to mark the end of the function header.</p></li>
+<li><p>Optional documentation string (doc string) to describe what the function does.</p></li>
+<li><p>One or more valid python statements that make up the function body. Statements must have the same indentation level (usually 4 spaces).</p></li>
+<li><p>The statement <code>return</code> exits a function, optionally passing back a value..</p></li>
+</ul>
+</div>
+<div id="example-8" class="section level3">
+<h3>Example</h3>
+<pre class="python"><code>def greet(name):
+  &#39;&#39;&#39;Greeting Function&#39;&#39;&#39;
+  print(&quot;Good Day, &quot; +name)
+greet(&quot;Ahmad&quot;)</code></pre>
+<pre><code>## Good Day, Ahmad</code></pre>
+</div>
+<div id="quick-quiz" class="section level3">
+<h3>Quick Quiz</h3>
+<ol style="list-style-type: decimal">
+<li><p><code>Define a function to say Hello, good morning "name", if the person in your contact list, otherwise ask "Who are You?".</code></p></li>
+<li><p><code>Define a function to return the absolute value of the entered number.</code></p></li>
+</ol>
+</div>
+</div>
+<div id="type-of-functions" class="section level2">
+<h2>Type of functions</h2>
+<p>Basically, we can divide functions into the following two types:</p>
+<ol style="list-style-type: decimal">
+<li><p><code>Built-in functions</code> - Functions that are built into Python.</p></li>
+<li><p><code>User-defined functions</code> - Functions defined by the users themselves.</p></li>
+</ol>
+<p>For example, len( ), range ( ) and print( ) are <code>built-in functions</code>, and the <code>greet function</code> defined above is a <code>user-defined function</code>.</p>
+</div>
+<div id="functions-with-arguments" class="section level2">
+<h2>Functions with arguments</h2>
+<pre class="python"><code>def greet1(name,msg):
+  print(&quot;Hello&quot;, name +&#39;, &#39;+msg)
+greet1(&#39;ahmad&#39;, &#39;how are you&#39;)</code></pre>
+<pre><code>## Hello ahmad, how are you</code></pre>
+<p>Here, the function <code>greet1()</code> has two parameters.</p>
+<p>Since we have called this function with two arguments, it runs smoothly and we do not get any error.</p>
+<p>If we call it with a different number of arguments, the interpreter will show an error message. Below is a call to this function with one and no arguments along with their respective error messages.</p>
+<pre class="python"><code>def greet1(name,msg):
+  print(&quot;Hello&quot;, name +&#39;, &#39;+msg)
+greet1(&#39;ahmad&#39;)</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: greet1() missing 1 required positional argument: &#39;msg&#39;
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+</div>
+<div id="default-argument-or-parameter-value" class="section level2">
+<h2>Default argument or parameter value</h2>
+<p>Function <strong>arguments</strong> can have <strong>default values</strong> in Python. We can provide a default value to an argument by <strong>using the assignment operator (=)</strong>. Here is an example.</p>
+<pre class="python"><code>def greet1(name ,msg=&quot;How do you do&quot;):
+  print(&quot;Hello&quot;, name +&#39;, &#39;+msg)
+greet1(&#39;Ahmad&#39;)</code></pre>
+<pre><code>## Hello Ahmad, How do you do</code></pre>
+<p>The input to a function is called a formal parameter.</p>
+<p>A variable that is declared inside a function is called a <strong>local variable</strong>. The parameter only exists within the function (i.e. the point where the function starts and stops).</p>
+<p>A variable that is declared outside a function definition is a global variable, and its value is accessible and modifiable throughout the program.</p>
+<pre class="python"><code>def square(a): # formal parameter
+  &#39;&#39;&#39;
+  This function will return the sqaure of number plus 1
+  
+  &#39;&#39;&#39;
+  b = 1 # local variable
+  c = a*a + b
+  return c
+
+print(square(2))
+  </code></pre>
+<pre><code>## 5</code></pre>
+</div>
+<div id="recursive-function" class="section level2">
+<h2>Recursive function</h2>
+<p>Recursion is the process of defining something in terms of itself. That is, a function that calls itself. For example:</p>
+<p><code>factorial(n)=n * factorial(n-1)</code></p>
+<div id="example-9" class="section level3">
+<h3>Example:</h3>
+<pre class="python"><code>#n! = 1*2*3*...*n
+n=3
+product = 1
+for i in range(n):
+  product=product*(i+1)
+print(product)</code></pre>
+<pre><code>## 6</code></pre>
+</div>
+<div id="return-values" class="section level3">
+<h3>Return Values</h3>
+<p>The Python return statement is a <strong>special statement that you can use inside a function or method to send the function’s result back to the caller</strong>. To let a function return a value, use the return statement:</p>
+<p>above example can be wrapped in a function as:</p>
+<pre class="python"><code>def fact(n):
+  product = 1
+  for i in range(n):
+    product=product*(i+1)
+  return product
+print(fact(3))</code></pre>
+<pre><code>## 6</code></pre>
+<p>Using Recursion</p>
+<pre class="python"><code>#num = input(&quot;Enter a number: &quot;)
+num=3
+def recur_factorial(n):
+   if n == 1:
+       return n
+   elif n &lt; 1:
+       return (&quot;NA&quot;)
+   else:
+       return n*recur_factorial(n-1)
+
+print (recur_factorial(int(num)))</code></pre>
+<pre><code>## 6</code></pre>
+</div>
+</div>
+<div id="pre-defined-functions" class="section level2">
+<h2>Pre-defined Functions</h2>
+<p>There are many pre-defined functions in Python, so let’s start with the simple ones.</p>
+<p>The <code>print()</code> function:</p>
+<pre class="python"><code># Build-in function print()
+
+list1 = [10.0, 8.5, 9.5, 7.0, 7.0, 9.5, 9.0, 9.5] 
+print(list1)</code></pre>
+<pre><code>## [10.0, 8.5, 9.5, 7.0, 7.0, 9.5, 9.0, 9.5]</code></pre>
+<p>The <code>sum()</code> function adds all the elements in a list or tuple: try pease</p>
+<p>The <code>len()</code> function show the length a list or tuple: try please</p>
+</div>
+<div id="exceptions" class="section level2">
+<h2>Exceptions</h2>
+<p>An exception is an error that occurs during the execution of code. This error causes the code to raise an exception and if not prepared to handle it will halt the execution of the code.</p>
+<div id="exampls" class="section level3">
+<h3>Exampls</h3>
+<p>Run each piece of code and observe the exception raised</p>
+<pre class="python"><code>1/0</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): ZeroDivisionError: division by zero
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>y = a+5</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: unsupported operand type(s) for +: &#39;set&#39; and &#39;int&#39;
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>a = [1,2,3]
+a[5]</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): IndexError: list index out of range
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+</div>
+</div>
+<div id="exercise_functions" class="section level2">
+<h2>Exercise_Functions</h2>
+<ol style="list-style-type: decimal">
+<li><p>Create a function <code>con</code> that add two number .</p></li>
+<li><p>Can the <code>con</code> function we defined before be used to concatenate lists or tuples?</p></li>
+<li><p>Come up with a function that divides the first input by the second input.</p></li>
+<li><p>Define a function to find the greatest of three numbers using.</p></li>
+<li><p>How do you prevent python print( ) function to print a new line at the end.</p></li>
+<li><p>Write a recursive function to calculate the sum of first n natural numbers.</p></li>
+<li><p>Write a function to print first n lines of the following pattern.<br />
+*****<em><strong><br />
+***</strong><br />
+</em>*</p></li>
+<li><p>Write a function which converts inches in cm</p></li>
+<li><p>Write a function to remove a given word from a string and strip it at the same time.</p></li>
+<li><p>Write a Python function to sum all the numbers in a list. Sample List : (8, 2, 3, 0, 7)</p></li>
+<li><p>Write a Python function that takes a list and returns a new list with unique elements of the first list. Sample List : <span class="math display">\[1,2,3,3,3,3,4,5\]</span>, Unique List : <span class="math display">\[1, 2, 3, 4, 5\]</span></p></li>
+<li><p>Write a Python function to check whether a number is perfect or not.</p>
+<p>According to Wikipedia : In number theory, a perfect number is a positive integer that is equal to the sum of its proper positive divisors, that is, the sum of its positive divisors excluding the number itself (also known as its aliquot sum). Equivalently, a perfect number is a number that is half the sum of all of its positive divisors (including itself).</p>
+<p>Example : The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and 1 + 2 + 3 = 6. Equivalently, the number 6 is equal to half the sum of all its positive divisors : ( 1 + 2 + 3 + 6 ) / 2 =6.</p></li>
+<li><p>Write a function which is capable of addition, subtraction, division and multiplication of two numbers.</p></li>
+</ol>
+<details>
+<summary>
+<p>Solution! (Click to expand)</p>
+</summary>
+<pre class="python"><code>#num = input(&quot;Enter a number: &quot;)
+num=3
+def recur_factorial(n):
+   if n == 1:
+       return n
+   elif n &lt; 1:
+       return (&quot;NA&quot;)
+   else:
+       return n*recur_factorial(n-1)
+
+print (recur_factorial(int(num)))</code></pre>
+<pre><code>## 6</code></pre>
+</details>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://myaseen.github.io/post/python_for_non-programmers/&amp;text=Python%20for%20Non-Programmers" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://myaseen.github.io/post/python_for_non-programmers/&amp;t=Python%20for%20Non-Programmers" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Python%20for%20Non-Programmers&amp;body=https://myaseen.github.io/post/python_for_non-programmers/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://myaseen.github.io/post/python_for_non-programmers/&amp;title=Python%20for%20Non-Programmers" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python%20for%20Non-Programmers%20https://myaseen.github.io/post/python_for_non-programmers/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://myaseen.github.io/post/python_for_non-programmers/&amp;title=Python%20for%20Non-Programmers" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://myaseen.github.io"><img class="avatar mr-3 avatar-circle" src="/author/muhammad-yaseen/avatar_hu5cda26b491a790af2a9df58c8c2641dc_15261_270x270_fill_q75_lanczos_center.jpg" alt="Muhammad Yaseen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://myaseen.github.io">Muhammad Yaseen</a></h5>
+      <h6 class="card-subtitle">Freelance Statistician</h6>
+      <p class="card-text">My research interests include Data Science, Machine Learning, R, Python, LaTeX, markdown &amp; Reproducible Research, Statistical Modeling &amp; Computing, Spatial &amp; Temporal Modeling, Generalized Linear Mixed Models, Multivariate Techniques &amp; Analysis, Design &amp; Analysis of Experiments, and Econometrics. matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/myaseen208" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=mHkR-7cAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/myaseen208" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  
+  <p class="powered-by">
+    Muhammad Yaseen (2022)
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1b758ae7be2cd5f80a2b6d98b3811fc0.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+
+
+
+<div id="variables-and-data-types" class="section level1">
+<h1>Variables and Data Types</h1>
+<div id="variable" class="section level2">
+<h2>Variable</h2>
+<p>A Python variable is a reserved memory location to store values. In other words, a variable in a python program gives data to the computer for processing.</p>
+<table>
+<colgroup>
+<col width="58%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Words</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Variable</td>
+<td>Container to store a value</td>
+</tr>
+<tr class="even">
+<td>Keywords (can’t be used a variable name)</td>
+<td>Reserved Words in Python</td>
+</tr>
+<tr class="odd">
+<td>Identifiers</td>
+<td>Class/Function/Variable Name</td>
+</tr>
+</tbody>
+</table>
+<div id="keywords" class="section level3">
+<h3>Keywords</h3>
+<pre class="python"><code>help(&quot;keywords&quot;)</code></pre>
+<pre><code>## 
+## Here is a list of the Python keywords.  Enter any keyword to get more help.
+## 
+## False               class               from                or
+## None                continue            global              pass
+## True                def                 if                  raise
+## and                 del                 import              return
+## as                  elif                in                  try
+## assert              else                is                  while
+## async               except              lambda              with
+## await               finally             nonlocal            yield
+## break               for                 not</code></pre>
+</div>
+</div>
+<div id="variable-types-in-python" class="section level2">
+<h2>Variable Types in Python</h2>
+<p>Every value in Python has a datatype. Different data types in Python are Integers, Floating point numbers, Strings, Boolean, List, Tuple, Dictionary, etc. Variables in Python can be declared by any name or even alphabets like a, aa, abc, etc.</p>
+<ul>
+<li><p>A variable name can contain alphabets, digits and underscores</p></li>
+<li><p>A variable name can start with alphabets or an underscore</p></li>
+<li><p>Variable name is case sensitive</p></li>
+<li><p>A variable name can’t start with a number/digit</p></li>
+<li><p>Spaces are not allowed in variable name</p></li>
+</ul>
+<div id="how-to-declare-and-use-a-variable" class="section level3">
+<h3>How to Declare and Use a Variable</h3>
+<p>Let see an example. We will define variable in Python and declare it as “a” and print it.</p>
+<pre class="python"><code>a=10
+print(a)</code></pre>
+<pre><code>## 10</code></pre>
+<pre class="python"><code>x , y = 5 ,6
+print(x,y)</code></pre>
+<pre><code>## 5 6</code></pre>
+<pre class="python"><code>b=c=d=30
+print(b,c,d)</code></pre>
+<pre><code>## 30 30 30</code></pre>
+</div>
+<div id="how-to-know-the-type-of-a-variable" class="section level3">
+<h3>How to know the Type of a Variable</h3>
+<p>Python is completely object oriented, and not “statically typed”. You do not need to declare variables before using them, or declare their type, i.e. python automatically identify the type. Every variable in Python is an object.</p>
+<p>Here are few basic types of variables. type() function is used to find out the type of a variable.</p>
+<pre class="python"><code>a=10
+print(type(a))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>b=10.1
+print(type(b))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>c=&quot;State Bank of Pakistan&quot;
+print(type(c))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+<pre class="python"><code>d=True
+print(type(d))</code></pre>
+<pre><code>## &lt;class &#39;bool&#39;&gt;</code></pre>
+<pre class="python"><code>e=None
+print(type(e))</code></pre>
+<pre><code>## &lt;class &#39;NoneType&#39;&gt;</code></pre>
+</div>
+<div id="re-declare-a-variable" class="section level3">
+<h3>Re-declare a Variable</h3>
+<p>You can re-declare Python variables even after you have declared once.</p>
+<pre class="python"><code>#declare a variable and initialize it
+a=10
+# re-declaring the variable 
+a=&quot;State Bank of Pakistan&quot;
+print(a)</code></pre>
+<pre><code>## State Bank of Pakistan</code></pre>
+<pre class="python"><code>print(&quot;a&quot;+10) # we can&#39;t concatenate string with integer</code></pre>
+<pre><code>## Error in py_call_impl(callable, dots$args, dots$keywords): TypeError: can only concatenate str (not &quot;int&quot;) to str
+## 
+## Detailed traceback:
+##   File &quot;&lt;string&gt;&quot;, line 1, in &lt;module&gt;</code></pre>
+<pre class="python"><code>print(&quot;a&quot; + &quot;10&quot;)</code></pre>
+<pre><code>## a10</code></pre>
+</div>
+<div id="type-casting" class="section level3">
+<h3>Type Casting</h3>
+<p>Type Casting is a process in which we convert a literal of one type to another. built-in functions int(), float() and str() shall be used for typecasting.</p>
+<ul>
+<li>int() can take a float or string literal as argument and returns a value of <code>class 'int'</code> type.</li>
+<li>float() can take an int or string literal as argument and returns a value of <code>class 'float'</code> type.</li>
+<li>str() can take a float or int literal as argument and returns a value of <code>class 'str'</code> type.</li>
+</ul>
+</div>
+<div id="type-casting-int-to-float-and-string" class="section level3">
+<h3>Type Casting int to float and string</h3>
+<pre class="python"><code>n=100 # an integer
+print(type(n))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>f=float(n)
+print(type(f))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>s=str(n)
+print(type(s))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+</div>
+<div id="type-casting-float-to-int-and-string" class="section level3">
+<h3>Type Casting float to int and string</h3>
+<pre class="python"><code>f=10.5 #a float
+print(type(f))</code></pre>
+<pre><code>## &lt;class &#39;float&#39;&gt;</code></pre>
+<pre class="python"><code>n=int(f)
+print(type(n))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt;</code></pre>
+<pre class="python"><code>s=str(f)
+print(type(s))</code></pre>
+<pre><code>## &lt;class &#39;str&#39;&gt;</code></pre>
+</div>
+</div>
+<div id="exercise" class="section level2">
+<h2>Exercise</h2>
+<ol style="list-style-type: decimal">
+<li><p>Guess the type of 6/2, 6//2 and check the results.</p></li>
+<li><p>What is the value of x after the following is run:<br />
+<br />
+x=4<br />
+<br />
+x=x/2</p></li>
+<li><p>Create a variable named <code>carname</code> and assign the value <code>toyota</code> to it.</p></li>
+<li><p>Assign: 3 to variable glass_of_water and printout the message “I drank 3 glasses of water today” by using variable name.</p></li>
+<li><p>Let’s try to see what happens after assigning a new value to our variable. Note that program gets executed line by line.</p>
+<p>glass_of_water=3</p>
+<p>glass_of_water=glass_of_water + 1</p>
+<p>print()</p></li>
+<li><p>Check the type of the variable define above.</p></li>
+<li><p>Type Cast the above variable first into float and then to string.</p></li>
+<li><p>Define a variable a =3 and A=‘NIBAF’. Will ‘A’ overwrite ‘a’?</p></li>
+<li><p>Check the type of a variable assigned using input() function.</p></li>
+<li><p>Calculate square of the number entered by the user.</p></li>
+<li><p>Write a program to accept two numbers from the user and calculate multiplication.</p></li>
+<li><p>Display string “My”, ‘Name’, “Is”, “Python” as “My**Name**Is**Python” Hint: Default separator in print function is space i.e. ” “.</p></li>
+<li><p>Write a program to take three names as input from a user in the single <code>input()</code> function call.</p></li>
+<li><p>Define a complex variable. 😎</p></li>
+</ol>
+</div>
+</div>
