@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Ryan Safner</title>
+    <link>https://ryansafner.com/authors/</link>
+    <description>Recent content in Authors on Ryan Safner</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://ryansafner.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://ryansafner.com/authors/admin/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryansafner.com/authors/admin/</guid>
+      <description>&lt;p&gt;I am Assistant Professor of Economics at &lt;a href=&#34;https://www.hood.edu/academics/Economics-and-Management/index.html&#34;&gt;Hood College&lt;/a&gt;. Previously I taught at &lt;a href=&#34;http://college.wfu.edu/economics/&#34;&gt;Wake Forest University&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have a Ph.D and M.A. in Economics from &lt;a href=&#34;http://economics.gmu.edu/&#34;&gt;George Mason University&lt;/a&gt;, and a B.A. in Economics from the &lt;a href=&#34;http://economics.uconn.edu/&#34;&gt;University of Connecticut&lt;/a&gt;. Go Huskies!&lt;/p&gt;
+&lt;p&gt;My research broadly explores the political economy of innovation, technological growth, and intellectual property using the tools of &lt;a href=&#34;https://en.wikipedia.org/wiki/New_institutional_economics&#34;&gt;new institutional economics&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Public_choice&#34;&gt;public choice&lt;/a&gt;, and &lt;a href=&#34;http://www.econlib.org/library/Enc/AustrianSchoolofEconomics.html&#34;&gt;market process economics&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I am a passionate user of &lt;a href=&#34;https://www.r-project.org/&#34;&gt;&lt;em&gt;R&lt;/em&gt;&lt;/a&gt; for data analysis, and &lt;a href=&#34;https://rmarkdown.rstudio.com/&#34;&gt;&lt;em&gt;R Markdown&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt; for writing reproducible research, version control, and managing my workflow. I occasionally blog here about using these tools in my research and teaching.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Santiago Gangotena</title>
+      <link>https://ryansafner.com/authors/santiago-gangotena/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryansafner.com/authors/santiago-gangotena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vlad Tarko</title>
+      <link>https://ryansafner.com/authors/vlad-tarko/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ryansafner.com/authors/vlad-tarko/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
