@@ -2,8 +2,6 @@
 
 ## Heading1
 
-text
-
 ## Heading2
 
 text

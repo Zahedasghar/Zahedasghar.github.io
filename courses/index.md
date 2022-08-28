@@ -1,5 +1,5 @@
 # Courses
 
-## [Course1](course1)
+## [Econometrics](course1)
 
 It is about something .....
