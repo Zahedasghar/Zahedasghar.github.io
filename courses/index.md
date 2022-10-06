@@ -1,9 +1,9 @@
-# Articles
+# Courses
 
-## [Article1](article1)
+## [Quantitative Metods for Development Economics](https://zahidasghar.com/QM4DE/)
+This course is offered which is aimed at studying and applying tools required for program evaluation and includes topics like DAGs, DID, RDD, IV and RCTs.
 
-It is about something .....
+## [Time Series and Panel Data Analysis](https://zahidasghar.com/forecasting)
 
-## [Article2](article2)
+## [Topics in Applied Economics](https://zahidasghar.com/Applied_econometrics_2022)
 
-It is about something .....
