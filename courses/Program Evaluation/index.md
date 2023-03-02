@@ -1,4 +1,4 @@
-# Quantitative Methods for Development Economics
+# Quantitative Methods 
 
 ## Heading1
 

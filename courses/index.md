@@ -7,3 +7,6 @@ This course is offered which is aimed at studying and applying tools required fo
 ## [Time Series and Panel Data Analysis](https://zahidasghar.com/forecasting)
 
 ## [Topics in Applied Economics](https://zahidasghar.com/Applied_econometrics_2022)
+
+
+
