@@ -1,0 +1,81 @@
+---
+title: "Data & Code"
+pagetitle: "Data & Code | Dr. Zahid Asghar"
+description: "Open-source R code, data projects, and reproducible analyses by Dr. Zahid Asghar — econometrics, data visualization, election analysis, and PDF data extraction."
+toc: true
+---
+
+I maintain [57 public repositories on GitHub](https://github.com/zahedasghar) covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects.
+
+---
+
+## Featured Projects
+
+### Applied Econometrics with R
+Complete course materials — regression, time series, panel data, causal inference — all implemented in R with real datasets.
+
+- [GitHub →](https://github.com/Zahedasghar/Applied_econometrics_2022)
+
+### Impact Evaluation Toolkit
+Practical R implementations of difference-in-differences, RCTs, regression discontinuity, matching, and instrumental variables for policy evaluation.
+
+- [GitHub →](https://github.com/Zahedasghar/impact_evaluation)
+
+### R for Development (R4D)
+Introduction to R for development economists and policy analysts — data wrangling, visualization, and analysis of development data.
+
+- [GitHub →](https://github.com/Zahedasghar/R4D)
+
+### Data Analytics
+Fundamentals of data analytics — exploratory analysis, summary statistics, and visualization workflows.
+
+- [GitHub →](https://github.com/Zahedasghar/data_analytics)
+
+---
+
+## R Tutorials & Code Snippets
+
+Shorter tutorials published on RPubs covering specific econometric and data techniques:
+
+- [Dummy Variables in Regression](https://rpubs.com/Zahidasghar)
+- [Multicollinearity Diagnostics](https://rpubs.com/Zahidasghar)
+- [Economic Forecasting with Tax Data](https://rpubs.com/Zahidasghar)
+- [Fertility Rate vs GNI Visualization](https://rpubs.com/Zahidasghar)
+
+[Browse all RPubs →](https://rpubs.com/Zahidasghar)
+
+---
+
+## Data Explorations
+
+### Extracting Data from PDF Documents
+Using the `tabulapdf` package in R to extract structured data from government PDF reports — a practical skill for anyone working with Pakistani official statistics.
+
+- [Tutorial →](https://zahid.quarto.pub/myR/pdf_tables/)
+
+### Pakistan Election Data Explorer
+Analysis of Pakistan's election data from 1993–2018: which politicians won maximum seats, which constituencies had the closest margins, and how previous margins predict future elections.
+
+- *Based on data from Collin Cookman. Dashboard in development.*
+
+---
+
+## Tools I Use & Teach
+
+| Tool | Purpose |
+|------|---------|
+| **R / RStudio** | Core data analysis and statistical modeling |
+| **Quarto** | Reproducible documents, presentations, websites, books |
+| **tidyverse** | Data wrangling (dplyr, tidyr, readr, purrr) |
+| **ggplot2 / plotly** | Static and interactive data visualization |
+| **tidymodels** | Machine learning workflows in R |
+| **Stata** | Econometric analysis (legacy projects) |
+| **Git / GitHub** | Version control and open-source collaboration |
+
+---
+
+## Contribute or Collaborate
+
+If you find errors in any code, want to contribute improvements, or have ideas for data projects relevant to Pakistan's economic policy, I welcome pull requests and issues on GitHub.
+
+[GitHub Profile →](https://github.com/zahedasghar)

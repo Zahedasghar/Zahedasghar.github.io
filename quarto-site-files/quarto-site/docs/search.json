@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching & Training",
+    "section": "",
+    "text": "I teach at the School of Economics, Quaid-i-Azam University, and deliver professional training workshops for government analysts, researchers, and development practitioners. My teaching philosophy: economists must be able to work with data, not just talk about it.\nAll materials below are open-access. If you use them for your own teaching, a link back is appreciated."
+  },
+  {
+    "objectID": "teaching.html#university-courses",
+    "href": "teaching.html#university-courses",
+    "title": "Teaching & Training",
+    "section": "University Courses",
+    "text": "University Courses\n\nApplied Econometrics\nGraduate-level course covering regression analysis, time series methods, causal inference, and practical implementation in R and Stata. Materials include lecture slides, R code, and replication exercises.\n\nCourse materials on GitHub →\n\n\n\nEconometrics\nCore graduate econometrics — OLS, GLS, instrumental variables, panel data, limited dependent variables. Emphasis on understanding assumptions and diagnostics, not just running software.\n\n\nData Analytics & Visualization\nIntroduction to modern data analysis workflows — data wrangling, exploratory analysis, and interactive visualization using R, ggplot2, plotly, and Quarto.\n\nData Analytics repo →"
+  },
+  {
+    "objectID": "teaching.html#professional-training-workshops",
+    "href": "teaching.html#professional-training-workshops",
+    "title": "Teaching & Training",
+    "section": "Professional Training Workshops",
+    "text": "Professional Training Workshops\nI regularly deliver workshops for government officials, central bank staff, researchers, and NGO analysts. Topics include:\n\nImpact Evaluation\nPractical tools for measuring policy impact — randomized controlled trials, difference-in-differences, regression discontinuity, instrumental variables, and matching methods. Hands-on implementation in R.\n\nImpact Evaluation materials →\n\n\n\nR Programming for Economists\nFrom zero to productive — installing R/RStudio, data import, tidyverse workflow, regression, visualization, and reproducible reporting with Quarto. Designed for economists and analysts with no prior programming experience.\n\nR for Development (R4D) →\nRPubs tutorials →\n\n\n\nData Visualization with R\nInteractive charts, maps, and animated graphics using ggplot2, plotly, leaflet, and gganimate. Emphasis on visualizing economic and survey data for policy communication.\n\n\nSurvey Data Analysis\nWorking with household survey data (PSLM, HIES, PDHS) — sampling weights, complex survey design, tabulation, and regression with survey packages in R.\n\n\nQuarto for Reproducible Research\nModern scientific publishing with Quarto — documents, presentations, websites, and books. How to make your research reproducible, shareable, and professional."
+  },
+  {
+    "objectID": "teaching.html#youtube",
+    "href": "teaching.html#youtube",
+    "title": "Teaching & Training",
+    "section": "YouTube",
+    "text": "YouTube\nI maintain a YouTube channel with video tutorials on econometrics, R programming, and data analysis. Topics include dummy variables, multicollinearity, economic forecasting, and more.\nVisit YouTube Channel →"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching & Training",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nThree principles guide my teaching:\nLearn by doing. Econometrics is not a spectator sport. Every concept should be implemented with real data before it’s considered understood.\nReproducibility is non-negotiable. If someone can’t replicate your analysis from your code, it’s not really analysis — it’s a claim. I teach students to document every step.\nThink critically about numbers. Pakistan’s public discourse is full of statistics used without understanding. I train people not just to produce numbers, but to question them — including the ones they produce themselves."
+  },
+  {
+    "objectID": "teaching.html#invite-me-to-train",
+    "href": "teaching.html#invite-me-to-train",
+    "title": "Teaching & Training",
+    "section": "Invite Me to Train",
+    "text": "Invite Me to Train\nI am available for customized training workshops for government agencies, research organizations, central banks, and international development programs. Topics can be tailored to your team’s needs and data.\nContact me →"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to the New Site",
+    "section": "",
+    "text": "After years of maintaining separate platforms for different aspects of my work, I’ve consolidated everything into a single site built with Quarto.\nHere you’ll find:\n\nResearch — my publications organized by theme, from economic measurement to causal inference\nPolicy & Commentary — essays on AI governance, GDP methodology, and education reform\nTeaching & Training — course materials, workshop resources, and R tutorials\nData & Code — open-source projects and reproducible analyses\nBlog — new writing on economics, data science, and Pakistan’s statistical infrastructure\n\nI’ll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you’d like to stay updated, subscribe to the newsletter on the homepage.\nThe site is open source and built entirely with Quarto and GitHub Pages. If you spot any issues, feel free to raise them on GitHub.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Policy essays, technical tutorials, data explorations, and commentary on economics, data science, and Pakistan’s statistical infrastructure.\n\n\n\n\n\n\n\n\n\nWelcome to the New Site\n\n\n\nAnnouncement\n\n\n\nA fresh start — consolidating my research, teaching, policy writing, and data projects into one place.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nPakistan’s AI Policy: A Vision Without Teeth\n\n\n\nAI Policy\n\nPakistan\n\nGovernance\n\n\n\nA critical analysis of Pakistan’s National AI Policy 2025 — what it gets right, what it leaves out, and what must change.\n\n\n\n\n\nJun 15, 2025\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "pkecon/pakistan_ai_policy/index.html",
+    "href": "pkecon/pakistan_ai_policy/index.html",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "",
+    "text": "This essay has moved to the blog. Click here to read it →\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Data & Code",
+    "section": "",
+    "text": "I maintain 57 public repositories on GitHub covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects."
+  },
+  {
+    "objectID": "code.html#featured-projects",
+    "href": "code.html#featured-projects",
+    "title": "Data & Code",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nApplied Econometrics with R\nComplete course materials — regression, time series, panel data, causal inference — all implemented in R with real datasets.\n\nGitHub →\n\n\n\nImpact Evaluation Toolkit\nPractical R implementations of difference-in-differences, RCTs, regression discontinuity, matching, and instrumental variables for policy evaluation.\n\nGitHub →\n\n\n\nR for Development (R4D)\nIntroduction to R for development economists and policy analysts — data wrangling, visualization, and analysis of development data.\n\nGitHub →\n\n\n\nData Analytics\nFundamentals of data analytics — exploratory analysis, summary statistics, and visualization workflows.\n\nGitHub →"
+  },
+  {
+    "objectID": "code.html#r-tutorials-code-snippets",
+    "href": "code.html#r-tutorials-code-snippets",
+    "title": "Data & Code",
+    "section": "R Tutorials & Code Snippets",
+    "text": "R Tutorials & Code Snippets\nShorter tutorials published on RPubs covering specific econometric and data techniques:\n\nDummy Variables in Regression\nMulticollinearity Diagnostics\nEconomic Forecasting with Tax Data\nFertility Rate vs GNI Visualization\n\nBrowse all RPubs →"
+  },
+  {
+    "objectID": "code.html#data-explorations",
+    "href": "code.html#data-explorations",
+    "title": "Data & Code",
+    "section": "Data Explorations",
+    "text": "Data Explorations\n\nExtracting Data from PDF Documents\nUsing the tabulapdf package in R to extract structured data from government PDF reports — a practical skill for anyone working with Pakistani official statistics.\n\nTutorial →\n\n\n\nPakistan Election Data Explorer\nAnalysis of Pakistan’s election data from 1993–2018: which politicians won maximum seats, which constituencies had the closest margins, and how previous margins predict future elections.\n\nBased on data from Collin Cookman. Dashboard in development."
+  },
+  {
+    "objectID": "code.html#tools-i-use-teach",
+    "href": "code.html#tools-i-use-teach",
+    "title": "Data & Code",
+    "section": "Tools I Use & Teach",
+    "text": "Tools I Use & Teach\n\n\n\nTool\nPurpose\n\n\n\n\nR / RStudio\nCore data analysis and statistical modeling\n\n\nQuarto\nReproducible documents, presentations, websites, books\n\n\ntidyverse\nData wrangling (dplyr, tidyr, readr, purrr)\n\n\nggplot2 / plotly\nStatic and interactive data visualization\n\n\ntidymodels\nMachine learning workflows in R\n\n\nStata\nEconometric analysis (legacy projects)\n\n\nGit / GitHub\nVersion control and open-source collaboration"
+  },
+  {
+    "objectID": "code.html#contribute-or-collaborate",
+    "href": "code.html#contribute-or-collaborate",
+    "title": "Data & Code",
+    "section": "Contribute or Collaborate",
+    "text": "Contribute or Collaborate\nIf you find errors in any code, want to contribute improvements, or have ideas for data projects relevant to Pakistan’s economic policy, I welcome pull requests and issues on GitHub.\nGitHub Profile →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am Professor and Director of the School of Economics at Quaid-i-Azam University, Islamabad — one of Pakistan’s highest-ranked universities. Over two decades, I have built a career that spans rigorous academic research, institutional leadership, data science, and public policy engagement.\nMy research addresses foundational questions about how Pakistan measures its economy and how those measurements shape policy. I have published on CPI methodology biases, GDP measurement challenges, causal inference using graph-theoretic methods, food security, health economics, and statistical distribution theory — in journals including Taylor & Francis, Springer, SAGE, Elsevier, and De Gruyter.\nBeyond research, I am deeply committed to building Pakistan’s analytical capacity. I train economists, government analysts, and graduate students in applied econometrics, R programming, impact evaluation, and data visualization — skills that are essential for evidence-based decision-making in a country where data infrastructure is still developing."
+  },
+  {
+    "objectID": "about.html#leadership-profile",
+    "href": "about.html#leadership-profile",
+    "title": "About",
+    "section": "",
+    "text": "I am Professor and Director of the School of Economics at Quaid-i-Azam University, Islamabad — one of Pakistan’s highest-ranked universities. Over two decades, I have built a career that spans rigorous academic research, institutional leadership, data science, and public policy engagement.\nMy research addresses foundational questions about how Pakistan measures its economy and how those measurements shape policy. I have published on CPI methodology biases, GDP measurement challenges, causal inference using graph-theoretic methods, food security, health economics, and statistical distribution theory — in journals including Taylor & Francis, Springer, SAGE, Elsevier, and De Gruyter.\nBeyond research, I am deeply committed to building Pakistan’s analytical capacity. I train economists, government analysts, and graduate students in applied econometrics, R programming, impact evaluation, and data visualization — skills that are essential for evidence-based decision-making in a country where data infrastructure is still developing."
+  },
+  {
+    "objectID": "about.html#roles-positions-held",
+    "href": "about.html#roles-positions-held",
+    "title": "About",
+    "section": "Roles & Positions Held",
+    "text": "Roles & Positions Held\n\n\n\nRole\nInstitution\nPeriod\n\n\n\n\nProfessor & Director\nSchool of Economics, Quaid-i-Azam University\nCurrent\n\n\nRegistrar\nQuaid-i-Azam University, Islamabad\nPrevious\n\n\nChairman\nDepartment of Statistics, Quaid-i-Azam University\nPrevious\n\n\nRAC Member\nRASTA Competitive Grants Program, PIDE\nCurrent\n\n\nSenior Faculty\nNational Institute of Banking & Finance (NIBAF), State Bank of Pakistan\nPrevious"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nPhD Economics — Pakistan Institute of Development Economics (PIDE) / Quaid-i-Azam University\nResearch focus: Applied Econometrics, Causal Inference, Economic Measurement"
+  },
+  {
+    "objectID": "about.html#research-areas",
+    "href": "about.html#research-areas",
+    "title": "About",
+    "section": "Research Areas",
+    "text": "Research Areas\n\nEconomic Measurement: GDP methodology, CPI biases, national accounts modernization, digital economy measurement\nApplied Econometrics: Graph-theoretic causality, structural approaches, time series analysis\nMachine Learning & Statistics: Penalized logistic models, distribution families, outlier detection\nDevelopment Economics: Food security, health, education, SDGs, women’s empowerment\nData Science & Policy: AI governance, data visualization, reproducible research, open-source tools\nUrban Economics: Creative cities, mixed-use land measurement, housing policy"
+  },
+  {
+    "objectID": "about.html#advisory-policy-engagement",
+    "href": "about.html#advisory-policy-engagement",
+    "title": "About",
+    "section": "Advisory & Policy Engagement",
+    "text": "Advisory & Policy Engagement\n\nMember, Research Advisory Committee — RASTA Competitive Grants Program for Policy-Oriented Research (PIDE)\nPolicy commentary on national media including Capital TV\nContributing author at PIDE Blog on GDP measurement, higher education reform\nCritical analysis of Pakistan’s National AI Policy 2025\nEngagement with Pakistan Bureau of Statistics on digital gender inclusion and data quality"
+  },
+  {
+    "objectID": "about.html#what-drives-my-work",
+    "href": "about.html#what-drives-my-work",
+    "title": "About",
+    "section": "What Drives My Work",
+    "text": "What Drives My Work\nPakistan’s statistical infrastructure faces a critical moment. We are making multi-billion-dollar policy decisions based on GDP estimates with outdated base years, CPI baskets that don’t reflect how people actually live, and data systems that are not designed for the digital economy. At the same time, AI is transforming how every country collects, processes, and uses data — but we don’t yet have the governance frameworks to deploy it responsibly.\nI believe the path forward requires three things: better measurement of what our economy actually looks like, better tools in the hands of the analysts who produce those measurements, and better thinking about how data systems should be governed. That is what I work on — through research, training, and public engagement."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: g.zahid@gmail.com\nUniversity: School of Economics, Quaid-i-Azam University, Islamabad 45320, Pakistan\nLinkedIn: linkedin.com/in/zahidasghar\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Policy essays, technical tutorials, data explorations, and commentary on economics, data science, and Pakistan’s statistical infrastructure.\nNew posts are published regularly. Subscribe to the newsletter to get notified.\n\n\n\n\n\n\n\n\n\nBlog\n\n\nPolicy essays, technical tutorials, data explorations, and commentary.\n\n\n\n\n\n\n\n\n\n\nWelcome to the New Site\n\n\n\nAnnouncement\n\n\n\nA fresh start — consolidating my research, teaching, policy writing, and data projects into one place.\n\n\n\n\n\nFeb 16, 2026\n\n\n\n\n\n\n\nPakistan’s AI Policy: A Vision Without Teeth\n\n\n\nAI Policy\n\nPakistan\n\nGovernance\n\n\n\nA critical analysis of Pakistan’s National AI Policy 2025 — what it gets right, what it leaves out, and what must change.\n\n\n\n\n\nJun 15, 2025\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "Professor of Economics · Ex-Director, School of Economics, Quaid-i-Azam University, Islamabad\nI work at the intersection of economic measurement, data analysis and analytics, and public policy. With over two decades of research, institutional leadership, and hands-on training, my work bridges the gap between how we measure our economy and how we make decisions about it.\nI combine rigorous applied econometrics with modern data tools to address Pakistan’s most pressing measurement and policy challenges — from measuring economy to automation and digital statistical systems.\nResearch → Policy Writing → Teaching & R Tutorials →\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGDP base-year revision, CPI methodology, national accounts modernization, and measuring Pakistan’s evolving digital economy. My PIDE analysis on GDP measurement and 2008 paper on CPI biases pioneered this conversation in Pakistan.\n\n\n\n\n\nCritical analysis of Pakistan’s National AI Policy, digital statistical infrastructure for PBS, and the governance frameworks needed to deploy AI responsibly in public institutions.\n\n\n\n\n\nGraph-theoretic approaches to causality, structural modeling, impact evaluation, and machine learning for classification — published in Taylor & Francis, Springer, SAGE, and Elsevier.\n\n\n\n\n\nR programming, data visualization, reproducible research, and open-source tools for policy analysts. I teach economists to code and analysts to think critically — with 50+ open-source repositories.\n\n\n\n\n\nDirector of the School of Economics and former Registrar at Quaid-i-Azam University. Member of the RASTA Research Advisory Committee for policy-oriented research. Former Chairman, Department of Statistics, QAU. Senior faculty at NIBAF, State Bank of Pakistan.\n\n\n\n\n\nRethinking how Pakistan teaches economics — from textbook memorization to data literacy, critical reasoning, and reproducible research. Read my piece on higher education reform →\n\n\n\n\n\n\n\n\n\n\n\nA critical analysis of Pakistan’s National AI Policy 2025 — what it gets right, what it leaves out, and what must change.\nRead the full essay →\n\n\n\n\n\nCo-authored with Mahmood Khalid at PIDE — on why Pakistan’s GDP base-year revision is overdue and how measurement errors distort policy.\nRead on PIDE →\n\n\n\n\n\nPublished in The Pakistan Development Review (2008) — a foundational critique of PBS’s CPI methodology with concrete suggestions for improvement.\nView paper →\n\n\n\n\n\nApplied Econometrics with R, Impact Evaluation tools, Data Visualization, PDF data extraction, Election data analysis — all open source.\nExplore on GitHub →\n\n\n\n\n\n\n\n\n\n\nRole\nInstitution\n\n\n\n\nProfessor & Director\nSchool of Economics, Quaid-i-Azam University, Islamabad\n\n\nFormer Registrar\nQuaid-i-Azam University, Islamabad\n\n\nFormer Chairman\nDepartment of Statistics, Quaid-i-Azam University\n\n\nRAC Member\nRASTA Competitive Grants Program, PIDE\n\n\nFormer Senior Faculty\nNational Institute of Banking & Finance (NIBAF), State Bank of Pakistan\n\n\n\n\n\n\n\n\n\n\nSubscribe to receive new policy essays, data explorations, and R tutorials.\n\n\n\n\n\nGoogle Scholar\nRePEc / IDEAS\nResearchGate\nYouTube\nLinkedIn\nGitHub\nX / Twitter"
+  },
+  {
+    "objectID": "index.html#advancing-economic-measurement-data-analysis-and-analytics-and-evidence-based-policy-for-pakistan",
+    "href": "index.html#advancing-economic-measurement-data-analysis-and-analytics-and-evidence-based-policy-for-pakistan",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "Professor of Economics · Ex-Director, School of Economics, Quaid-i-Azam University, Islamabad\nI work at the intersection of economic measurement, data analysis and analytics, and public policy. With over two decades of research, institutional leadership, and hands-on training, my work bridges the gap between how we measure our economy and how we make decisions about it.\nI combine rigorous applied econometrics with modern data tools to address Pakistan’s most pressing measurement and policy challenges — from measuring economy to automation and digital statistical systems.\nResearch → Policy Writing → Teaching & R Tutorials →"
+  },
+  {
+    "objectID": "index.html#what-i-work-on",
+    "href": "index.html#what-i-work-on",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "GDP base-year revision, CPI methodology, national accounts modernization, and measuring Pakistan’s evolving digital economy. My PIDE analysis on GDP measurement and 2008 paper on CPI biases pioneered this conversation in Pakistan.\n\n\n\n\n\nCritical analysis of Pakistan’s National AI Policy, digital statistical infrastructure for PBS, and the governance frameworks needed to deploy AI responsibly in public institutions.\n\n\n\n\n\nGraph-theoretic approaches to causality, structural modeling, impact evaluation, and machine learning for classification — published in Taylor & Francis, Springer, SAGE, and Elsevier.\n\n\n\n\n\nR programming, data visualization, reproducible research, and open-source tools for policy analysts. I teach economists to code and analysts to think critically — with 50+ open-source repositories.\n\n\n\n\n\nDirector of the School of Economics and former Registrar at Quaid-i-Azam University. Member of the RASTA Research Advisory Committee for policy-oriented research. Former Chairman, Department of Statistics, QAU. Senior faculty at NIBAF, State Bank of Pakistan.\n\n\n\n\n\nRethinking how Pakistan teaches economics — from textbook memorization to data literacy, critical reasoning, and reproducible research. Read my piece on higher education reform →"
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "A critical analysis of Pakistan’s National AI Policy 2025 — what it gets right, what it leaves out, and what must change.\nRead the full essay →\n\n\n\n\n\nCo-authored with Mahmood Khalid at PIDE — on why Pakistan’s GDP base-year revision is overdue and how measurement errors distort policy.\nRead on PIDE →\n\n\n\n\n\nPublished in The Pakistan Development Review (2008) — a foundational critique of PBS’s CPI methodology with concrete suggestions for improvement.\nView paper →\n\n\n\n\n\nApplied Econometrics with R, Impact Evaluation tools, Data Visualization, PDF data extraction, Election data analysis — all open source.\nExplore on GitHub →"
+  },
+  {
+    "objectID": "index.html#roles-affiliations",
+    "href": "index.html#roles-affiliations",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "Role\nInstitution\n\n\n\n\nProfessor & Director\nSchool of Economics, Quaid-i-Azam University, Islamabad\n\n\nFormer Registrar\nQuaid-i-Azam University, Islamabad\n\n\nFormer Chairman\nDepartment of Statistics, Quaid-i-Azam University\n\n\nRAC Member\nRASTA Competitive Grants Program, PIDE\n\n\nFormer Senior Faculty\nNational Institute of Banking & Finance (NIBAF), State Bank of Pakistan"
+  },
+  {
+    "objectID": "index.html#stay-connected",
+    "href": "index.html#stay-connected",
+    "title": "Dr. Zahid Asghar",
+    "section": "",
+    "text": "Subscribe to receive new policy essays, data explorations, and R tutorials.\n\n\n\n\n\nGoogle Scholar\nRePEc / IDEAS\nResearchGate\nYouTube\nLinkedIn\nGitHub\nX / Twitter"
+  },
+  {
+    "objectID": "policy.html",
+    "href": "policy.html",
+    "title": "Policy & Commentary",
+    "section": "",
+    "text": "I believe economists have a responsibility to engage with the public on how data shapes policy. Below is my policy writing and public commentary — on AI governance, economic measurement, education reform, and Pakistan’s statistical infrastructure."
+  },
+  {
+    "objectID": "policy.html#ai-technology-policy",
+    "href": "policy.html#ai-technology-policy",
+    "title": "Policy & Commentary",
+    "section": "AI & Technology Policy",
+    "text": "AI & Technology Policy\n\nPakistan’s AI Policy: A Vision Without Teeth\nA critical analysis of Pakistan’s National AI Policy 2025. The policy’s four-pillar architecture shows ambition, but the absence of risk classification, safety evaluation standards, and realistic implementation mechanisms means it reads more like a wish list than a roadmap. I argue for starting small, building enforcement capacity, and adopting international best practices from Singapore, the EU, and Malaysia.\nPublished on zahidasghar.com, 2025"
+  },
+  {
+    "objectID": "policy.html#economic-measurement-national-accounts",
+    "href": "policy.html#economic-measurement-national-accounts",
+    "title": "Policy & Commentary",
+    "section": "Economic Measurement & National Accounts",
+    "text": "Economic Measurement & National Accounts\n\nPending Pakistan’s Revised Base Estimates of GDP and Measurement Issues in LSM\nCo-authored with Mahmood Khalid (PIDE). We argue that Pakistan’s GDP estimates are distorted by outdated base years, reliance on self-reported industrial data, and constant input-output ratios that don’t reflect technological change. We call for a state-of-the-art research center and compulsory PBS collaboration on data sharing.\nPublished on PIDE Blog, 2021\n\n\nBiases in Consumer Price Index Methodology in Pakistan: Suggestions for Improvements\nA foundational paper identifying specific methodological biases in how PBS constructs the CPI — including outlet substitution bias, quality adjustment gaps, and formula effects. This remains one of the few systematic critiques of Pakistan’s price statistics methodology.\nThe Pakistan Development Review, 2008"
+  },
+  {
+    "objectID": "policy.html#higher-education-human-capital",
+    "href": "policy.html#higher-education-human-capital",
+    "title": "Policy & Commentary",
+    "section": "Higher Education & Human Capital",
+    "text": "Higher Education & Human Capital\n\nThinking Beyond Metrics in Higher Education\nPakistan’s higher education system has gone directionless. I argue that the model developed two decades ago is outdated, the HEC governance crisis demands comprehensive analysis rather than ad hoc fixes, and we need to fundamentally rethink what universities are for in the 21st century.\nPublished on PIDE Blog\n\n\nHigher Education Challenge for Pakistan Under COVID-19: The Way Forward\nWritten during the pandemic — on virtual learning, new educational accounting systems, and why the crisis demanded a structural rethink of how Pakistan delivers higher education.\n2020"
+  },
+  {
+    "objectID": "policy.html#media-public-appearances",
+    "href": "policy.html#media-public-appearances",
+    "title": "Policy & Commentary",
+    "section": "Media & Public Appearances",
+    "text": "Media & Public Appearances\n\nCapital TV — Commentary on the Pakistani economy (available via LinkedIn)\nPBS Working Group — First Meeting of the Working Group on Strengthening Digital Gender Inclusion Through Data Collaboration (LinkedIn, 2025)"
+  },
+  {
+    "objectID": "policy.html#upcoming-in-progress",
+    "href": "policy.html#upcoming-in-progress",
+    "title": "Policy & Commentary",
+    "section": "Upcoming & In Progress",
+    "text": "Upcoming & In Progress\nI am currently working on the following policy-oriented pieces:\n\nWhy Pakistan’s GDP Numbers Don’t Tell the Full Story — expanding my PIDE analysis into a comprehensive essay\nWhat a Digital Statistical System Should Look Like for Pakistan — a blueprint for PBS modernization\nOne Year After the AI Policy: Where Are We? — a follow-up assessment\n\nCheck back regularly or subscribe to the newsletter for updates."
+  },
+  {
+    "objectID": "posts/pakistan-ai-policy/index.html",
+    "href": "posts/pakistan-ai-policy/index.html",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "",
+    "text": "It is heartening to see the document of Pakistan’s National AI Policy as artificial intelligence is not just another technology trend — it’s the foundation of tomorrow’s economy. It should have been a moment of celebration. But as I read through the 40-page document released by the Ministry of IT and Telecommunication, it seems I have a familiar feeling like other policy documents. We love to have grand visions, ambitious targets, and a troubling absence of the machinery needed to achieve them. We can all talk very well on macro things but very poor in delivering things at micro level.\nLet me be clear: having an AI policy is far better than having none. The document’s four-pillar architecture shows that someone in Islamabad understands the scope of what we’re dealing with. The policy speaks of training one million professionals, establishing Centers of Excellence, and creating a National AI Fund. These are the right but generic conversations to have. Good intentions alone do not build ecosystems or train algorithms.\nThe fundamental problem isn’t what the policy says, but what it leaves out. Other countries have enforceable policy. Singapore has clear risk classifications for AI. European Union has binding rules for high-risk case. India has already operational testing standards. But Pakistan policy, in contrast, is mostly aspirations. It is like taking a pencil sketch to a construction site and wondering why the building won’t rise."
+  },
+  {
+    "objectID": "posts/pakistan-ai-policy/index.html#the-biggest-gap-risk-classification",
+    "href": "posts/pakistan-ai-policy/index.html#the-biggest-gap-risk-classification",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "The Biggest Gap: Risk Classification",
+    "text": "The Biggest Gap: Risk Classification\nThe biggest gap is risk classification. Every serious AI framework in the world recognizes that not all AI is created equal. A video recommendation engine is very different from an AI making medical diagnoses or approving loans. Yet our policy treats them all the same. This is to say, it does not really treat them at all. If we don’t set clear rules and responsibilities, everything will turn messy and public trust will soon erode.\nPlacing the AI Directorate under the Data Protection Commission is also poorly thought out. It is like asking traffic police to manage aviation. Both involve movement, but the expertise, challenges, and stakes are entirely different. This is not just bureaucratic inefficiency; it is a recipe for stalled decision-making at a time when speed is critical.\nThe targets read more like a wish list than a serious roadmap. Training one million people in AI sounds impressive, but there is no clarity on who will train them, what curriculum will be used, or how quality will be ensured."
+  },
+  {
+    "objectID": "posts/pakistan-ai-policy/index.html#safety-and-evaluation-standards",
+    "href": "posts/pakistan-ai-policy/index.html#safety-and-evaluation-standards",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "Safety and Evaluation Standards",
+    "text": "Safety and Evaluation Standards\nThe most alarming omission is safety and evaluation standards. The message seems to be: “Go ahead and develop AI, deploy it, and we’ll worry about safety later.” This is not just careless — it is dangerous. One bad AI decision in healthcare or banking could destroy public trust for years. Yet the policy does not explain how systems will be tested, who will take responsibility if they fail, or what happens if an algorithm discriminates against people.\nWe don’t need to reinvent the wheel. Other countries have already done the hard work of figuring out how to regulate AI safely. Singapore’s Model AI Governance Framework is publicly available. The UK’s approach to AI assurance is well-documented. Even Malaysia, hardly a global tech leader, has clearer implementation mechanisms than what we’re proposing. We can customise these documents as AI benefits and perils are universal in nature."
+  },
+  {
+    "objectID": "posts/pakistan-ai-policy/index.html#what-pakistan-actually-needs",
+    "href": "posts/pakistan-ai-policy/index.html#what-pakistan-actually-needs",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "What Pakistan Actually Needs",
+    "text": "What Pakistan Actually Needs\nWhat Pakistan urgently needs is an actionable policy with a focus on implementation. We need to start small and build gradually, rather than marking grand announcement that we cannot deliver. Instead of promising to train one million people, why not start by properly training one hundred AI safety experts who actually know what they are doing. We need to adopt a risk-based classification system that separates the trivial from the critical. We need mandatory safety evaluations for high-risk AI applications before they’re deployed, not after they’ve caused harm.\nThe government should also be honest about funding and its current capacity. The National AI Fund is a good idea, but where’s the money? Government officials struggle with basic IT systems, yet we expect them to regulate advanced artificial intelligence. Our legal system is still figuring out cybercrime law, but we want to become leaders in AI governance."
+  },
+  {
+    "objectID": "posts/pakistan-ai-policy/index.html#the-choice-ahead",
+    "href": "posts/pakistan-ai-policy/index.html#the-choice-ahead",
+    "title": "Pakistan’s AI Policy: A Vision Without Teeth",
+    "section": "The Choice Ahead",
+    "text": "The Choice Ahead\nI’m not suggesting we abandon ambition. Pakistan’s young population, its growing IT sector, and its pressing development challenges make it an ideal laboratory for AI innovation. But ambition without mechanism is just daydreaming. We need boring things like procurement standards, incident reporting systems, and compliance frameworks.\nThe government now faces a choice. It can either treat this AI policy as another opportunity for photo sessions and press releases, or it can roll up its sleeves and build real implementation capacity. That choice will decide whether Pakistan joins the AI race as a player or remains a spectator.\nIf we stick to the usual pattern of bold announcements followed by weak execution, this AI policy will join the long list of well-intentioned documents that changed nothing. The clock is ticking, and the world will not wait for us to catch up.\n\nThe author is a Professor, School of Economics, Quaid-i-Azam University, Islamabad. The views expressed are personal."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research spans applied econometrics, economic measurement, causal inference, statistical distribution theory, food security, health economics, and data-driven policy analysis. Below is a curated selection organized by theme.\nFor a complete list, see my profiles on Google Scholar, RePEc/IDEAS, and ResearchGate."
+  },
+  {
+    "objectID": "research.html#economic-measurement-price-statistics",
+    "href": "research.html#economic-measurement-price-statistics",
+    "title": "Research",
+    "section": "Economic Measurement & Price Statistics",
+    "text": "Economic Measurement & Price Statistics\nThese papers address how Pakistan measures its economy — from CPI construction to inflation methodology.\n\nBiases in Consumer Price Index Methodology in Pakistan: Suggestions for Improvements Asghar, Z. & Khalid, M. (2008). The Pakistan Development Review, 47(3), 267–285. Paper →\nMeasuring Inflation Through Stochastic Approach to Index Numbers Asghar, Z. & Tahira, F. (2010). MPRA Paper 21513.\nPending Pakistan’s Revised Base Estimates of GDP and Measurement Issues in LSM Asghar, Z. & Khalid, M. (2021). PIDE Blog. Read →"
+  },
+  {
+    "objectID": "research.html#causal-inference-econometric-methods",
+    "href": "research.html#causal-inference-econometric-methods",
+    "title": "Research",
+    "section": "Causal Inference & Econometric Methods",
+    "text": "Causal Inference & Econometric Methods\nGraph-theoretic and structural approaches to establishing causality in economic data.\n\nA Structural Approach for Testing Causality Asghar, Z. (2011). International Econometric Review, 3(2), 1–12. Paper →\nEnergy–GDP Causal Relationship for Pakistan: A Graph Theoretic Approach Asghar, Z. & Rahat, T. (2011). Applied Econometrics and International Development, 11(1). Paper →\nEnergy–GDP Relationship: A Causal Analysis for the Five Countries of South Asia Asghar, Z. (2008). Applied Econometrics and International Development, 8(1), 167–180. Paper →\nCausal Order Between Money, Income and Price Through Graph Theoretic Approach for Pakistan Asghar, Z. (2010). Economics Bulletin, 30(3), 2515–2523. Paper →\nSimulation Evidence on Granger Causality in Presence of a Confounding Variable Asghar, Z. (2008). International Journal of Applied Econometrics and Quantitative Studies, 5(2). Paper →\nPerformance of Lag Length Selection Criteria in Three Different Situations Asghar, Z. & Abid, I. (2007). MPRA Paper 40042."
+  },
+  {
+    "objectID": "research.html#machine-learning-classification-statistical-distributions",
+    "href": "research.html#machine-learning-classification-statistical-distributions",
+    "title": "Research",
+    "section": "Machine Learning, Classification & Statistical Distributions",
+    "text": "Machine Learning, Classification & Statistical Distributions\nWork at the intersection of statistics and machine learning — penalized models, distribution families, and outlier detection.\n\nA Feature Selection Method for Classification Based on Ensemble of Penalized Logistic Models Ijaz, M., Gul, A. & Asghar, Z. (2022). Communications in Statistics - Simulation and Computation, Taylor & Francis. Paper →\nEnsemble of Penalized Logistic Models for Classification of High-Dimensional Data Ijaz, M., Asghar, Z. & Gul, A. (2021). Communications in Statistics - Simulation and Computation, 50(7), 2072–2088. Paper →\nA Statistical Evidence of Power Law Distribution in the Upper Tail of World Billionaires’ Data 2010–20 Asif, M., Hussain, Z., Asghar, Z. et al. (2021). Physica A, 581, 126198. Paper →\nCubic Transmuted-G Family of Distributions and Its Properties Aslam, M., Hussain, Z. & Asghar, Z. (2018). Stochastics and Quality Control, 33(2), 103–112. Paper →\nOn Exponential Negative-Binomial-X Family of Distributions Hussain, Z., Aslam, M. & Asghar, Z. (2019). Annals of Data Science, 6(4), 651–672. Paper →\nA Modified TX Family of Distributions: Classical and Bayesian Analysis Aslam, M., Asghar, Z. et al. (2020). Journal of Taibah University for Science, 14(1), 254–264.\nA New Generator for Proposing Flexible Lifetime Distributions and Its Properties Aslam, M., Ley, C., Hussain, Z., Shah, S.F. & Asghar, Z. (2020). PLoS ONE, 15(4).\nImpact of Seasonal Level Shift (SLS) on Time Series Forecasting Shahid, H., Urooj, A. & Asghar, Z. (2023). Romanian Journal of Economic Forecasting, 26(1), 107.\nEvaluation of Test Statistics for Detection of Outliers and Shifts Urooj, A. & Asghar, Z. (2020). Journal of Quantitative Methods, 4(2), 54–75."
+  },
+  {
+    "objectID": "research.html#food-security-health-development",
+    "href": "research.html#food-security-health-development",
+    "title": "Research",
+    "section": "Food Security, Health & Development",
+    "text": "Food Security, Health & Development\nApplied research on Pakistan’s most pressing human development challenges.\n\nThe Impact of Food Price Crises on the Demand for Nutrients in Pakistan Asghar, Z. (2016). Journal of South Asian Development, 11(3), 305–327. SAGE. Paper →\nSocio-Economic Determinants of Household Food Insecurity in Pakistan Asghar, Z. (2015). International Journal of Economics and Empirical Research, 3(1), 6–18.\nMeasuring Impact of Education and Socio-economic Factors on Health for Pakistan Asghar, Z. (2009). The Pakistan Development Review, 48(4), 653–674. Paper →\nDeterminants of Child Health in Pakistan Through Latent Variable Model Approach Asghar, Z. (2014). International Journal of Economics and Empirical Research, 2(4), 135–149.\nEffect of Displacement on Adherence to TB Treatment Khan, F.U., Asghar, Z. et al. (2021). Pakistan Journal of Medical Sciences, 37(3), 675. Paper →"
+  },
+  {
+    "objectID": "research.html#ict-sdgs-womens-empowerment",
+    "href": "research.html#ict-sdgs-womens-empowerment",
+    "title": "Research",
+    "section": "ICT, SDGs & Women’s Empowerment",
+    "text": "ICT, SDGs & Women’s Empowerment\n\nRole of the ICT in Women Empowerment and Achieving SDGs: A Case Study of Women Labor Force in Developing Countries Noor, A., Asghar, Z., Sarwar, H. & Arfeen, M.I. (2021). ETIKONOMI, 20(2), 339–348.\nRole of the ICT in Women’s Empowerment and Achieving SDGs 2030: A Case Study of Pakistan by Using PDHS Data Noor, A., Asghar, Z. & Arfeen, M.I. (2021). Journal of Managerial Sciences, 15."
+  },
+  {
+    "objectID": "research.html#energy-resource-economics",
+    "href": "research.html#energy-resource-economics",
+    "title": "Research",
+    "section": "Energy & Resource Economics",
+    "text": "Energy & Resource Economics\n\nIran-Pakistan-India Gas Pipeline: An Economic Analysis in a Game Theoretic Framework Asghar, Z. & Nazuk, A. (2007). The Pakistan Development Review, 46(4), 537–550. Paper →"
+  },
+  {
+    "objectID": "research.html#education-public-spending",
+    "href": "research.html#education-public-spending",
+    "title": "Research",
+    "section": "Education & Public Spending",
+    "text": "Education & Public Spending\n\nA Benefit Incidence Analysis of Public Spending on Education in Pakistan Using PSLM Data Asghar, Z. (2012). Lahore Journal of Economics, 17(2), 111–136.\nAnalyzing Tax Policy and Economic Growth by Using Semi-Parametric Approach Asghar, Z. (2016). Journal of Economic and Social Thought, 3(4), 521–533."
+  },
+  {
+    "objectID": "research.html#social-networks-behavior",
+    "href": "research.html#social-networks-behavior",
+    "title": "Research",
+    "section": "Social Networks & Behavior",
+    "text": "Social Networks & Behavior\n\nDynamics of Social Influence on Consumption Choices: A Social Network Representation Shah, S.S. & Asghar, Z. (2023). Heliyon, Elsevier.\nIndividual Attitudes Towards Environmentally Friendly Choices: A Comprehensive Analysis of the Role of Legal Rules, Religion, and Confidence in Government (Recent, ResearchGate)"
+  }
+]

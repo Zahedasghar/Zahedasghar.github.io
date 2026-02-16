@@ -1,0 +1,81 @@
+---
+title: "Teaching & Training"
+pagetitle: "Teaching & Training | Dr. Zahid Asghar"
+description: "Courses, workshops, and training materials by Dr. Zahid Asghar — Applied Econometrics, R Programming, Impact Evaluation, Data Visualization, and Quarto."
+toc: true
+---
+
+I teach at the School of Economics, Quaid-i-Azam University, and deliver professional training workshops for government analysts, researchers, and development practitioners. My teaching philosophy: economists must be able to work with data, not just talk about it.
+
+All materials below are open-access. If you use them for your own teaching, a link back is appreciated.
+
+---
+
+## University Courses
+
+### Applied Econometrics
+Graduate-level course covering regression analysis, time series methods, causal inference, and practical implementation in R and Stata. Materials include lecture slides, R code, and replication exercises.
+
+- [Course materials on GitHub →](https://github.com/Zahedasghar/Applied_econometrics_2022)
+
+### Econometrics
+Core graduate econometrics — OLS, GLS, instrumental variables, panel data, limited dependent variables. Emphasis on understanding assumptions and diagnostics, not just running software.
+
+### Data Analytics & Visualization
+Introduction to modern data analysis workflows — data wrangling, exploratory analysis, and interactive visualization using R, ggplot2, plotly, and Quarto.
+
+- [Data Analytics repo →](https://github.com/Zahedasghar/data_analytics)
+
+---
+
+## Professional Training Workshops
+
+I regularly deliver workshops for government officials, central bank staff, researchers, and NGO analysts. Topics include:
+
+### Impact Evaluation
+Practical tools for measuring policy impact — randomized controlled trials, difference-in-differences, regression discontinuity, instrumental variables, and matching methods. Hands-on implementation in R.
+
+- [Impact Evaluation materials →](https://github.com/Zahedasghar/impact_evaluation)
+
+### R Programming for Economists
+From zero to productive — installing R/RStudio, data import, tidyverse workflow, regression, visualization, and reproducible reporting with Quarto. Designed for economists and analysts with no prior programming experience.
+
+- [R for Development (R4D) →](https://github.com/Zahedasghar/R4D)
+- [RPubs tutorials →](https://rpubs.com/Zahidasghar)
+
+### Data Visualization with R
+Interactive charts, maps, and animated graphics using ggplot2, plotly, leaflet, and gganimate. Emphasis on visualizing economic and survey data for policy communication.
+
+### Survey Data Analysis
+Working with household survey data (PSLM, HIES, PDHS) — sampling weights, complex survey design, tabulation, and regression with survey packages in R.
+
+### Quarto for Reproducible Research
+Modern scientific publishing with Quarto — documents, presentations, websites, and books. How to make your research reproducible, shareable, and professional.
+
+---
+
+## YouTube
+
+I maintain a [YouTube channel](https://www.youtube.com/Zahidasghar) with video tutorials on econometrics, R programming, and data analysis. Topics include dummy variables, multicollinearity, economic forecasting, and more.
+
+[Visit YouTube Channel →](https://www.youtube.com/Zahidasghar)
+
+---
+
+## Teaching Philosophy
+
+Three principles guide my teaching:
+
+**Learn by doing.** Econometrics is not a spectator sport. Every concept should be implemented with real data before it's considered understood.
+
+**Reproducibility is non-negotiable.** If someone can't replicate your analysis from your code, it's not really analysis — it's a claim. I teach students to document every step.
+
+**Think critically about numbers.** Pakistan's public discourse is full of statistics used without understanding. I train people not just to produce numbers, but to question them — including the ones they produce themselves.
+
+---
+
+## Invite Me to Train
+
+I am available for customized training workshops for government agencies, research organizations, central banks, and international development programs. Topics can be tailored to your team's needs and data.
+
+[Contact me →](mailto:g.zahid@gmail.com)

@@ -1,0 +1,156 @@
+---
+title: "Research"
+pagetitle: "Research | Dr. Zahid Asghar"
+description: "Publications and research by Dr. Zahid Asghar in applied econometrics, economic measurement, causal inference, food security, and statistical methods."
+toc: true
+---
+
+My research spans applied econometrics, economic measurement, causal inference, statistical distribution theory, food security, health economics, and data-driven policy analysis. Below is a curated selection organized by theme.
+
+For a complete list, see my profiles on [Google Scholar](https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ&hl=en), [RePEc/IDEAS](https://ideas.repec.org/e/pas57.html), and [ResearchGate](https://www.researchgate.net/profile/Zahid-Asghar-2).
+
+---
+
+## Economic Measurement & Price Statistics
+
+These papers address how Pakistan measures its economy — from CPI construction to inflation methodology.
+
+- **Biases in Consumer Price Index Methodology in Pakistan: Suggestions for Improvements**
+  Asghar, Z. & Khalid, M. (2008). *The Pakistan Development Review*, 47(3), 267–285.
+  [Paper →](https://www.pide.org.pk/pdf/Volume47/Issue3-2008.pdf)
+
+- **Measuring Inflation Through Stochastic Approach to Index Numbers**
+  Asghar, Z. & Tahira, F. (2010). *MPRA Paper 21513*.
+
+- **Pending Pakistan's Revised Base Estimates of GDP and Measurement Issues in LSM**
+  Asghar, Z. & Khalid, M. (2021). *PIDE Blog*.
+  [Read →](https://pide.org.pk/blog/pending-pakistans-revised-base-estimates-of-gdp-and-measurement-issues-in-lsm/)
+
+---
+
+## Causal Inference & Econometric Methods
+
+Graph-theoretic and structural approaches to establishing causality in economic data.
+
+- **A Structural Approach for Testing Causality**
+  Asghar, Z. (2011). *International Econometric Review*, 3(2), 1–12.
+  [Paper →](http://www.era.org.tr/makaleler/11080066.pdf)
+
+- **Energy–GDP Causal Relationship for Pakistan: A Graph Theoretic Approach**
+  Asghar, Z. & Rahat, T. (2011). *Applied Econometrics and International Development*, 11(1).
+  [Paper →](https://www.usc.es/economet/reviews/aeid11116.pdf)
+
+- **Energy–GDP Relationship: A Causal Analysis for the Five Countries of South Asia**
+  Asghar, Z. (2008). *Applied Econometrics and International Development*, 8(1), 167–180.
+  [Paper →](https://www.usc.es/economet/reviews/aeid8114.pdf)
+
+- **Causal Order Between Money, Income and Price Through Graph Theoretic Approach for Pakistan**
+  Asghar, Z. (2010). *Economics Bulletin*, 30(3), 2515–2523.
+  [Paper →](http://www.accessecon.com/Pubs/EB/2010/Volume30/EB-10-V30-I3-P231.pdf)
+
+- **Simulation Evidence on Granger Causality in Presence of a Confounding Variable**
+  Asghar, Z. (2008). *International Journal of Applied Econometrics and Quantitative Studies*, 5(2).
+  [Paper →](https://www.usc.es/economet/reviews/ijaeqs526.pdf)
+
+- **Performance of Lag Length Selection Criteria in Three Different Situations**
+  Asghar, Z. & Abid, I. (2007). *MPRA Paper 40042*.
+
+---
+
+## Machine Learning, Classification & Statistical Distributions
+
+Work at the intersection of statistics and machine learning — penalized models, distribution families, and outlier detection.
+
+- **A Feature Selection Method for Classification Based on Ensemble of Penalized Logistic Models**
+  Ijaz, M., Gul, A. & Asghar, Z. (2022). *Communications in Statistics - Simulation and Computation*, Taylor & Francis.
+  [Paper →](https://www.tandfonline.com/doi/abs/10.1080/03610918.2022.2044054)
+
+- **Ensemble of Penalized Logistic Models for Classification of High-Dimensional Data**
+  Ijaz, M., Asghar, Z. & Gul, A. (2021). *Communications in Statistics - Simulation and Computation*, 50(7), 2072–2088.
+  [Paper →](https://www.tandfonline.com/doi/abs/10.1080/03610918.2019.1595647)
+
+- **A Statistical Evidence of Power Law Distribution in the Upper Tail of World Billionaires' Data 2010–20**
+  Asif, M., Hussain, Z., Asghar, Z. et al. (2021). *Physica A*, 581, 126198.
+  [Paper →](https://www.sciencedirect.com/science/article/abs/pii/S0378437121004714)
+
+- **Cubic Transmuted-G Family of Distributions and Its Properties**
+  Aslam, M., Hussain, Z. & Asghar, Z. (2018). *Stochastics and Quality Control*, 33(2), 103–112.
+  [Paper →](https://www.degruyter.com/document/doi/10.1515/eqc-2017-0027/html)
+
+- **On Exponential Negative-Binomial-X Family of Distributions**
+  Hussain, Z., Aslam, M. & Asghar, Z. (2019). *Annals of Data Science*, 6(4), 651–672.
+  [Paper →](https://link.springer.com/article/10.1007/s40745-019-00194-8)
+
+- **A Modified TX Family of Distributions: Classical and Bayesian Analysis**
+  Aslam, M., Asghar, Z. et al. (2020). *Journal of Taibah University for Science*, 14(1), 254–264.
+
+- **A New Generator for Proposing Flexible Lifetime Distributions and Its Properties**
+  Aslam, M., Ley, C., Hussain, Z., Shah, S.F. & Asghar, Z. (2020). *PLoS ONE*, 15(4).
+
+- **Impact of Seasonal Level Shift (SLS) on Time Series Forecasting**
+  Shahid, H., Urooj, A. & Asghar, Z. (2023). *Romanian Journal of Economic Forecasting*, 26(1), 107.
+
+- **Evaluation of Test Statistics for Detection of Outliers and Shifts**
+  Urooj, A. & Asghar, Z. (2020). *Journal of Quantitative Methods*, 4(2), 54–75.
+
+---
+
+## Food Security, Health & Development
+
+Applied research on Pakistan's most pressing human development challenges.
+
+- **The Impact of Food Price Crises on the Demand for Nutrients in Pakistan**
+  Asghar, Z. (2016). *Journal of South Asian Development*, 11(3), 305–327. SAGE.
+  [Paper →](https://journals.sagepub.com/doi/abs/10.1177/0973174116667102)
+
+- **Socio-Economic Determinants of Household Food Insecurity in Pakistan**
+  Asghar, Z. (2015). *International Journal of Economics and Empirical Research*, 3(1), 6–18.
+
+- **Measuring Impact of Education and Socio-economic Factors on Health for Pakistan**
+  Asghar, Z. (2009). *The Pakistan Development Review*, 48(4), 653–674.
+  [Paper →](https://www.pide.org.pk/pdf/PDR/2009/Volume4/653-674.pdf)
+
+- **Determinants of Child Health in Pakistan Through Latent Variable Model Approach**
+  Asghar, Z. (2014). *International Journal of Economics and Empirical Research*, 2(4), 135–149.
+
+- **Effect of Displacement on Adherence to TB Treatment**
+  Khan, F.U., Asghar, Z. et al. (2021). *Pakistan Journal of Medical Sciences*, 37(3), 675.
+  [Paper →](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8155409/)
+
+---
+
+## ICT, SDGs & Women's Empowerment
+
+- **Role of the ICT in Women Empowerment and Achieving SDGs: A Case Study of Women Labor Force in Developing Countries**
+  Noor, A., Asghar, Z., Sarwar, H. & Arfeen, M.I. (2021). *ETIKONOMI*, 20(2), 339–348.
+
+- **Role of the ICT in Women's Empowerment and Achieving SDGs 2030: A Case Study of Pakistan by Using PDHS Data**
+  Noor, A., Asghar, Z. & Arfeen, M.I. (2021). *Journal of Managerial Sciences*, 15.
+
+---
+
+## Energy & Resource Economics
+
+- **Iran-Pakistan-India Gas Pipeline: An Economic Analysis in a Game Theoretic Framework**
+  Asghar, Z. & Nazuk, A. (2007). *The Pakistan Development Review*, 46(4), 537–550.
+  [Paper →](https://www.pide.org.pk/pdf/PDR/2007/Volume4/537-550.pdf)
+
+---
+
+## Education & Public Spending
+
+- **A Benefit Incidence Analysis of Public Spending on Education in Pakistan Using PSLM Data**
+  Asghar, Z. (2012). *Lahore Journal of Economics*, 17(2), 111–136.
+
+- **Analyzing Tax Policy and Economic Growth by Using Semi-Parametric Approach**
+  Asghar, Z. (2016). *Journal of Economic and Social Thought*, 3(4), 521–533.
+
+---
+
+## Social Networks & Behavior
+
+- **Dynamics of Social Influence on Consumption Choices: A Social Network Representation**
+  Shah, S.S. & Asghar, Z. (2023). *Heliyon*, Elsevier.
+
+- **Individual Attitudes Towards Environmentally Friendly Choices: A Comprehensive Analysis of the Role of Legal Rules, Religion, and Confidence in Government**
+  (Recent, ResearchGate)

@@ -1,0 +1,98 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dr. Zahid Asghar"
+  description: "Economist, Data Scientist & Policy Scholar. Professor and Director, School of Economics, Quaid-i-Azam University, Islamabad."
+  site-url: https://zahidasghar.com
+  # favicon: images/favicon.png  # Uncomment after adding favicon
+
+  # Search
+  search:
+    location: navbar
+    type: overlay
+
+  # Open Graph — uncomment after adding profile.jpg to images/
+  # open-graph:
+  #   title: "Dr. Zahid Asghar | Economist, Data Scientist & Policy Scholar"
+  #   description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
+  #   image: images/profile.jpg
+
+  # twitter-card:
+  #   title: "Dr. Zahid Asghar"
+  #   description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
+  #   image: images/profile.jpg
+  #   creator: "@zahedasghar"
+  #   site: "@zahedasghar"
+
+  # Google Analytics — replace with your GA4 ID
+  # google-analytics:
+  #   tracking-id: "G-XXXXXXXXXX"
+
+  # Navigation
+  navbar:
+    background: "#1B4F72"
+    foreground: "#FFFFFF"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - text: Research
+        href: research.qmd
+      - text: Policy & Commentary
+        href: policy.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Data & Code
+        href: code.qmd
+      - text: Blog
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/zahedasghar
+      - icon: linkedin
+        href: https://linkedin.com/in/zahidasghar
+      - icon: youtube
+        href: https://www.youtube.com/Zahidasghar
+      - icon: twitter
+        href: https://twitter.com/zahedasghar
+
+  # Sidebar (for blog listing)
+  sidebar: false
+
+  # Footer
+  page-footer:
+    left: |
+      &copy; 2026 Dr. Zahid Asghar &middot; Professor & Director, School of Economics, QAU
+    center: |
+      [Google Scholar](https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ) &middot;
+      [RePEc](https://ideas.repec.org/e/pas57.html) &middot;
+      [ResearchGate](https://www.researchgate.net/profile/Zahid-Asghar-2) &middot;
+      [ORCID](https://orcid.org/)
+    right: |
+      Built with [Quarto](https://quarto.org/) &middot; [Contact](mailto:g.zahid@gmail.com)
+
+  # Back to top
+  back-to-top-navigation: true
+  reader-mode: true
+
+  # Sitemap
+  site-path: "/"
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 250px
+
+

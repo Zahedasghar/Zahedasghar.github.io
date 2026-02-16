@@ -1,0 +1,60 @@
+---
+title: "About"
+pagetitle: "About Dr. Zahid Asghar | Economist & Policy Scholar"
+description: "Full leadership profile of Dr. Zahid Asghar — Professor, Director, Registrar, and policy advisor."
+toc: true
+---
+
+## Leadership Profile
+
+I am **Professor and Director of the School of Economics** at Quaid-i-Azam University, Islamabad — one of Pakistan's highest-ranked universities. Over two decades, I have built a career that spans rigorous academic research, institutional leadership, data science, and public policy engagement.
+
+My research addresses foundational questions about how Pakistan measures its economy and how those measurements shape policy. I have published on CPI methodology biases, GDP measurement challenges, causal inference using graph-theoretic methods, food security, health economics, and statistical distribution theory — in journals including *Taylor & Francis*, *Springer*, *SAGE*, *Elsevier*, and *De Gruyter*.
+
+Beyond research, I am deeply committed to building Pakistan's analytical capacity. I train economists, government analysts, and graduate students in applied econometrics, R programming, impact evaluation, and data visualization — skills that are essential for evidence-based decision-making in a country where data infrastructure is still developing.
+
+## Roles & Positions Held
+
+| Role | Institution | Period |
+|------|------------|--------|
+| Professor & Director | School of Economics, Quaid-i-Azam University | Current |
+| Registrar | Quaid-i-Azam University, Islamabad | Previous |
+| Chairman | Department of Statistics, Quaid-i-Azam University | Previous |
+| RAC Member | [RASTA Competitive Grants Program](https://rasta.pide.org.pk/research-advisory-committee/), PIDE | Current |
+| Senior Faculty | National Institute of Banking & Finance (NIBAF), State Bank of Pakistan | Previous |
+
+## Education
+
+- **PhD Economics** — Pakistan Institute of Development Economics (PIDE) / Quaid-i-Azam University
+- Research focus: Applied Econometrics, Causal Inference, Economic Measurement
+
+## Research Areas
+
+- **Economic Measurement**: GDP methodology, CPI biases, national accounts modernization, digital economy measurement
+- **Applied Econometrics**: Graph-theoretic causality, structural approaches, time series analysis
+- **Machine Learning & Statistics**: Penalized logistic models, distribution families, outlier detection
+- **Development Economics**: Food security, health, education, SDGs, women's empowerment
+- **Data Science & Policy**: AI governance, data visualization, reproducible research, open-source tools
+- **Urban Economics**: Creative cities, mixed-use land measurement, housing policy
+
+## Advisory & Policy Engagement
+
+- Member, Research Advisory Committee — RASTA Competitive Grants Program for Policy-Oriented Research (PIDE)
+- Policy commentary on national media including Capital TV
+- Contributing author at [PIDE Blog](https://pide.org.pk/blog/) on GDP measurement, higher education reform
+- Critical analysis of Pakistan's National AI Policy 2025
+- Engagement with Pakistan Bureau of Statistics on digital gender inclusion and data quality
+
+## What Drives My Work
+
+Pakistan's statistical infrastructure faces a critical moment. We are making multi-billion-dollar policy decisions based on GDP estimates with outdated base years, CPI baskets that don't reflect how people actually live, and data systems that are not designed for the digital economy. At the same time, AI is transforming how every country collects, processes, and uses data — but we don't yet have the governance frameworks to deploy it responsibly.
+
+I believe the path forward requires three things: **better measurement** of what our economy actually looks like, **better tools** in the hands of the analysts who produce those measurements, and **better thinking** about how data systems should be governed. That is what I work on — through research, training, and public engagement.
+
+## Contact
+
+- **Email**: [g.zahid@gmail.com](mailto:g.zahid@gmail.com)
+- **University**: School of Economics, Quaid-i-Azam University, Islamabad 45320, Pakistan
+- **LinkedIn**: [linkedin.com/in/zahidasghar](https://linkedin.com/in/zahidasghar)
+
+[Download CV (PDF)](cv.pdf){.btn-primary}

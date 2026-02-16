@@ -1,0 +1,69 @@
+---
+title: "Policy & Commentary"
+pagetitle: "Policy & Commentary | Dr. Zahid Asghar"
+description: "Policy essays, public commentary, and critical analysis by Dr. Zahid Asghar on AI governance, economic measurement, higher education reform, and Pakistan's data infrastructure."
+toc: true
+---
+
+I believe economists have a responsibility to engage with the public on how data shapes policy. Below is my policy writing and public commentary — on AI governance, economic measurement, education reform, and Pakistan's statistical infrastructure.
+
+---
+
+## AI & Technology Policy
+
+### [Pakistan's AI Policy: A Vision Without Teeth](posts/pakistan-ai-policy/index.qmd)
+
+A critical analysis of Pakistan's National AI Policy 2025. The policy's four-pillar architecture shows ambition, but the absence of risk classification, safety evaluation standards, and realistic implementation mechanisms means it reads more like a wish list than a roadmap. I argue for starting small, building enforcement capacity, and adopting international best practices from Singapore, the EU, and Malaysia.
+
+*Published on zahidasghar.com, 2025*
+
+---
+
+## Economic Measurement & National Accounts
+
+### [Pending Pakistan's Revised Base Estimates of GDP and Measurement Issues in LSM](https://pide.org.pk/blog/pending-pakistans-revised-base-estimates-of-gdp-and-measurement-issues-in-lsm/)
+
+Co-authored with Mahmood Khalid (PIDE). We argue that Pakistan's GDP estimates are distorted by outdated base years, reliance on self-reported industrial data, and constant input-output ratios that don't reflect technological change. We call for a state-of-the-art research center and compulsory PBS collaboration on data sharing.
+
+*Published on PIDE Blog, 2021*
+
+### [Biases in Consumer Price Index Methodology in Pakistan: Suggestions for Improvements](https://www.pide.org.pk/pdf/Volume47/Issue3-2008.pdf)
+
+A foundational paper identifying specific methodological biases in how PBS constructs the CPI — including outlet substitution bias, quality adjustment gaps, and formula effects. This remains one of the few systematic critiques of Pakistan's price statistics methodology.
+
+*The Pakistan Development Review, 2008*
+
+---
+
+## Higher Education & Human Capital
+
+### [Thinking Beyond Metrics in Higher Education](https://pide.org.pk/blog/thinking-beyond-metrics-in-higher-education/)
+
+Pakistan's higher education system has gone directionless. I argue that the model developed two decades ago is outdated, the HEC governance crisis demands comprehensive analysis rather than ad hoc fixes, and we need to fundamentally rethink what universities are for in the 21st century.
+
+*Published on PIDE Blog*
+
+### [Higher Education Challenge for Pakistan Under COVID-19: The Way Forward](about.qmd)
+
+Written during the pandemic — on virtual learning, new educational accounting systems, and why the crisis demanded a structural rethink of how Pakistan delivers higher education.
+
+*2020*
+
+---
+
+## Media & Public Appearances
+
+- **Capital TV** — Commentary on the Pakistani economy (*available via LinkedIn*)
+- **PBS Working Group** — First Meeting of the Working Group on Strengthening Digital Gender Inclusion Through Data Collaboration (*LinkedIn, 2025*)
+
+---
+
+## Upcoming & In Progress
+
+I am currently working on the following policy-oriented pieces:
+
+- **Why Pakistan's GDP Numbers Don't Tell the Full Story** — expanding my PIDE analysis into a comprehensive essay
+- **What a Digital Statistical System Should Look Like for Pakistan** — a blueprint for PBS modernization
+- **One Year After the AI Policy: Where Are We?** — a follow-up assessment
+
+*Check back regularly or [subscribe to the newsletter](index.qmd#stay-connected) for updates.*

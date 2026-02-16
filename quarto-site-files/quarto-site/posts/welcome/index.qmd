@@ -1,0 +1,23 @@
+---
+title: "Welcome to the New Site"
+description: "A fresh start — consolidating my research, teaching, policy writing, and data projects into one place."
+author: "Zahid Asghar"
+date: "2026-02-16"
+categories: [Announcement]
+aliases:
+  - /posts/welcome.html
+---
+
+After years of maintaining separate platforms for different aspects of my work, I've consolidated everything into a single site built with [Quarto](https://quarto.org/).
+
+Here you'll find:
+
+- **Research** — my publications organized by theme, from economic measurement to causal inference
+- **Policy & Commentary** — essays on AI governance, GDP methodology, and education reform
+- **Teaching & Training** — course materials, workshop resources, and R tutorials
+- **Data & Code** — open-source projects and reproducible analyses
+- **Blog** — new writing on economics, data science, and Pakistan's statistical infrastructure
+
+I'll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you'd like to stay updated, subscribe to the newsletter on the [homepage](../index.qmd).
+
+The site is open source and built entirely with Quarto and GitHub Pages. If you spot any issues, feel free to raise them on [GitHub](https://github.com/zahedasghar).

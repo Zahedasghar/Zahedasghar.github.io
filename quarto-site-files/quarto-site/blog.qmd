@@ -1,0 +1,17 @@
+---
+title: "Blog"
+pagetitle: "Blog | Dr. Zahid Asghar"
+description: "Policy essays, technical tutorials, data explorations, and commentary by Dr. Zahid Asghar."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+  fields: [title, description, date, categories]
+toc: false
+---
+
+Policy essays, technical tutorials, data explorations, and commentary on economics, data science, and Pakistan's statistical infrastructure.
+
+*New posts are published regularly. [Subscribe to the newsletter](index.qmd#stay-connected) to get notified.*

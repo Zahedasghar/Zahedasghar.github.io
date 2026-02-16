@@ -1,4 +1,0 @@
-# Quantitative Methods 
-
-## Heading1
-
