@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Dr. Zahid Asghar</title>
+<link>https://zahidasghar.com/posts/</link>
+<atom:link href="https://zahidasghar.com/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Policy essays, technical tutorials, data explorations, and commentary.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Sun, 15 Feb 2026 19:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to the New Site</title>
+  <dc:creator>Zahid Asghar</dc:creator>
+  <link>https://zahidasghar.com/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After years of maintaining separate platforms for different aspects of my work, I’ve consolidated everything into a single site built with <a href="https://quarto.org/">Quarto</a>.</p>
+<p>Here you’ll find:</p>
+<ul>
+<li><strong>Research</strong> — my publications organized by theme, from economic measurement to causal inference</li>
+<li><strong>Policy &amp; Commentary</strong> — essays on AI governance, GDP methodology, and education reform</li>
+<li><strong>Teaching &amp; Training</strong> — course materials, workshop resources, and R tutorials</li>
+<li><strong>Data &amp; Code</strong> — open-source projects and reproducible analyses</li>
+<li><strong>Blog</strong> — new writing on economics, data science, and Pakistan’s statistical infrastructure</li>
+</ul>
+<p>I’ll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you’d like to stay updated, subscribe to the newsletter on the <a href="../../posts/index.html">homepage</a>.</p>
+<p>The site is open source and built entirely with Quarto and GitHub Pages. If you spot any issues, feel free to raise them on <a href="https://github.com/zahedasghar">GitHub</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Announcement</category>
+  <guid>https://zahidasghar.com/posts/welcome/</guid>
+  <pubDate>Sun, 15 Feb 2026 19:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Pakistan’s AI Policy: A Vision Without Teeth</title>
+  <dc:creator>Zahid Asghar</dc:creator>
+  <link>https://zahidasghar.com/posts/pakistan-ai-policy/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It is heartening to see the document of Pakistan’s National AI Policy as artificial intelligence is not just another technology trend — it’s the foundation of tomorrow’s economy. It should have been a moment of celebration. But as I read through the 40-page document released by the Ministry of IT and Telecommunication, it seems I have a familiar feeling like other policy documents. We love to have grand visions, ambitious targets, and a troubling absence of the machinery needed to achieve them. We can all talk very well on macro things but very poor in delivering things at micro level.</p>
+<p>Let me be clear: having an AI policy is far better than having none. The document’s four-pillar architecture shows that someone in Islamabad understands the scope of what we’re dealing with. The policy speaks of training one million professionals, establishing Centers of Excellence, and creating a National AI Fund. These are the right but generic conversations to have. Good intentions alone do not build ecosystems or train algorithms.</p>
+<p>The fundamental problem isn’t what the policy says, but what it leaves out. Other countries have enforceable policy. Singapore has clear risk classifications for AI. European Union has binding rules for high-risk case. India has already operational testing standards. But Pakistan policy, in contrast, is mostly aspirations. It is like taking a pencil sketch to a construction site and wondering why the building won’t rise.</p>
+<section id="the-biggest-gap-risk-classification" class="level2">
+<h2 class="anchored" data-anchor-id="the-biggest-gap-risk-classification">The Biggest Gap: Risk Classification</h2>
+<p>The biggest gap is risk classification. Every serious AI framework in the world recognizes that not all AI is created equal. A video recommendation engine is very different from an AI making medical diagnoses or approving loans. Yet our policy treats them all the same. This is to say, it does not really treat them at all. If we don’t set clear rules and responsibilities, everything will turn messy and public trust will soon erode.</p>
+<p>Placing the AI Directorate under the Data Protection Commission is also poorly thought out. It is like asking traffic police to manage aviation. Both involve movement, but the expertise, challenges, and stakes are entirely different. This is not just bureaucratic inefficiency; it is a recipe for stalled decision-making at a time when speed is critical.</p>
+<p>The targets read more like a wish list than a serious roadmap. Training one million people in AI sounds impressive, but there is no clarity on who will train them, what curriculum will be used, or how quality will be ensured.</p>
+</section>
+<section id="safety-and-evaluation-standards" class="level2">
+<h2 class="anchored" data-anchor-id="safety-and-evaluation-standards">Safety and Evaluation Standards</h2>
+<p>The most alarming omission is safety and evaluation standards. The message seems to be: “Go ahead and develop AI, deploy it, and we’ll worry about safety later.” This is not just careless — it is dangerous. One bad AI decision in healthcare or banking could destroy public trust for years. Yet the policy does not explain how systems will be tested, who will take responsibility if they fail, or what happens if an algorithm discriminates against people.</p>
+<p>We don’t need to reinvent the wheel. Other countries have already done the hard work of figuring out how to regulate AI safely. Singapore’s Model AI Governance Framework is publicly available. The UK’s approach to AI assurance is well-documented. Even Malaysia, hardly a global tech leader, has clearer implementation mechanisms than what we’re proposing. We can customise these documents as AI benefits and perils are universal in nature.</p>
+</section>
+<section id="what-pakistan-actually-needs" class="level2">
+<h2 class="anchored" data-anchor-id="what-pakistan-actually-needs">What Pakistan Actually Needs</h2>
+<p>What Pakistan urgently needs is an actionable policy with a focus on implementation. We need to start small and build gradually, rather than marking grand announcement that we cannot deliver. Instead of promising to train one million people, why not start by properly training one hundred AI safety experts who actually know what they are doing. We need to adopt a risk-based classification system that separates the trivial from the critical. We need mandatory safety evaluations for high-risk AI applications before they’re deployed, not after they’ve caused harm.</p>
+<p>The government should also be honest about funding and its current capacity. The National AI Fund is a good idea, but where’s the money? Government officials struggle with basic IT systems, yet we expect them to regulate advanced artificial intelligence. Our legal system is still figuring out cybercrime law, but we want to become leaders in AI governance.</p>
+</section>
+<section id="the-choice-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="the-choice-ahead">The Choice Ahead</h2>
+<p>I’m not suggesting we abandon ambition. Pakistan’s young population, its growing IT sector, and its pressing development challenges make it an ideal laboratory for AI innovation. But ambition without mechanism is just daydreaming. We need boring things like procurement standards, incident reporting systems, and compliance frameworks.</p>
+<p>The government now faces a choice. It can either treat this AI policy as another opportunity for photo sessions and press releases, or it can roll up its sleeves and build real implementation capacity. That choice will decide whether Pakistan joins the AI race as a player or remains a spectator.</p>
+<p>If we stick to the usual pattern of bold announcements followed by weak execution, this AI policy will join the long list of well-intentioned documents that changed nothing. The clock is ticking, and the world will not wait for us to catch up.</p>
+<hr>
+<p><em>The author is a Professor, School of Economics, Quaid-i-Azam University, Islamabad. The views expressed are personal.</em></p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>AI Policy</category>
+  <category>Pakistan</category>
+  <category>Governance</category>
+  <guid>https://zahidasghar.com/posts/pakistan-ai-policy/</guid>
+  <pubDate>Sat, 14 Jun 2025 19:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
