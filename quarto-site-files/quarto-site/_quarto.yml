@@ -1,10 +1,10 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: ../../docs
 
 website:
-  title: "Dr. Zahid Asghar"
-  description: "Economist, Data Scientist & Policy Scholar. Professor and Director, School of Economics, Quaid-i-Azam University, Islamabad."
+  title: "Zahid Asghar"
+  description: "Economist, Data Scientist & Policy Scholar. Professor (Ex-Director), School of Economics, Quaid-i-Azam University, Islamabad."
   site-url: https://zahidasghar.com
   # favicon: images/favicon.png  # Uncomment after adding favicon
 
@@ -13,18 +13,18 @@ website:
     location: navbar
     type: overlay
 
-  # Open Graph — uncomment after adding profile.jpg to images/
-  # open-graph:
-  #   title: "Dr. Zahid Asghar | Economist, Data Scientist & Policy Scholar"
-  #   description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
-  #   image: images/profile.jpg
+  Open Graph — uncomment after adding profile.jpg to images/
+  open-graph:
+    title: "Dr. Zahid Asghar | Economist, Data Scientist & Policy Scholar"
+    description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
+    image: images/profile.jpg
 
-  # twitter-card:
-  #   title: "Dr. Zahid Asghar"
-  #   description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
-  #   image: images/profile.jpg
-  #   creator: "@zahedasghar"
-  #   site: "@zahedasghar"
+  twitter-card:
+    title: "Dr. Zahid Asghar"
+    description: "Advancing economic measurement, data science, and evidence-based policy for Pakistan."
+    image: images/profile.jpg
+    creator: "@zahedasghar"
+    site: "@zahedasghar"
 
   # Google Analytics — replace with your GA4 ID
   # google-analytics:

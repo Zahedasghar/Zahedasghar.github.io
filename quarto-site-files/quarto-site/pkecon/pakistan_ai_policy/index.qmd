@@ -1,9 +1,10 @@
 ---
-title: "Pakistan's AI Policy: A Vision Without Teeth"
-description: "Redirecting to the blog post..."
-aliases:
-  - /pkecon/pakistan_ai_policy
-  - /pkecon/pakistan_ai_policy/
+title: "Redirecting..."
+description: "This page has moved."
 ---
 
-This essay has moved to the blog. [Click here to read it →](../../posts/pakistan-ai-policy/index.qmd)
+This essay has moved. Redirecting automatically...
+
+<script>
+window.location.href = "../../posts/pakistan-ai-policy/";
+</script>
