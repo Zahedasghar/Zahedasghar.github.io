@@ -5,31 +5,49 @@ description: "Open-source R code, data projects, and reproducible analyses by Dr
 toc: true
 ---
 
-I maintain [57 public repositories on GitHub](https://github.com/zahedasghar) covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects.
+I maintain [more than 60 public repositories on GitHub](https://github.com/zahedasghar) covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects.
 
 ---
 
 ## Featured Projects
 
+### A Vision for National Statistics (book)
+The Quarto source of my book on building Pakistan's national data infrastructure.
+
+- [GitHub](https://github.com/Zahedasghar/pakistan_data_infrastructure)
+
+### WDI Explorer
+An R tool for exploring the World Bank's World Development Indicators.
+
+- [GitHub](https://github.com/Zahedasghar/wdiexplorer)
+
+### Course sites built with Quarto
+Full course websites, with code, for [Machine Learning for Economists](https://zahidasghar.com/machine_learning/) and [Time Series Econometrics and Macroeconomic Forecasting](https://zahidasghar.com/timeseries/).
+
+### Data for Development (D4D)
+Materials for a five-day workshop on AI-augmented R workflows for analysis and automation.
+
+- [GitHub](https://github.com/Zahedasghar/d4d)
+
 ### Applied Econometrics with R
 Complete course materials — regression, time series, panel data, causal inference — all implemented in R with real datasets.
 
-- [GitHub →](https://github.com/Zahedasghar/Applied_econometrics_2022)
+- [GitHub](https://github.com/Zahedasghar/Applied_econometrics_2022)
 
 ### Impact Evaluation Toolkit
 Practical R implementations of difference-in-differences, RCTs, regression discontinuity, matching, and instrumental variables for policy evaluation.
 
-- [GitHub →](https://github.com/Zahedasghar/impact_evaluation)
+- [GitHub](https://github.com/Zahedasghar/impact_evaluation)
 
 ### R for Development (R4D)
 Introduction to R for development economists and policy analysts — data wrangling, visualization, and analysis of development data.
 
-- [GitHub →](https://github.com/Zahedasghar/R4D)
+- [GitHub](https://github.com/Zahedasghar/R4D)
 
 ### Data Analytics
 Fundamentals of data analytics — exploratory analysis, summary statistics, and visualization workflows.
 
-- [GitHub →](https://github.com/Zahedasghar/data_analytics)
+- [GitHub](https://github.com/Zahedasghar/data_analytics)
 
 ---
 
@@ -42,7 +60,7 @@ Shorter tutorials published on RPubs covering specific econometric and data tech
 - [Economic Forecasting with Tax Data](https://rpubs.com/Zahidasghar)
 - [Fertility Rate vs GNI Visualization](https://rpubs.com/Zahidasghar)
 
-[Browse all RPubs →](https://rpubs.com/Zahidasghar)
+[Browse all RPubs tutorials](https://rpubs.com/Zahidasghar)
 
 ---
 
@@ -51,7 +69,7 @@ Shorter tutorials published on RPubs covering specific econometric and data tech
 ### Extracting Data from PDF Documents
 Using the `tabulapdf` package in R to extract structured data from government PDF reports — a practical skill for anyone working with Pakistani official statistics.
 
-- [Tutorial →](https://zahid.quarto.pub/myR/pdf_tables/)
+- [Tutorial](https://zahid.quarto.pub/myR/pdf_tables/)
 
 ### Pakistan Election Data Explorer
 Analysis of Pakistan's election data from 1993–2018: which politicians won maximum seats, which constituencies had the closest margins, and how previous margins predict future elections.
@@ -64,7 +82,8 @@ Analysis of Pakistan's election data from 1993–2018: which politicians won max
 
 | Tool | Purpose |
 |------|---------|
-| **R / RStudio** | Core data analysis and statistical modeling |
+| **R, with Positron and RStudio** | Core data analysis and statistical modelling |
+| **Python** | Machine learning and AI workflows |
 | **Quarto** | Reproducible documents, presentations, websites, books |
 | **tidyverse** | Data wrangling (dplyr, tidyr, readr, purrr) |
 | **ggplot2 / plotly** | Static and interactive data visualization |
@@ -78,4 +97,4 @@ Analysis of Pakistan's election data from 1993–2018: which politicians won max
 
 If you find errors in any code, want to contribute improvements, or have ideas for data projects relevant to Pakistan's economic policy, I welcome pull requests and issues on GitHub.
 
-[GitHub Profile →](https://github.com/zahedasghar)
+[Visit my GitHub profile](https://github.com/zahedasghar){.btn-solid}

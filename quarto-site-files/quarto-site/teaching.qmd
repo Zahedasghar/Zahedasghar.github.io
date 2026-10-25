@@ -5,7 +5,7 @@ description: "Courses, workshops, and training materials by Dr. Zahid Asghar —
 toc: true
 ---
 
-I teach at the School of Economics, Quaid-i-Azam University, and deliver professional training workshops for government analysts, researchers, and development practitioners. My teaching philosophy: economists must be able to work with data, not just talk about it.
+I have taught at the School of Economics, Quaid-i-Azam University, for most of my career, and I have delivered training workshops for government analysts, researchers and development practitioners. My view is simple: economists must be able to work with data, not just talk about it.
 
 All materials below are open-access. If you use them for your own teaching, a link back is appreciated.
 
@@ -13,10 +13,26 @@ All materials below are open-access. If you use them for your own teaching, a li
 
 ## University Courses
 
+### Machine Learning, Big Data and AI in Economics
+MS course on prediction, classification, text as data and AI tools for economists, with lectures and hands-on labs.
+
+- [Course website](https://zahidasghar.com/machine_learning/)
+- [Source on GitHub](https://github.com/Zahedasghar/machine_learning)
+
+### Time Series Econometrics and Macroeconomic Forecasting (EC614)
+Stationarity, ARIMA and VAR models, cointegration and forecast evaluation, applied to Pakistan's macroeconomic data.
+
+- [Course website](https://zahidasghar.com/timeseries/)
+- [Source on GitHub](https://github.com/Zahedasghar/timeseries)
+
+### AI for Social Sciences
+A course for BS, MS and PhD students on using AI tools responsibly in social science research, with examples from Pakistan.
+
 ### Applied Econometrics
 Graduate-level course covering regression analysis, time series methods, causal inference, and practical implementation in R and Stata. Materials include lecture slides, R code, and replication exercises.
 
-- [Course materials on GitHub →](https://github.com/Zahedasghar/Applied_econometrics_2022)
+- [Course materials on GitHub](https://github.com/Zahedasghar/Applied_econometrics_2022)
+- [Applied Econometrics with R (AECR)](https://github.com/Zahedasghar/AECR)
 
 ### Econometrics
 Core graduate econometrics — OLS, GLS, instrumental variables, panel data, limited dependent variables. Emphasis on understanding assumptions and diagnostics, not just running software.
@@ -24,24 +40,38 @@ Core graduate econometrics — OLS, GLS, instrumental variables, panel data, lim
 ### Data Analytics & Visualization
 Introduction to modern data analysis workflows — data wrangling, exploratory analysis, and interactive visualization using R, ggplot2, plotly, and Quarto.
 
-- [Data Analytics repo →](https://github.com/Zahedasghar/data_analytics)
+- [Data Analytics repo](https://github.com/Zahedasghar/data_analytics)
 
 ---
 
 ## Professional Training Workshops
 
-I regularly deliver workshops for government officials, central bank staff, researchers, and NGO analysts. Topics include:
+I regularly deliver workshops for government officials, central bank staff, researchers and NGO analysts. Recent ones include:
+
+### Data for Development (D4D), 2026
+A five-day workshop with SDPI on data analysis, automation and evidence-based decision making with AI-augmented R workflows (31 August to 4 September 2026).
+
+- [Workshop materials](https://github.com/Zahedasghar/d4d)
+
+### AI for public policy and teaching
+Sessions on using AI in economic policy making for economists of the Ministry of Finance and the Planning Commission, AI workshops for provincial government policy officers, and training for college teachers on using AI in the classroom.
+
+### Introduction to R and RStudio / Positron
+A five-day hands-on workshop that takes analysts from installing R to producing a reproducible Quarto report, now including AI-assisted analysis.
+
+Other regular topics:
 
 ### Impact Evaluation
 Practical tools for measuring policy impact — randomized controlled trials, difference-in-differences, regression discontinuity, instrumental variables, and matching methods. Hands-on implementation in R.
 
-- [Impact Evaluation materials →](https://github.com/Zahedasghar/impact_evaluation)
+- [Impact Evaluation materials](https://github.com/Zahedasghar/impact_evaluation)
 
 ### R Programming for Economists
 From zero to productive — installing R/RStudio, data import, tidyverse workflow, regression, visualization, and reproducible reporting with Quarto. Designed for economists and analysts with no prior programming experience.
 
-- [R for Development (R4D) →](https://github.com/Zahedasghar/R4D)
-- [RPubs tutorials →](https://rpubs.com/Zahidasghar)
+- [R for Development (R4D)](https://github.com/Zahedasghar/R4D)
+- [Data Analysis with R: A Practical Introduction Using Pakistani Data](https://github.com/Zahedasghar/D4D_book) (book draft)
+- [RPubs tutorials](https://rpubs.com/Zahidasghar)
 
 ### Data Visualization with R
 Interactive charts, maps, and animated graphics using ggplot2, plotly, leaflet, and gganimate. Emphasis on visualizing economic and survey data for policy communication.
@@ -58,7 +88,7 @@ Modern scientific publishing with Quarto — documents, presentations, websites,
 
 I maintain a [YouTube channel](https://www.youtube.com/Zahidasghar) with video tutorials on econometrics, R programming, and data analysis. Topics include dummy variables, multicollinearity, economic forecasting, and more.
 
-[Visit YouTube Channel →](https://www.youtube.com/Zahidasghar)
+[Visit the YouTube channel](https://www.youtube.com/Zahidasghar){.btn-line}
 
 ---
 
@@ -78,4 +108,4 @@ Three principles guide my teaching:
 
 I am available for customized training workshops for government agencies, research organizations, central banks, and international development programs. Topics can be tailored to your team's needs and data.
 
-[Contact me →](mailto:g.zahid@gmail.com)
+[Email me about training](mailto:g.zahid@gmail.com){.btn-solid}

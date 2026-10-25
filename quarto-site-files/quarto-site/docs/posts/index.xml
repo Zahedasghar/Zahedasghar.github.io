@@ -5,12 +5,43 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Dr. Zahid Asghar</title>
+<title>Zahid Asghar</title>
 <link>https://zahidasghar.com/posts/</link>
 <atom:link href="https://zahidasghar.com/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Policy essays, technical tutorials, data explorations, and commentary.</description>
+<image>
+<url>https://zahidasghar.com/images/og-card.jpg</url>
+<title>Zahid Asghar</title>
+<link>https://zahidasghar.com/posts/</link>
+</image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 15 Feb 2026 19:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>A new chapter: joining the Pakistan Bureau of Statistics</title>
+  <dc:creator>Zahid Asghar</dc:creator>
+  <link>https://zahidasghar.com/posts/joining-pbs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://zahidasghar.com/posts/joining-pbs/featured.jpg" class="img-fluid" alt="Zahid Asghar at his desk at the Pakistan Bureau of Statistics, with the national flag behind him"></p>
+<p>I have joined the <strong>Pakistan Bureau of Statistics</strong> as <strong>Member (Economic Statistics)</strong>, under the Ministry of Planning, Development and Special Initiatives, Government of Pakistan.</p>
+<p>In 2008 I wrote a paper on the biases in how Pakistan measured consumer prices. Since then much of my work, in research, in the classroom and in newspaper columns, has come back to the same question: how good are the numbers we use to run the country, and how can they be better? For years I asked that question from the outside. Now I have the chance to work on it from the inside, alongside colleagues who produce Pakistan’s official statistics every day.</p>
+<p>My portfolio covers economic statistics and, more recently, social statistics as well. I am excited about the work ahead, and two priorities stand out for me. The first is data literacy, both within the Bureau and among everyone who relies on its numbers. The second is bringing machine learning and new data sources into the production of official statistics, carefully and transparently.</p>
+<p>Quaid-i-Azam University shaped most of my working life, and I am grateful to my colleagues and students there. I will keep writing and sharing open materials on this site.</p>
+<p><em>Views on this site are my own and do not represent the Pakistan Bureau of Statistics or the Government of Pakistan. For official statistics, please visit <a href="https://www.pbs.gov.pk/">pbs.gov.pk</a>.</em></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Announcement</category>
+  <category>Official Statistics</category>
+  <category>PBS</category>
+  <guid>https://zahidasghar.com/posts/joining-pbs/</guid>
+  <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://zahidasghar.com/posts/joining-pbs/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Welcome to the New Site</title>
   <dc:creator>Zahid Asghar</dc:creator>
@@ -29,7 +60,7 @@
 <li><strong>Data &amp; Code</strong> — open-source projects and reproducible analyses</li>
 <li><strong>Blog</strong> — new writing on economics, data science, and Pakistan’s statistical infrastructure</li>
 </ul>
-<p>I’ll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you’d like to stay updated, subscribe to the newsletter on the <a href="../../posts/index.html">homepage</a>.</p>
+<p>I’ll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you’d like to stay updated, follow the <a href="../../blog.xml">RSS feed</a>.</p>
 <p>The site is open source and built entirely with Quarto and GitHub Pages. If you spot any issues, feel free to raise them on <a href="https://github.com/zahedasghar">GitHub</a>.</p>
 
 
@@ -37,7 +68,7 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Announcement</category>
   <guid>https://zahidasghar.com/posts/welcome/</guid>
-  <pubDate>Sun, 15 Feb 2026 19:00:00 GMT</pubDate>
+  <pubDate>Mon, 16 Feb 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Pakistan’s AI Policy: A Vision Without Teeth</title>
@@ -83,7 +114,7 @@
   <category>Pakistan</category>
   <category>Governance</category>
   <guid>https://zahidasghar.com/posts/pakistan-ai-policy/</guid>
-  <pubDate>Sat, 14 Jun 2025 19:00:00 GMT</pubDate>
+  <pubDate>Sun, 15 Jun 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

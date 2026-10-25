@@ -14,4 +14,4 @@ toc: false
 
 Policy essays, technical tutorials, data explorations, and commentary on economics, data science, and Pakistan's statistical infrastructure.
 
-*New posts are published regularly. [Subscribe to the newsletter](index.qmd#stay-connected) to get notified.*
+*Follow new posts by [RSS](blog.xml).*

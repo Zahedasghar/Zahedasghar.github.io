@@ -5,7 +5,35 @@ description: "Policy essays, public commentary, and critical analysis by Dr. Zah
 toc: true
 ---
 
-I believe economists have a responsibility to engage with the public on how data shapes policy. Below is my policy writing and public commentary — on AI governance, economic measurement, education reform, and Pakistan's statistical infrastructure.
+I believe economists have a responsibility to talk with the public about how data shapes policy. This page collects my op-eds, essays and public commentary on AI and data, economic measurement, education reform, and Pakistan's statistical system.
+
+::: {.note-box}
+Views expressed here are my own and do not represent the Pakistan Bureau of Statistics or the Government of Pakistan.
+:::
+
+---
+
+## Op-eds in The News
+
+I write for The News (including its Money Matters section). A selection is below; the full list is on my [writer page](https://www.thenews.com.pk/writer/zahid-asghar). I also write for [Daily Times](https://dailytimes.com.pk/writer/zahid-asghar/).
+
+### [Digital junk food](https://www.thenews.com.pk/print/1225872-digital-junk-food)
+
+On the dangers of the junk information that spreads through social media.
+
+*The News, September 2024*
+
+### [The age of data](https://www.thenews.com.pk/print/1215343-the-age-of-data)
+
+Why government decision-making needs data analytics, from administrative records to procurement data, to complement rather than replace expert judgement.
+
+*The News, August 2024*
+
+### [AI journey: fuelled by data, not hype](https://www.thenews.com.pk/print/1211678-ai-journey-fueled-by-data-not-hype)
+
+Pakistan ranked 117th of 174 countries in the IMF's AI readiness index. The way up starts with data infrastructure, not slogans.
+
+*The News, July 2024*
 
 ---
 
@@ -43,7 +71,7 @@ Pakistan's higher education system has gone directionless. I argue that the mode
 
 *Published on PIDE Blog*
 
-### [Higher Education Challenge for Pakistan Under COVID-19: The Way Forward](about.qmd)
+### Higher Education Challenge for Pakistan Under COVID-19: The Way Forward
 
 Written during the pandemic — on virtual learning, new educational accounting systems, and why the crisis demanded a structural rethink of how Pakistan delivers higher education.
 
@@ -53,17 +81,16 @@ Written during the pandemic — on virtual learning, new educational accounting 
 
 ## Media & Public Appearances
 
-- **Capital TV** — Commentary on the Pakistani economy (*available via LinkedIn*)
-- **PBS Working Group** — First Meeting of the Working Group on Strengthening Digital Gender Inclusion Through Data Collaboration (*LinkedIn, 2025*)
+- **Capital TV:** commentary on the Pakistani economy (*clips on LinkedIn*)
+- **PBS Working Group:** first meeting of the Working Group on Strengthening Digital Gender Inclusion Through Data Collaboration (*2025*)
+- **Training for policy makers:** sessions on using AI in economic policy making for economists of the Ministry of Finance and the Planning Commission (*September 2024*), and AI workshops for provincial government policy officers
 
 ---
 
-## Upcoming & In Progress
+## In progress
 
-I am currently working on the following policy-oriented pieces:
+- **A Vision for National Statistics.** A book-length blueprint for building Pakistan's national data infrastructure. [Follow the draft on GitHub](https://github.com/Zahedasghar/pakistan_data_infrastructure).
+- **Why Pakistan's GDP numbers don't tell the full story.** Expanding my PIDE analysis into a longer essay.
+- **One year after the AI policy: where are we?** A follow-up assessment.
 
-- **Why Pakistan's GDP Numbers Don't Tell the Full Story** — expanding my PIDE analysis into a comprehensive essay
-- **What a Digital Statistical System Should Look Like for Pakistan** — a blueprint for PBS modernization
-- **One Year After the AI Policy: Where Are We?** — a follow-up assessment
-
-*Check back regularly or [subscribe to the newsletter](index.qmd#stay-connected) for updates.*
+*New pieces appear on the [blog](blog.qmd), which you can also follow by [RSS](blog.xml).*

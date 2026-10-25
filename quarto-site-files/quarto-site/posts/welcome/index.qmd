@@ -18,6 +18,6 @@ Here you'll find:
 - **Data & Code** — open-source projects and reproducible analyses
 - **Blog** — new writing on economics, data science, and Pakistan's statistical infrastructure
 
-I'll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you'd like to stay updated, subscribe to the newsletter on the [homepage](../index.qmd).
+I'll be publishing regularly on topics at the intersection of economic measurement, data science, and public policy. If you'd like to stay updated, follow the [RSS feed](../../blog.xml).
 
 The site is open source and built entirely with Quarto and GitHub Pages. If you spot any issues, feel free to raise them on [GitHub](https://github.com/zahedasghar).

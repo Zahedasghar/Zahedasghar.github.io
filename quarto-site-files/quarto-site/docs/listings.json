@@ -2,6 +2,7 @@
   {
     "listing": "/posts/index.html",
     "items": [
+      "/posts/joining-pbs/index.html",
       "/posts/welcome/index.html",
       "/posts/pakistan-ai-policy/index.html"
     ]
@@ -10,6 +11,7 @@
     "listing": "/blog.html",
     "items": [
       "/posts/index.html",
+      "/posts/joining-pbs/index.html",
       "/posts/welcome/index.html",
       "/posts/pakistan-ai-policy/index.html"
     ]

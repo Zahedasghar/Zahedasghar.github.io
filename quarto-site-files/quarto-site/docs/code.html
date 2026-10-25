@@ -8,7 +8,7 @@
 
 <meta name="description" content="Open-source R code, data projects, and reproducible analyses by Dr.&nbsp;Zahid Asghar — econometrics, data visualization, election analysis, and PDF data extraction.">
 
-<title>Data &amp; Code | Dr.&nbsp;Zahid Asghar – Dr. Zahid Asghar</title>
+<title>Data &amp; Code | Dr.&nbsp;Zahid Asghar – Zahid Asghar</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -40,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-58530aea6ca85f17454c2fc079b6b978.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ce02c0104ac7facf3ddd05b05f093f3e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,9 +68,20 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Zahid Asghar | Member (Economic Statistics), Pakistan Bureau of Statistics">
+<meta property="og:description" content="Economist and statistician working on how Pakistan measures its economy, and on the data, tools and people behind those numbers.">
+<meta property="og:image" content="https://zahidasghar.com/images/og-card.jpg">
+<meta property="og:site_name" content="Zahid Asghar">
+<meta name="twitter:title" content="Zahid Asghar">
+<meta name="twitter:description" content="Member (Economic Statistics), Pakistan Bureau of Statistics.">
+<meta name="twitter:image" content="https://zahidasghar.com/images/og-card.jpg">
+<meta name="twitter:creator" content="@zahedasghar">
+<meta name="twitter:site" content="@zahedasghar">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -80,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Dr.&nbsp;Zahid Asghar</span>
+    <span class="navbar-title">Zahid Asghar</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,10 +101,6 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -120,33 +128,28 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/zahedasghar"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/zahedasghar"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/zahidasghar"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/zahid-asghar"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.youtube.com/Zahidasghar"> <i class="bi bi-youtube" role="img">
+    <a class="nav-link" href="https://www.youtube.com/Zahidasghar"> <i class="bi bi-youtube" role="img" aria-label="YouTube">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/zahedasghar"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/zahedasghar"> <i class="bi bi-twitter-x" role="img" aria-label="X (Twitter)">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -159,20 +162,10 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link active" data-scroll-target="#featured-projects">Featured Projects</a>
   <ul class="collapse">
-  <li><a href="#applied-econometrics-with-r" id="toc-applied-econometrics-with-r" class="nav-link" data-scroll-target="#applied-econometrics-with-r">Applied Econometrics with R</a></li>
-  <li><a href="#impact-evaluation-toolkit" id="toc-impact-evaluation-toolkit" class="nav-link" data-scroll-target="#impact-evaluation-toolkit">Impact Evaluation Toolkit</a></li>
-  <li><a href="#r-for-development-r4d" id="toc-r-for-development-r4d" class="nav-link" data-scroll-target="#r-for-development-r4d">R for Development (R4D)</a></li>
-  <li><a href="#data-analytics" id="toc-data-analytics" class="nav-link" data-scroll-target="#data-analytics">Data Analytics</a></li>
-  </ul></li>
+  <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link active" data-scroll-target="#featured-projects">Featured Projects</a></li>
   <li><a href="#r-tutorials-code-snippets" id="toc-r-tutorials-code-snippets" class="nav-link" data-scroll-target="#r-tutorials-code-snippets">R Tutorials &amp; Code Snippets</a></li>
-  <li><a href="#data-explorations" id="toc-data-explorations" class="nav-link" data-scroll-target="#data-explorations">Data Explorations</a>
-  <ul class="collapse">
-  <li><a href="#extracting-data-from-pdf-documents" id="toc-extracting-data-from-pdf-documents" class="nav-link" data-scroll-target="#extracting-data-from-pdf-documents">Extracting Data from PDF Documents</a></li>
-  <li><a href="#pakistan-election-data-explorer" id="toc-pakistan-election-data-explorer" class="nav-link" data-scroll-target="#pakistan-election-data-explorer">Pakistan Election Data Explorer</a></li>
-  </ul></li>
+  <li><a href="#data-explorations" id="toc-data-explorations" class="nav-link" data-scroll-target="#data-explorations">Data Explorations</a></li>
   <li><a href="#tools-i-use-teach" id="toc-tools-i-use-teach" class="nav-link" data-scroll-target="#tools-i-use-teach">Tools I Use &amp; Teach</a></li>
   <li><a href="#contribute-or-collaborate" id="toc-contribute-or-collaborate" class="nav-link" data-scroll-target="#contribute-or-collaborate">Contribute or Collaborate</a></li>
   </ul>
@@ -205,36 +198,61 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I maintain <a href="https://github.com/zahedasghar">57 public repositories on GitHub</a> covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects.</p>
+<p>I maintain <a href="https://github.com/zahedasghar">more than 60 public repositories on GitHub</a> covering applied econometrics, data visualization, impact evaluation, and policy data analysis. Everything is open-source. Below is a curated selection of the most useful projects.</p>
 <hr>
 <section id="featured-projects" class="level2">
 <h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
+<section id="a-vision-for-national-statistics-book" class="level3">
+<h3 class="anchored" data-anchor-id="a-vision-for-national-statistics-book">A Vision for National Statistics (book)</h3>
+<p>The Quarto source of my book on building Pakistan’s national data infrastructure.</p>
+<ul>
+<li><a href="https://github.com/Zahedasghar/pakistan_data_infrastructure">GitHub</a></li>
+</ul>
+</section>
+<section id="wdi-explorer" class="level3">
+<h3 class="anchored" data-anchor-id="wdi-explorer">WDI Explorer</h3>
+<p>An R tool for exploring the World Bank’s World Development Indicators.</p>
+<ul>
+<li><a href="https://github.com/Zahedasghar/wdiexplorer">GitHub</a></li>
+</ul>
+</section>
+<section id="course-sites-built-with-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="course-sites-built-with-quarto">Course sites built with Quarto</h3>
+<p>Full course websites, with code, for <a href="https://zahidasghar.com/machine_learning/">Machine Learning for Economists</a> and <a href="https://zahidasghar.com/timeseries/">Time Series Econometrics and Macroeconomic Forecasting</a>.</p>
+</section>
+<section id="data-for-development-d4d" class="level3">
+<h3 class="anchored" data-anchor-id="data-for-development-d4d">Data for Development (D4D)</h3>
+<p>Materials for a five-day workshop on AI-augmented R workflows for analysis and automation.</p>
+<ul>
+<li><a href="https://github.com/Zahedasghar/d4d">GitHub</a></li>
+</ul>
+</section>
 <section id="applied-econometrics-with-r" class="level3">
 <h3 class="anchored" data-anchor-id="applied-econometrics-with-r">Applied Econometrics with R</h3>
 <p>Complete course materials — regression, time series, panel data, causal inference — all implemented in R with real datasets.</p>
 <ul>
-<li><a href="https://github.com/Zahedasghar/Applied_econometrics_2022">GitHub →</a></li>
+<li><a href="https://github.com/Zahedasghar/Applied_econometrics_2022">GitHub</a></li>
 </ul>
 </section>
 <section id="impact-evaluation-toolkit" class="level3">
 <h3 class="anchored" data-anchor-id="impact-evaluation-toolkit">Impact Evaluation Toolkit</h3>
 <p>Practical R implementations of difference-in-differences, RCTs, regression discontinuity, matching, and instrumental variables for policy evaluation.</p>
 <ul>
-<li><a href="https://github.com/Zahedasghar/impact_evaluation">GitHub →</a></li>
+<li><a href="https://github.com/Zahedasghar/impact_evaluation">GitHub</a></li>
 </ul>
 </section>
 <section id="r-for-development-r4d" class="level3">
 <h3 class="anchored" data-anchor-id="r-for-development-r4d">R for Development (R4D)</h3>
 <p>Introduction to R for development economists and policy analysts — data wrangling, visualization, and analysis of development data.</p>
 <ul>
-<li><a href="https://github.com/Zahedasghar/R4D">GitHub →</a></li>
+<li><a href="https://github.com/Zahedasghar/R4D">GitHub</a></li>
 </ul>
 </section>
 <section id="data-analytics" class="level3">
 <h3 class="anchored" data-anchor-id="data-analytics">Data Analytics</h3>
 <p>Fundamentals of data analytics — exploratory analysis, summary statistics, and visualization workflows.</p>
 <ul>
-<li><a href="https://github.com/Zahedasghar/data_analytics">GitHub →</a></li>
+<li><a href="https://github.com/Zahedasghar/data_analytics">GitHub</a></li>
 </ul>
 <hr>
 </section>
@@ -248,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://rpubs.com/Zahidasghar">Economic Forecasting with Tax Data</a></li>
 <li><a href="https://rpubs.com/Zahidasghar">Fertility Rate vs GNI Visualization</a></li>
 </ul>
-<p><a href="https://rpubs.com/Zahidasghar">Browse all RPubs →</a></p>
+<p><a href="https://rpubs.com/Zahidasghar">Browse all RPubs tutorials</a></p>
 <hr>
 </section>
 <section id="data-explorations" class="level2">
@@ -257,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="extracting-data-from-pdf-documents">Extracting Data from PDF Documents</h3>
 <p>Using the <code>tabulapdf</code> package in R to extract structured data from government PDF reports — a practical skill for anyone working with Pakistani official statistics.</p>
 <ul>
-<li><a href="https://zahid.quarto.pub/myR/pdf_tables/">Tutorial →</a></li>
+<li><a href="https://zahid.quarto.pub/myR/pdf_tables/">Tutorial</a></li>
 </ul>
 </section>
 <section id="pakistan-election-data-explorer" class="level3">
@@ -272,6 +290,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="tools-i-use-teach" class="level2">
 <h2 class="anchored" data-anchor-id="tools-i-use-teach">Tools I Use &amp; Teach</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Tool</th>
@@ -280,30 +302,34 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>R / RStudio</strong></td>
-<td>Core data analysis and statistical modeling</td>
+<td><strong>R, with Positron and RStudio</strong></td>
+<td>Core data analysis and statistical modelling</td>
 </tr>
 <tr class="even">
+<td><strong>Python</strong></td>
+<td>Machine learning and AI workflows</td>
+</tr>
+<tr class="odd">
 <td><strong>Quarto</strong></td>
 <td>Reproducible documents, presentations, websites, books</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>tidyverse</strong></td>
 <td>Data wrangling (dplyr, tidyr, readr, purrr)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>ggplot2 / plotly</strong></td>
 <td>Static and interactive data visualization</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>tidymodels</strong></td>
 <td>Machine learning workflows in R</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Stata</strong></td>
 <td>Econometric analysis (legacy projects)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Git / GitHub</strong></td>
 <td>Version control and open-source collaboration</td>
 </tr>
@@ -314,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="contribute-or-collaborate" class="level2">
 <h2 class="anchored" data-anchor-id="contribute-or-collaborate">Contribute or Collaborate</h2>
 <p>If you find errors in any code, want to contribute improvements, or have ideas for data projects relevant to Pakistan’s economic policy, I welcome pull requests and issues on GitHub.</p>
-<p><a href="https://github.com/zahedasghar">GitHub Profile →</a></p>
+<p><a href="https://github.com/zahedasghar" class="btn-solid">Visit my GitHub profile</a></p>
 
 
 </section>
@@ -406,6 +432,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -723,13 +754,13 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2026 Dr.&nbsp;Zahid Asghar · Professor &amp; Director, School of Economics, QAU</p>
+<p>© 2026 Zahid Asghar. Views on this site are my own and do not represent the Pakistan Bureau of Statistics or the Government of Pakistan.</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ">Google Scholar</a> · <a href="https://ideas.repec.org/e/pas57.html">RePEc</a> · <a href="https://www.researchgate.net/profile/Zahid-Asghar-2">ResearchGate</a> · <a href="https://orcid.org/">ORCID</a></p>
-</div>
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org/">Quarto</a> · <a href="mailto:g.zahid@gmail.com">Contact</a></p>
+<p><a href="https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ">Google Scholar</a> &nbsp; <a href="https://ideas.repec.org/e/pas57.html">RePEc</a> &nbsp; <a href="https://www.researchgate.net/profile/Zahid-Asghar-2">ResearchGate</a> &nbsp; <a href="blog.xml">RSS</a> &nbsp; <a href="mailto:g.zahid@gmail.com">Email</a></p>
 </div>
   </div>
 </footer>
@@ -737,4 +768,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zahidasghar.com/teaching.html</loc>
-    <lastmod>2026-02-16T03:52:41.458Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/posts/welcome/index.html</loc>
-    <lastmod>2026-02-16T07:17:06.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/posts/index.html</loc>
-    <lastmod>2026-02-16T07:16:23.828Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/pkecon/pakistan_ai_policy/index.html</loc>
-    <lastmod>2026-02-16T07:37:17.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/code.html</loc>
-    <lastmod>2026-02-16T03:52:41.539Z</lastmod>
+    <loc>https://zahidasghar.com/index.html</loc>
+    <lastmod>2026-10-25T11:56:25.029Z</lastmod>
   </url>
   <url>
     <loc>https://zahidasghar.com/about.html</loc>
-    <lastmod>2026-02-16T03:52:41.490Z</lastmod>
+    <lastmod>2026-10-25T11:56:25.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/teaching.html</loc>
+    <lastmod>2026-10-25T11:56:29.550Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/posts/welcome/index.html</loc>
+    <lastmod>2026-10-25T11:50:46.625Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/posts/index.html</loc>
+    <lastmod>2026-10-25T11:44:26.631Z</lastmod>
   </url>
   <url>
     <loc>https://zahidasghar.com/blog.html</loc>
-    <lastmod>2026-02-16T03:52:41.280Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/index.html</loc>
-    <lastmod>2026-02-16T07:16:53.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/policy.html</loc>
-    <lastmod>2026-02-16T03:52:41.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zahidasghar.com/posts/pakistan-ai-policy/index.html</loc>
-    <lastmod>2026-02-16T07:37:08.622Z</lastmod>
+    <lastmod>2026-10-25T11:50:46.624Z</lastmod>
   </url>
   <url>
     <loc>https://zahidasghar.com/research.html</loc>
-    <lastmod>2026-02-16T03:52:41.387Z</lastmod>
+    <lastmod>2026-10-25T11:50:21.346Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/posts/pakistan-ai-policy/index.html</loc>
+    <lastmod>2026-10-25T11:44:26.631Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/posts/joining-pbs/index.html</loc>
+    <lastmod>2026-10-25T11:56:25.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/code.html</loc>
+    <lastmod>2026-10-25T11:50:56.791Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/policy.html</loc>
+    <lastmod>2026-10-25T11:50:28.050Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zahidasghar.com/pkecon/pakistan_ai_policy/index.html</loc>
+    <lastmod>2026-10-25T11:44:26.631Z</lastmod>
   </url>
 </urlset>

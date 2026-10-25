@@ -1,0 +1,47 @@
+# Zahid Asghar — personal brand
+# Same palette as the qmd/pptx decks (dark green + muted brown).
+# Georgia and Gill Sans MT are the desktop fonts used in the decks;
+# on the web they are paired with close Google Fonts equivalents:
+#   Source Serif 4  ~ Georgia (headings)
+#   Cabin           ~ Gill Sans MT (humanist sans, body text)
+meta:
+  name: Zahid Asghar
+  link: https://zahidasghar.com
+
+color:
+  palette:
+    forest: "#2C5F2D"
+    pine: "#1C3D1D"
+    walnut: "#8B7355"
+    sage: "#F3F6F1"
+    ink: "#1D261E"
+    slate: "#5B665C"
+    green: forest
+  foreground: ink
+  background: "#FFFFFF"
+  primary: forest
+  secondary: slate
+  success: forest
+  dark: pine
+
+typography:
+  fonts:
+    - family: Source Serif 4
+      source: google
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: Cabin
+      source: google
+      weight: [400, 500, 600, 700]
+      style: [normal, italic]
+  base:
+    family: Cabin
+    size: 17px
+    line-height: 1.65
+  headings:
+    family: Source Serif 4
+    weight: 600
+    line-height: 1.2
+    color: pine
+  link:
+    color: forest

@@ -1,173 +1,216 @@
 ---
-pagetitle: "Zahid Asghar | Economist, Data Analyst & Policy Scholar"
-description: "Professor and Ex-Director, School of Economics, Quaid-i-Azam University, Islamabad. Advancing economic measurement, data analysis and analytics, and evidence-based policy for Pakistan."
+pagetitle: "Zahid Asghar | Member (Economic Statistics), Pakistan Bureau of Statistics"
+description: "Economist and statistician. Member (Economic Statistics), Pakistan Bureau of Statistics, Ministry of Planning, Development and Special Initiatives, Government of Pakistan. Formerly Professor and Director, School of Economics, Quaid-i-Azam University."
+page-layout: custom
 toc: false
+body-classes: home-page
 aliases:
   - /home/
-page-layout: full
+image: images/og-card.jpg
 ---
 
-::: {.column-page}
+```{=html}
+<div class="home">
 
-<!-- Hero Section -->
-::: {.hero-section}
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="hero-place">Islamabad, Pakistan</p>
+      <h1 class="hero-name">Zahid Asghar</h1>
+      <p class="hero-role">Member (Economic Statistics)<br>Pakistan Bureau of Statistics</p>
+      <p class="hero-org">Ministry of Planning, Development and Special Initiatives, Government of Pakistan</p>
+      <p class="hero-lede">
+        For more than two decades I have taught, researched and argued about one question:
+        how well does Pakistan measure its own economy? I have now moved from asking that
+        question at the university to working on the answer inside the national statistics office.
+      </p>
+      <p>
+        <a class="btn-solid" href="about.html">About me</a>
+        <a class="btn-line" href="research.html">Research</a>
+        <a class="btn-line" href="policy.html">Policy writing</a>
+      </p>
+    </div>
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-8}
+    <figure class="portrait">
+      <div class="portrait-frame">
+      <img src="images/profile.jpg" width="800" height="1000"
+           srcset="images/profile-sm.jpg 400w, images/profile.jpg 800w"
+           sizes="(max-width: 767px) 360px, 410px"
+           alt="Zahid Asghar at his desk at the Pakistan Bureau of Statistics, with the national flag behind him">
+      </div>
+      <figcaption>At the Pakistan Bureau of Statistics, Islamabad</figcaption>
+    </figure>
+  </div>
+</header>
 
-## Advancing Economic Measurement, Data Analysis and Analytics, and Evidence-Based Policy for Pakistan {.hero-title}
+<!-- ============ APPOINTMENT ============ -->
+<section class="appointment" aria-labelledby="new-role">
+  <div class="wrap appointment-grid">
+    <div class="appointment-year">2026</div>
+    <div>
+      <h2 id="new-role">A new chapter at the Bureau</h2>
+      <p>
+        I have joined the Pakistan Bureau of Statistics as Member (Economic Statistics).
+        For years my work has circled the same questions: how prices are measured,
+        how industrial output is counted, and how official numbers can earn public trust.
+        Now I get to work on them from the inside, alongside the people who produce Pakistan's
+        official statistics.
+      </p>
+      <p>
+        My portfolio covers economic statistics and, more recently, social statistics as well.
+        My priorities are data literacy, both within the Bureau and among the people who use its
+        numbers, and bringing machine learning and new data sources responsibly into the
+        production of official statistics.
+        <a href="posts/joining-pbs/index.html">Read the announcement</a>.
+      </p>
+    </div>
+  </div>
+</section>
 
-*Professor of Economics · Ex-Director, School of Economics, Quaid-i-Azam University, Islamabad*
+<!-- ============ FOCUS ============ -->
+<section class="section" aria-labelledby="focus">
+  <div class="wrap">
+    <h2 id="focus" class="section-title">What I work on</h2>
+    <p class="section-intro">Six threads run through my research, teaching and public writing.</p>
+    <div class="focus-grid">
+      <div class="focus">
+        <h3>Measuring the economy</h3>
+        <p>Price indices, GDP base-year revisions and industrial statistics. My 2008 paper on biases in Pakistan's CPI was one of the first systematic critiques of how we measure prices.</p>
+      </div>
+      <div class="focus">
+        <h3>Official statistics for the data age</h3>
+        <p>Machine learning in official statistics, multi-source and administrative data, and a national data infrastructure that connects surveys, registers and new digital sources.</p>
+      </div>
+      <div class="focus">
+        <h3>Applied econometrics</h3>
+        <p>Causal inference, graph-theoretic causality, time series and forecasting, published in Taylor &amp; Francis, Springer, SAGE and Elsevier journals.</p>
+      </div>
+      <div class="focus">
+        <h3>AI and data governance</h3>
+        <p>How public institutions can use AI responsibly, and why Pakistan's AI ambitions depend first on good data rather than hype.</p>
+      </div>
+      <div class="focus">
+        <h3>Data skills for development</h3>
+        <p>R, Quarto and reproducible research for economists, civil servants and students, with more than 60 open repositories of teaching material.</p>
+      </div>
+      <div class="focus">
+        <h3>Human development</h3>
+        <p>Food security, nutrition, health and education spending, studied through Pakistan's household surveys.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-I work at the intersection of economic measurement, data analysis and analytics, and public policy. With over two decades of research, institutional leadership, and hands-on training, my work bridges the gap between how we measure our economy and how we make decisions about it.
+<!-- ============ SELECTED WORK ============ -->
+<section class="section" aria-labelledby="selected">
+  <div class="wrap">
+    <h2 id="selected" class="section-title">Selected work</h2>
+    <p class="section-intro">A few places to start reading.</p>
+    <div class="ledger">
+      <div class="ledger-row">
+        <div class="ledger-kind">Book, in progress</div>
+        <div>
+          <p class="ledger-title"><a href="https://github.com/Zahedasghar/pakistan_data_infrastructure">A Vision for National Statistics: Building Pakistan's National Data Infrastructure</a></p>
+          <p class="ledger-note">How Pakistan can move from separate surveys to an integrated statistical system.</p>
+        </div>
+        <div class="ledger-year">2026</div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-kind">Course</div>
+        <div>
+          <p class="ledger-title"><a href="https://zahidasghar.com/machine_learning/">Machine Learning, Big Data and AI in Economics</a></p>
+          <p class="ledger-note">Open course site for MS students, with lectures and hands-on labs.</p>
+        </div>
+        <div class="ledger-year">2026</div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-kind">Course</div>
+        <div>
+          <p class="ledger-title"><a href="https://zahidasghar.com/timeseries/">Time Series Econometrics and Macroeconomic Forecasting</a></p>
+          <p class="ledger-note">Lectures and code for forecasting Pakistan's macroeconomy.</p>
+        </div>
+        <div class="ledger-year">2026</div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-kind">Essay</div>
+        <div>
+          <p class="ledger-title"><a href="posts/pakistan-ai-policy/index.html">Pakistan's AI Policy: A Vision Without Teeth</a></p>
+          <p class="ledger-note">What the National AI Policy gets right, what it leaves out, and what must change.</p>
+        </div>
+        <div class="ledger-year">2025</div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-kind">Op-ed, The News</div>
+        <div>
+          <p class="ledger-title"><a href="https://www.thenews.com.pk/print/1211678-ai-journey-fueled-by-data-not-hype">AI journey: fuelled by data, not hype</a></p>
+          <p class="ledger-note">Why Pakistan's AI readiness starts with its data systems.</p>
+        </div>
+        <div class="ledger-year">2024</div>
+      </div>
+      <div class="ledger-row">
+        <div class="ledger-kind">Paper</div>
+        <div>
+          <p class="ledger-title"><a href="https://www.pide.org.pk/pdf/Volume47/Issue3-2008.pdf">Biases in Consumer Price Index Methodology in Pakistan</a></p>
+          <p class="ledger-note">With Mahmood Khalid. The Pakistan Development Review.</p>
+        </div>
+        <div class="ledger-year">2008</div>
+      </div>
+    </div>
+  </div>
+</section>
 
-I combine rigorous applied econometrics with modern data tools to address Pakistan's most pressing measurement and policy challenges — from measuring economy to automation and digital statistical systems.
+<!-- ============ ROLES ============ -->
+<section class="section" aria-labelledby="roles">
+  <div class="wrap">
+    <h2 id="roles" class="section-title">Roles and affiliations</h2>
+    <p class="section-intro">Where I have worked and served.</p>
+    <div class="roles">
+      <div>
+        <h3>Now</h3>
+        <ul>
+          <li><strong>Member (Economic Statistics)</strong>Pakistan Bureau of Statistics</li>
+          <li><strong>Member, Research Advisory Committee</strong><a href="https://rasta.pide.org.pk/research-advisory-committee/">RASTA Competitive Grants Programme</a>, PIDE</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Previously at QAU</h3>
+        <ul>
+          <li><strong>Professor and Director</strong>School of Economics</li>
+          <li><strong>Registrar</strong>Quaid-i-Azam University</li>
+          <li><strong>Chairman</strong>Department of Statistics</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Also</h3>
+        <ul>
+          <li><strong>Senior faculty</strong>National Institute of Banking and Finance, State Bank of Pakistan</li>
+          <li><strong>Trainer</strong>R, econometrics and AI workshops for government, central bank and development professionals</li>
+          <li><strong>Columnist</strong><a href="https://www.thenews.com.pk/writer/zahid-asghar">The News</a> and Daily Times</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-[Research →](research.qmd){.btn-primary}
-[Policy Writing →](policy.qmd){.btn-secondary}
-[Teaching & R Tutorials →](teaching.qmd){.btn-secondary}
+<!-- ============ CONTACT ============ -->
+<section class="contact-band" aria-labelledby="contact">
+  <div class="wrap">
+    <h2 id="contact">Get in touch</h2>
+    <p>For research collaboration, training requests or questions about my writing, email is the best way to reach me. For official PBS matters, please contact the Bureau directly.</p>
+    <p>
+      <a class="btn-solid" href="mailto:g.zahid@gmail.com">Email me</a>
+      <a class="btn-line" href="https://zahid.quarto.pub/cv.pdf">Download CV</a>
+    </p>
+    <p class="contact-links">
+      <a href="https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ">Google Scholar</a>
+      <a href="https://github.com/zahedasghar">GitHub</a>
+      <a href="https://www.linkedin.com/in/zahid-asghar">LinkedIn</a>
+      <a href="https://www.youtube.com/Zahidasghar">YouTube</a>
+      <a href="https://www.pbs.gov.pk/">Pakistan Bureau of Statistics</a>
+    </p>
+  </div>
+</section>
 
-:::
-
-::: {.g-col-12 .g-col-md-4}
-![](images/profile.jpg){.profile-photo fig-alt="Dr. Zahid Asghar - Professor and Director, School of Economics, QAU Islamabad"}
-:::
-
-:::
-:::
-
----
-
-<!-- Signature Themes -->
-
-## What I Work On {.section-heading}
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 📊 Economic Measurement & Reform
-GDP base-year revision, CPI methodology, national accounts modernization, and measuring Pakistan's evolving digital economy. My [PIDE analysis on GDP measurement](https://pide.org.pk/blog/pending-pakistans-revised-base-estimates-of-gdp-and-measurement-issues-in-lsm/) and [2008 paper on CPI biases](https://www.pide.org.pk/pdf/Volume47/Issue3-2008.pdf) pioneered this conversation in Pakistan.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 🤖 AI, Data Governance & Official Statistics
-Critical analysis of [Pakistan's National AI Policy](posts/pakistan-ai-policy/index.qmd), digital statistical infrastructure for PBS, and the governance frameworks needed to deploy AI responsibly in public institutions.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 📈 Applied Econometrics & Causal Inference
-Graph-theoretic approaches to causality, structural modeling, impact evaluation, and machine learning for classification — published in *Taylor & Francis*, *Springer*, *SAGE*, and *Elsevier*.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 💻 Data Science for Development
-R programming, data visualization, reproducible research, and open-source tools for policy analysts. I teach economists to code and analysts to think critically — with [50+ open-source repositories](https://github.com/zahedasghar).
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 🏛️ Institutional Leadership
-Director of the School of Economics and former Registrar at Quaid-i-Azam University. Member of the [RASTA Research Advisory Committee](https://rasta.pide.org.pk/research-advisory-committee/) for policy-oriented research. Former Chairman, Department of Statistics, QAU. Senior faculty at NIBAF, State Bank of Pakistan.
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.theme-card}
-### 🎓 Human Capital & Education Reform
-Rethinking how Pakistan teaches economics — from textbook memorization to data literacy, critical reasoning, and reproducible research. [Read my piece on higher education reform →](https://pide.org.pk/blog/thinking-beyond-metrics-in-higher-education/)
-:::
-:::
-
-:::
-
----
-
-## Featured Work {.section-heading}
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-::: {.featured-card}
-#### 📝 Pakistan's AI Policy: A Vision Without Teeth
-*A critical analysis of Pakistan's National AI Policy 2025 — what it gets right, what it leaves out, and what must change.*
-
-[Read the full essay →](posts/pakistan-ai-policy/index.qmd)
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6}
-::: {.featured-card}
-#### 📝 GDP Measurement and LSM Methodology
-*Co-authored with Mahmood Khalid at PIDE — on why Pakistan's GDP base-year revision is overdue and how measurement errors distort policy.*
-
-[Read on PIDE →](https://pide.org.pk/blog/pending-pakistans-revised-base-estimates-of-gdp-and-measurement-issues-in-lsm/)
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6}
-::: {.featured-card}
-#### 📄 Biases in Consumer Price Index Methodology in Pakistan
-*Published in The Pakistan Development Review (2008) — a foundational critique of PBS's CPI methodology with concrete suggestions for improvement.*
-
-[View paper →](https://www.pide.org.pk/pdf/Volume47/Issue3-2008.pdf)
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6}
-::: {.featured-card}
-#### 💻 R Tutorials & Open Data Projects
-*Applied Econometrics with R, Impact Evaluation tools, Data Visualization, PDF data extraction, Election data analysis — all open source.*
-
-[Explore on GitHub →](https://github.com/zahedasghar)
-:::
-:::
-
-:::
-
----
-
-## Roles & Affiliations {.section-heading}
-
-| Role | Institution |
-|------|------------|
-| Professor & Director | School of Economics, Quaid-i-Azam University, Islamabad |
-| Former Registrar | Quaid-i-Azam University, Islamabad |
-| Former Chairman | Department of Statistics, Quaid-i-Azam University |
-| RAC Member | [RASTA Competitive Grants Program](https://rasta.pide.org.pk/research-advisory-committee/), PIDE |
-| Former Senior Faculty | National Institute of Banking & Finance (NIBAF), State Bank of Pakistan |
-
----
-
-## Stay Connected {.section-heading}
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-#### 📬 Newsletter
-Subscribe to receive new policy essays, data explorations, and R tutorials.
-
-<!-- Add your newsletter embed here -->
-:::
-
-::: {.g-col-12 .g-col-md-6}
-#### 🔗 Find Me
-- [Google Scholar](https://scholar.google.com.pk/citations?user=ObUvhnsAAAAJ&hl=en)
-- [RePEc / IDEAS](https://ideas.repec.org/e/pas57.html)
-- [ResearchGate](https://www.researchgate.net/profile/Zahid-Asghar-2)
-- [YouTube](https://www.youtube.com/Zahidasghar)
-- [LinkedIn](https://linkedin.com/in/zahidasghar)
-- [GitHub](https://github.com/zahedasghar)
-- [X / Twitter](https://twitter.com/zahedasghar)
-:::
-
-:::
-
-:::
+</div>
+```
